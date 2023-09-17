@@ -21,7 +21,8 @@ p{line-height:140%;}
 .bc{display:flex;flex-wrap:wrap;width:100%;justify-content:center;height:fit-content;background-color:#fff;margin:0 auto;}
 .nc,.sc,.cc{width:32%;min-width:360px;margin:2px;height:fit-content;}
 .cc1{width:96%;display:flex;flex-wrap:wrap;}
-.sc1{display:flex;flex-wrap: wrap;width:100%;}
+.sc1{display:flex;flex-wrap: wrap;width:100%;justify-content:center;}
+.sc1 hr,.sc1 h3{line-height:50%;}
 .ni{width:97%;margin:5px auto;background-color:#fff;border:solid 1px #888;height:fit-content;padding:0 5px;}
 .si{display:flex;width:100%;margin:5px 0;height:70px;border-radius:5px;}
 .si1{width:32%;min-width:360px;margin:5px;}
@@ -33,10 +34,10 @@ p{line-height:140%;}
 .ni a{color:#000;}
 .nt{font-weight:bold;font-size:18px;}
 .nd{color:#444;font-size:14px;width:80%;margin:0 15px!important;}
-.sd{font-weight:bold;margin:auto 1%!important;font-size:18px;min-width:78px;width:15%;text-align:center;}
-.st{font-weight:bold;margin:auto 1%!important;font-size:21px;width:80%;line-height:120%!important;}
+.sd{font-weight:bold;margin:auto 1%!important;font-size:18px;min-width:78px;width:15%;text-align:center;transform-origin:top left;transform:scaleX(0.8);}
+.st{font-weight:bold;margin:auto 1% auto -18px!important;font-size:20px;width:80%;line-height:120%!important;}
 .cic{height:100%;margin-right:10px;}
-.ct{width:100%;margin:auto 0!important;font-size:20px;font-weight:bold;}
+.ct{width:100%;margin:auto -70px auto 0px!important;font-size:20px;font-weight:bold;transform-origin:top left;transform:scaleX(0.8);}
 .nr{transform-origin:top left;display:inline-block;}
 
 .tag{margin-right:3px;padding:0% 7px;border-radius:5px;font-weight:bold;}
@@ -87,3 +88,4 @@ p{line-height:140%;}
 .n90{width:190%;transform:scalex(0.526);}
 .n95{width:195%;transform:scalex(0.513);}
 .n100{width:200%;transform:scalex(0.5);}
+.n105{width:205%;transform:scalex(0.488);}
