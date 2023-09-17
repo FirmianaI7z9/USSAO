@@ -45,7 +45,7 @@ p{line-height:140%;}
 .cr{font-size:70%;text-align:center;}
 .sl{font-size:16px;}
 
-@media only screen and (min-width: 650px) {
+@media only screen and (max-width: 650px) {
   .gc{display:none;}
 }
 
