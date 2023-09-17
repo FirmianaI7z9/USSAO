@@ -27,7 +27,7 @@ p{line-height:140%;}
 .si1{width:32%;min-width:400px;margin:5px;}
 .ci{display:flex;width:100%;margin:5px 0;height:70px;}
 .ci1{margin:0;}
-.ciw{width:32%;min-width:400px;margin:5px;height:fit-content;}
+.ciw{width:32%;min-width:360px;margin:5px;height:fit-content;}
 .ciw p{margin:0;padding:5px;font-weight:bold;}
 .ni p,.ni a,.si p,.si a,.ci a,.ci1 a,.gc a{margin:0 5px;padding:2px;line-height:130%;text-decoration:none!important;}
 .ni a{color:#000;}
