@@ -1,0 +1,85 @@
+body{padding-top:100px;font-size:16px!important;width:95%;margin: 0 auto;}
+
+h3{font-size:20px;}
+h3[id]{position:relative;pointer-events:none;}
+h3[id]:before{content:'';display:block;height:100px;margin-top:-100px;}
+.h3b{font-size:60%;font-weight:normal;}
+
+.gc{padding:10px 4% 0 4%;position:fixed;margin:0 auto;top:0;width:87%;background-color:#fff;border-bottom:solid 2px #000;z-index:10000;}
+.gm{display:flex;align-items:center;}
+h1{margin:0 auto;padding:0;width:90%;text-align:center;font-size:24px;}
+h1 span{margin:0 5px;padding:0% 10px;border-radius:5px;font-size:110%;background-color:#00a;color: #fff;}
+nav{margin:0 auto;}
+nav ul{list-style:none;margin:10px auto 0 auto;display:flex;}
+nav li{margin-left:5px;height:30px;min-width:80px;text-align:center;}
+nav li a{margin:0 5px;font-weight:bold;}
+nav li:hover{background-color:#eee;}
+
+a{color: inherit;}
+p{line-height:140%;}
+
+.bc{display:flex;flex-wrap:wrap;width:100%;justify-content:center;height:fit-content;background-color:#fff;margin:0 auto;}
+.nc,.sc,.cc{width:32%;min-width:400px;margin:2px;height:fit-content;}
+.cc1{width:96%;display:flex;flex-wrap:wrap;}
+.sc1{display:flex;flex-wrap: wrap;width:100%;}
+.ni{width:97%;margin:5px auto;background-color:#fff;border:solid 1px #888;height:fit-content;padding:0 5px;}
+.si{display:flex;width:100%;margin:5px 0;height:70px;border-radius:5px;}
+.si1{width:32%;min-width:400px;margin:5px;}
+.ci{display:flex;width:100%;margin:5px 0;height:70px;}
+.ci1{margin:0;}
+.ciw{width:32%;min-width:400px;margin:5px;height:fit-content;}
+.ciw p{margin:0;padding:5px;font-weight:bold;}
+.ni p,.ni a,.si p,.si a,.ci a,.ci1 a,.gc a{margin:0 5px;padding:2px;line-height:130%;text-decoration:none!important;}
+.ni a{color:#000;}
+.nt{font-weight:bold;font-size:18px;}
+.nd{color:#444;font-size:14px;width:80%;margin:0 15px!important;}
+.sd{font-weight:bold;margin:auto 1%!important;font-size:18px;min-width:78px;width:15%;text-align:center;}
+.st{font-weight:bold;margin:auto 1%!important;font-size:21px;width:80%;line-height:120%!important;}
+.cic{height:100%;margin-right:10px;}
+.ct{width:100%;margin:auto 0!important;font-size:20px;font-weight:bold;}
+.nr{transform-origin:top left;display:inline-block;}
+
+.tag{margin-right:3px;padding:0% 7px;border-radius:5px;font-weight:bold;}
+
+.cac{margin:0 auto;width:90%;height:fit-content;padding:5px;border:solid 2px #f00;border-radius:5px;}
+.cr{font-size:70%;text-align:center;}
+.sl{font-size:16px;}
+
+.as{color:#fff!important;background-color:#000;}
+.bi{color:#fff!important;background-color:#f00;}
+.ba{color:#fff!important;background-color:#00b050;}
+.ch{color:#000!important;background-color:#ff0;}
+.ea{color:#000!important;background-color:#ffc000;}
+.ec{color:#fff!important;background-color:#0070c0;}
+.ge{color:#fff!important;background-color:#92d050;}
+.in{color:#fff!important;background-color:#7030a0;}
+.ka{color:#fff!important;background-color:#c00000;}
+.la{color:#fff!important;background-color:#ff6e01;}
+.ma{color:#fff!important;background-color:#00b0f0;}
+.ph{color:#fff!important;background-color:#002060;}
+.ps{color:#000!important;background-color:#f2f2f2;}
+
+.lg{background:linear-gradient(transparent 60%,#ff6 60%);}
+.ls{background:linear-gradient(transparent 60%,#ccc 60%);}
+.lb{background:linear-gradient(transparent 60%,#f29f48 60%);}
+
+.n05{width:105%;transform:scalex(0.952);}
+.n10{width:110%;transform:scalex(0.909);}
+.n15{width:115%;transform:scalex(0.87);}
+.n20{width:120%;transform:scalex(0.833);}
+.n25{width:125%;transform:scalex(0.8);}
+.n30{width:130%;transform:scalex(0.769);}
+.n35{width:135%;transform:scalex(0.741);}
+.n40{width:140%;transform:scalex(0.714);}
+.n45{width:145%;transform:scalex(0.69);}
+.n50{width:150%;transform:scalex(0.667);}
+.n55{width:155%;transform:scalex(0.645);}
+.n60{width:160%;transform:scalex(0.625);}
+.n65{width:165%;transform:scalex(0.606);}
+.n70{width:170%;transform:scalex(0.588);}
+.n75{width:175%;transform:scalex(0.571);}
+.n80{width:180%;transform:scalex(0.556);}
+.n85{width:185%;transform:scalex(0.541);}
+.n90{width:190%;transform:scalex(0.526);}
+.n95{width:195%;transform:scalex(0.513);}
+.n100{width:200%;transform:scalex(0.5);}
