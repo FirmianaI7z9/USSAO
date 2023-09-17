@@ -19,12 +19,12 @@ a{color: inherit;}
 p{line-height:140%;}
 
 .bc{display:flex;flex-wrap:wrap;width:100%;justify-content:center;height:fit-content;background-color:#fff;margin:0 auto;}
-.nc,.sc,.cc{width:32%;min-width:400px;margin:2px;height:fit-content;}
+.nc,.sc,.cc{width:32%;min-width:360px;margin:2px;height:fit-content;}
 .cc1{width:96%;display:flex;flex-wrap:wrap;}
 .sc1{display:flex;flex-wrap: wrap;width:100%;}
 .ni{width:97%;margin:5px auto;background-color:#fff;border:solid 1px #888;height:fit-content;padding:0 5px;}
 .si{display:flex;width:100%;margin:5px 0;height:70px;border-radius:5px;}
-.si1{width:32%;min-width:400px;margin:5px;}
+.si1{width:32%;min-width:360px;margin:5px;}
 .ci{display:flex;width:100%;margin:5px 0;height:70px;}
 .ci1{margin:0;}
 .ciw{width:32%;min-width:360px;margin:5px;height:fit-content;}
