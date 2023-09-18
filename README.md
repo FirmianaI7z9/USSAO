@@ -1,3 +1,13 @@
 # USSAO
 
-USSAO (Unofficial Summary Site of Academic Olympiad).
+[日本語/Japanese](#学術オリンピック非公式まとめサイト) | [English/英語](#unofficial-summary-site-of-academic-olympiad)
+
+## 学術オリンピック非公式まとめサイト
+
+このリポジトリは、日本の高校生以下を対象とし、通称「学術オリンピック」に関する情報を網羅的に公開し、より多くの学生に学術オリンピックや競技科学の面白さを知り、学びを深めてもらうことを目的に運営されるウェブサイトです。
+
+### このサイトの内容
+
+このサイトでは、学術オリンピックの「過去の情報」「今後の予定」「種類」などを中心に発信しています。
+
+## Unofficial Summary Site of Academic Olympiad
