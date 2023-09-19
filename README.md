@@ -1,13 +1,21 @@
 # USSAO
 
-[日本語/Japanese](#学術オリンピック非公式まとめサイト) | [English/英語](#unofficial-summary-site-of-academic-olympiad)
+## 更新情報 / Update Information
 
-## 学術オリンピック非公式まとめサイト
+### #1 [更新/Update] (2023.09.19)
 
-このリポジトリは、日本の高校生以下を対象とし、通称「学術オリンピック」に関する情報を網羅的に公開し、より多くの学生に学術オリンピックや競技科学の面白さを知り、学びを深めてもらうことを目的に運営されるウェブサイトです。
+JP
 
-### このサイトの内容
+- 以下のページから「第23回日本情報オリンピック申し込み(2)開始」を削除
+  - ホーム(index.html)の「スケジュール」
+  - スケジュール(schedule.html)
+  - 情報オリンピックホーム(contests/information/index.html)の「スケジュール」
+- コンテスト一覧ページ(contest.html)の情報オリンピックのステータスを「参加申し込み受付中」に更新
 
-このサイトでは、学術オリンピックの「過去の情報」「今後の予定」「種類」などを中心に発信しています。
+EN
 
-## Unofficial Summary Site of Academic Olympiad
+- Delete the schedule "23rd Japan Informatics Olympiad's application 2 has been started" from the following pages:
+  - "Schedule" in mainpage(index.html)
+  - schedule page(schedule.html)
+  - "Schedule" in mainpage of informatics olympiad(contests/information/index.html)
+- Update the status of informatics olympiad in the list-of-contest page(contest.html) to "Registration is now open"
