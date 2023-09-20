@@ -2,6 +2,18 @@
 
 ## 更新情報 / Update Information
 
+### #2 [バグ修正/Bug Fix] (2023.09.20)
+
+JP
+
+- 科学の甲子園ホーム(contests/kako/index.html)の注意事項欄のリンク表示修正
+- 科学の甲子園関連の大会ページ(contests/kako/contest.html)のラベル色修正
+
+EN
+
+- Fix the displayment of the a-tag on the main page of kako(Japanese Science Olympiad)(contests/kako/index.html)
+- Fix the color of the labels on the page where show contests relating with kako(contests/kako/contest.html)
+
 ### #1 [更新/Update] (2023.09.19)
 
 JP
