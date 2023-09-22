@@ -2,7 +2,17 @@
 
 ## 更新情報 / Update Information
 
-### #2 [バグ修正/Bug Fix] (2023.09.20)
+### #3 [バグ修正/Bug_Fix] (2023.09.22)
+
+JP
+
+- スケジュールページ(schedule.html)に「第16回日本地学オリンピック一次予選」が記載されていなかったミスを修正
+
+EN
+
+- Fix the mistake missing the schedule, the 16th Japan Earth Science Olympiad's 1st qualifying round, on the schedule page(schedule.html)
+
+### #2 [バグ修正/Bug_Fix] (2023.09.20)
 
 JP
 
@@ -26,7 +36,7 @@ JP
 
 EN
 
-- Delete the schedule "23rd Japan Informatics Olympiad's application 2 has been started" from the following pages:
+- Delete the schedule "the 23rd Japan Informatics Olympiad's application 2 has been started" from the following pages:
   - "Schedule" in mainpage(index.html)
   - schedule page(schedule.html)
   - "Schedule" in mainpage of informatics olympiad(contests/information/index.html)
