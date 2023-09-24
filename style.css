@@ -109,3 +109,19 @@ p{line-height:140%;}
 .mc ul li a{display:block;width:100%;font-size:15px;box-sizing:border-box;color:#fff;text-decoration:none;padding:9px 15px 10px 0;position:relative;font-weight:bold;}
 .mc ul li a::before{content:"";width:7px;height:7px;border-top:solid 2px #fff;border-right:solid 2px #fff;transform:rotate(45deg);position:absolute;right:11px;top:16px;}
 #mbc:checked~.mc{transition:300ms;left:0;}
+
+.tls{margin:0 5px;}
+
+.mca{margin:0 auto 40px auto;}
+.mca thead th,.mca td{width:12vw;text-align:center;border:1px solid #000;}
+.mtb{color:#fff;background-color:#00b;}
+.mtr{color:#fff;background-color:#f00;}
+.mib{color:#fff;background-color:#88d;}
+.mir{color:#fff;background-color:#f88;}
+.mca td{font-weight:bold;vertical-align:top;}
+.mcd{width:30px;font-size:150%;color:#888;}
+.mci{margin:2px;padding:2px;text-align:left;font-size:90%;border-radius:5px;}
+.db{color:#88d;}
+.dr{color:#f88;}
+.ctt{margin:40px auto 0 auto;width:360px;padding:0;text-align:center;}
+.ctb{display:inline-block;pointer-events:all;width:90px;font-weight:bold;font-size:80%;border:1px solid #444;text-align:center;color:#444;margin:auto 10px;padding:2px;border-radius:5px;}
