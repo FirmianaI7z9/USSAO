@@ -109,3 +109,5 @@ p{line-height:140%;}
 .mc ul li a{display:block;width:100%;font-size:15px;box-sizing:border-box;color:#fff;text-decoration:none;padding:9px 15px 10px 0;position:relative;font-weight:bold;}
 .mc ul li a::before{content:"";width:7px;height:7px;border-top:solid 2px #fff;border-right:solid 2px #fff;transform:rotate(45deg);position:absolute;right:11px;top:16px;}
 #mbc:checked~.mc{transition:300ms;left:0;}
+
+.tr{margin:0 5px;}
