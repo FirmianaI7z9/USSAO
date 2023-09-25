@@ -10,9 +10,9 @@ h3[id]:before{content:'';display:block;height:100px;margin-top:-100px;}
 .gc h1{margin:0 auto;padding:0;width:90%;text-align:center;font-size:24px;}
 .gc h1 span,.sgc h1 span{margin:0 5px;padding:0% 10px;border-radius:5px;font-size:110%;background-color:#00a;color: #fff;}
 .gc nav{margin:0 auto;}
-.gc nav ul{list-style:none;margin:10px auto 0 auto;display:flex;}
-.gc nav li{margin-left:5px;height:30px;min-width:80px;text-align:center;}
-.gc nav li a{margin:0 5px;font-weight:bold;}
+.gc nav ul{list-style:none;margin:10px auto 0 auto;display:flex;justify-content:center;width:fit-content;}
+.gc nav li{margin-left:-5px;height:30px;min-width:80px;text-align:center;transform-origin:left;transform:scaleX(0.9);}
+.gc nav li a{margin:0 2px;font-weight:bold;}
 .gc nav li:hover{background-color:#eee;}
 .sgc{padding:10px 10px 0 10px;position:fixed;margin:0 auto;left:0;top:0;width:calc(100vw - 20px);background-color:#fff;border-bottom:solid 2px #000;z-index:10000;}
 .sgc h1{margin:0;width:fit-content;font-size:22px;}
@@ -53,6 +53,7 @@ p{line-height:140%;}
 }
 @media only screen and (max-width:960px) {
   .gc{display:none;}
+  .cc{display:none;}
 }
 
 .as{color:#fff!important;background-color:#000;}
@@ -111,3 +112,22 @@ p{line-height:140%;}
 #mbc:checked~.mc{transition:300ms;left:0;}
 
 .tls{margin:0 5px;}
+
+.mca{margin:0 auto 40px auto;}
+.mca thead th,.mca td{width:12vw;text-align:center;border:1px solid #888;}
+.mca tbody th{text-align:left;vertical-align:top;}
+.mtb{color:#fff;background-color:#00b;}
+.mtr{color:#fff;background-color:#f00;}
+.mib{color:#fff;background-color:#88d;}
+.mir{color:#fff;background-color:#f88;}
+.mca td{font-weight:bold;vertical-align:top;}
+.mcd{width:30px;font-size:150%;color:#888;}
+.mci{margin:2px;padding:2px;text-align:left;font-size:90%;border-radius:5px;}
+.db{color:#88d;}
+.dr{color:#f88;}
+.ctt{margin:40px auto 0 auto;width:360px;padding:0;text-align:center;}
+.ctb{display:inline-block;pointer-events:all;width:90px;font-weight:bold;font-size:80%;border:1px solid #444;text-align:center;color:#444;margin:auto 10px;padding:2px;border-radius:5px;}
+
+.mcb th{width:60px!important;text-align:center!important;border-radius:5px;}
+.mcb td{width:70vw!important;text-align:left;}
+.cc{width:100%;}
