@@ -53,7 +53,7 @@ p{line-height:140%;}
 }
 @media only screen and (max-width:960px) {
   .gc{display:none;}
-  .cc{display:none;}
+  .ccc{display:none;}
 }
 
 .as{color:#fff!important;background-color:#000;}
@@ -130,4 +130,4 @@ p{line-height:140%;}
 
 .mcb th{width:60px!important;text-align:center!important;border-radius:5px;}
 .mcb td{width:70vw!important;text-align:left;}
-.cc{width:100%;}
+.ccc{width:100%;}
