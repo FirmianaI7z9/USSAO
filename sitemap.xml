@@ -214,29 +214,5 @@
   <loc>https://firmianai7z9.github.io/USSAO/something/todo.html</loc>
   <priority>0.7</priority>
 </url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/something</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/something/index.html</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/something/something/common_t.html</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/something/something/terms.html</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/something/something/d_booking.html</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/something/something/todo.html</loc>
-  <priority>0.5</priority>
-</url>
 
 </urlset>
