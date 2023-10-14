@@ -1,24 +1,24 @@
-body{padding-top:100px;font-size:16px!important;width:95%;margin:0 auto;font-family:sans-serif;}
+body{padding-top:80px;font-size:16px!important;width:95%;margin:0 auto;font-family:sans-serif;}
 
 h3{font-size:20px;}
 h3[id]{position:relative;pointer-events:none;}
-h3[id]:before{content:'';display:block;height:100px;margin-top:-100px;}
+h3[id]:before{content:'';display:block;height:80px;margin-top:-80px;}
 .h3b{font-size:60%;font-weight:normal;}
 
 .gc{padding:10px 4% 0 4%;position:fixed;margin:0 auto;top:0;width:87%;background-color:#fff;border-bottom:solid 2px #000;z-index:10000;}
 .gm{display:flex;align-items:center;}
-.gc h1{margin:0 auto;padding:0;width:90%;text-align:center;font-size:24px;}
-.gc h1 span,.sgc h1 span{margin:0 5px;padding:0% 10px;border-radius:5px;font-size:110%;background-color:#00a;color: #fff;}
+.gc h1{margin:0 auto;padding:0;width:90%;text-align:center;font-size:22px;font-weight:600;}
+.gc h1 span,.sgc h1 span{margin:0 5px;padding:0 10px;border-radius:5px;font-size:22px;background-color:#00a;color: #fff;}
 .gc nav{margin:0 auto;}
 .gc nav ul{list-style:none;margin:10px auto 0 auto;display:flex;justify-content:center;width:fit-content;}
 .gc nav li{margin-left:-5px;height:30px;min-width:80px;text-align:center;transform-origin:left;transform:scaleX(0.9);}
-.gc nav li a{margin:0 2px;font-weight:bold;}
+.gc nav li a{margin:0 2px;font-weight:600;}
 .gc nav li:hover{background-color:#eee;}
 .sgc{padding:10px 10px 0 10px;position:fixed;margin:0 auto;left:0;top:0;width:calc(100vw - 20px);background-color:#fff;border-bottom:solid 2px #000;z-index:10000;}
-.sgc h1{margin:0;width:fit-content;font-size:22px;}
+.sgc h1{margin:0;width:fit-content;font-size:20px;}
 
-a{color: inherit;}
-p{line-height:140%;}
+a{color:inherit;}
+p{line-height:130%;}
 
 .bc{display:flex;flex-wrap:wrap;width:100%;justify-content:center;height:fit-content;background-color:#fff;margin:0 auto;}
 .nc,.sc,.cc{width:32%;min-width:360px;margin:2px;height:fit-content;}
@@ -31,18 +31,18 @@ p{line-height:140%;}
 .ci{display:flex;width:100%;margin:5px 0;height:70px;}
 .ci1{margin:0;}
 .ciw{width:32%;min-width:360px;margin:5px;height:fit-content;}
-.ciw p{margin:0;padding:5px;font-weight:bold;}
+.ciw p{margin:0;padding:5px;font-weight:600;}
 .ni p,.ni a,.si p,.si a,.ci a,.ci1 a,.gc a{margin:0 5px;padding:2px;line-height:130%;text-decoration:none!important;}
 .ni a{color:#000;}
-.nt{font-weight:bold;font-size:18px;}
+.nt{font-weight:600;font-size:18px;}
 .nd{color:#444;font-size:14px;width:80%;margin:0 15px!important;}
-.sd{font-weight:bold;margin:auto 1%!important;font-size:18px;min-width:78px;width:15%;text-align:center;transform-origin:top left;transform:scaleX(0.8);}
-.st{font-weight:bold;margin:auto 1% auto -18px!important;font-size:20px;width:80%;line-height:120%!important;}
+.sd{font-weight:600;margin:auto 1%!important;font-size:17px;min-width:78px;width:15%;text-align:center;transform-origin:top left;transform:scaleX(0.8);}
+.st{font-weight:600;margin:auto 1% auto -18px!important;font-size:19px;width:80%;line-height:120%!important;}
 .cic{height:100%;margin-right:10px;}
-.ct{width:100%;margin:auto -70px auto 0px!important;font-size:20px;font-weight:bold;transform-origin:top left;transform:scaleX(0.8);}
+.ct{width:100%;margin:auto -70px auto 0px!important;font-size:20px;font-weight:600;transform-origin:top left;transform:scaleX(0.8);}
 .nr{transform-origin:top left;display:inline-block;}
 
-.tag{margin:0 3px;padding:0% 7px;border-radius:5px;font-weight:bold;}
+.tag{margin:0 3px;padding:0 7px;border-radius:5px;font-weight:600;font-size:90%;}
 
 .cac{margin:0 auto;width:90%;height:fit-content;padding:5px;border:solid 2px #f00;border-radius:5px;}
 .can{margin:0 auto;width:90%;height:fit-content;padding:5px;border:solid 2px #0aa;border-radius:5px;}
@@ -108,7 +108,7 @@ p{line-height:140%;}
 .mc{transition:300ms;width:100%;height:100%;position:fixed;top:0;left:100%;z-index:80;background-color:#555;}
 .mc ul{padding:70px 10px 0;}
 .mc ul li{border-bottom:solid 1px #fff;list-style:none;}
-.mc ul li a{display:block;width:100%;font-size:15px;box-sizing:border-box;color:#fff;text-decoration:none;padding:9px 15px 10px 0;position:relative;font-weight:bold;}
+.mc ul li a{display:block;width:100%;font-size:15px;box-sizing:border-box;color:#fff;text-decoration:none;padding:9px 15px 10px 0;position:relative;font-weight:600;}
 .mc ul li a::before{content:"";width:7px;height:7px;border-top:solid 2px #fff;border-right:solid 2px #fff;transform:rotate(45deg);position:absolute;right:11px;top:16px;}
 #mbc:checked~.mc{transition:300ms;left:0;}
 
@@ -121,13 +121,13 @@ p{line-height:140%;}
 .mtr{color:#fff;background-color:#f00;}
 .mib{color:#fff;background-color:#88d;}
 .mir{color:#fff;background-color:#f88;}
-.mca td{font-weight:bold;vertical-align:top;}
+.mca td{font-weight:600;vertical-align:top;}
 .mcd{width:30px;font-size:150%;color:#888;}
 .mci{margin:2px;padding:2px;text-align:left;font-size:90%;border-radius:5px;}
 .db{color:#88d;}
 .dr{color:#f88;}
 .ctt{margin:40px auto 0 auto;width:360px;padding:0;text-align:center;}
-.ctb{display:inline-block;pointer-events:all;width:90px;font-weight:bold;font-size:80%;border:1px solid #444;text-align:center;color:#444;margin:auto 10px;padding:2px;border-radius:5px;}
+.ctb{display:inline-block;pointer-events:all;width:90px;font-weight:600;font-size:80%;border:1px solid #444;text-align:center;color:#444;margin:auto 10px;padding:2px;border-radius:5px;}
 
 .mcb th{width:60px!important;text-align:center!important;border-radius:5px;}
 .mcb td{width:70vw!important;text-align:left;}
@@ -136,7 +136,7 @@ p{line-height:140%;}
 .ud::before{background-image:url(icon/arrows-rotate-solid.svg);content:"";display:inline-block;width:20px;height:20px;margin-right:10px;background-size:contain;vertical-align:middle;}
 .ur{display:none;}
 
-.vba,.vbc,.vbg,.vbq{border-radius:5px;font-weight:bold;padding:2px 10px;display:flex;align-items:center;}
+.vba,.vbc,.vbg,.vbq{border-radius:5px;font-weight:600;padding:2px 10px;display:flex;align-items:center;}
 .vba p,.vbc p,.vbg p,.vbq p{margin:5px;}
 .vba img,.vbc img{width:8px;height:42px;margin:5px 20px 5px 20px;vertical-align:middle;}
 .vbg img,.vbq img{width:40px;height:40px;margin:5px 4px 5px 4px;vertical-align:middle;}
