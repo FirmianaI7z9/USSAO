@@ -127,7 +127,7 @@ p{line-height:130%;}
 .db{color:#88d;}
 .dr{color:#f88;}
 .ctt{margin:40px auto 0 auto;width:360px;padding:0;text-align:center;}
-.ctb{display:inline-block;pointer-events:all;width:90px;font-weight:600;font-size:80%;border:1px solid #444;text-align:center;color:#444;margin:auto 10px;padding:2px;border-radius:5px;}
+.ctb{display:inline-block;pointer-events:all;width:90px;font-weight:400;font-size:14px;border:1px solid #444;text-align:center;color:#444;margin:auto 10px;padding:2px;border-radius:5px;}
 
 .mcb th{width:60px!important;text-align:center!important;border-radius:5px;}
 .mcb td{width:70vw!important;text-align:left;}
