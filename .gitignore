@@ -2,6 +2,8 @@ generatehtml/
 icon/icon.mdp
 icon/twitter_banner.mdp
 icon/twitter_banner.png
+icon/twitter_icon.mdp
+icon/twitter_icon.png
 *.bak
 .vscode/
 header.html
