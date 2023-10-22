@@ -3,6 +3,10 @@
 
 <!--  created with free sitemap generation system www.sitemapxml.jp  -->
 <url>
+  <loc>https://firmianai7z9.github.io/USSAO/index.html</loc>
+  <priority>1.0</priority>
+</url>
+<url>
   <loc>https://firmianai7z9.github.io/USSAO/something/d_booking.html</loc>
   <priority>0.8</priority>
 </url>
@@ -69,10 +73,6 @@
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/brainscience/index.html</loc>
   <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/index.html</loc>
-  <priority>1.0</priority>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/calendar.html</loc>
