@@ -8,19 +8,19 @@ function gen(g){
 
 function cha(){
   var p=document.title;
-  var k='',h='',b='';
+  var k='',h1='',h2='_',b='';
   switch(p){
     case '学術オリンピック非公式まとめサイト | 検索機能テストページ':
     case '学術オリンピック非公式まとめサイト | カレンダー(簡易)':
-      k='a';h='\">';b='</th>';break;
+      k='a';h1='\">';b='</th>';break;
     case '学術オリンピック非公式まとめサイト | カレンダー':
-      k='mci';h='.html\">';b=' ';break;
+      k='mci';h1='.html\">';b=' ';break;
     case '学術オリンピック非公式まとめサイト | スケジュール':
-      k='si';h='<span class=\"sl\">';b=' | ';break;
+      k='si';h1='<span class=\"sl\">';h2=' ';b=' ';break;
   }
   var c=document.getElementsByName('st2');
   var l=[];
   c.forEach(d=>{if(d.checked){l.push(d.value);}});
   var i=document.getElementsByName(k);
-  i.forEach(j=>{for(let m=0;m<l.length;m++){if(j.innerHTML.indexOf(h+l[m]+b)!=-1){j.style='';break;}if(m+1==l.length){j.style='display:none;';}}if(l.length==0){j.style='display:none;';}});
+  i.forEach(j=>{for(let m=0;m<l.length;m++){if(j.innerHTML.indexOf(h1+l[m]+b)!=-1 || j.innerHTML.indexOf(h2+l[m]+b)!=-1){j.style='';break;}if(m+1==l.length){j.style='display:none;';}}if(l.length==0){j.style='display:none;';}});
 }
