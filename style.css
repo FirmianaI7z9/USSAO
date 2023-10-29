@@ -51,9 +51,11 @@ p{line-height:130%;}
 
 @media only screen and (min-width:960px) {
   .sgc{display:none;}
+  .mcd{font-size:150%;}
 }
 @media only screen and (max-width:960px) {
   .gc{display:none;}
+  .mcd{font-size:120%;}
 }
 
 .as{color:#fff!important;background-color:#000;}
@@ -121,14 +123,14 @@ p{line-height:130%;}
 .mib{color:#fff;background-color:#88d;}
 .mir{color:#fff;background-color:#f88;}
 .mca td{font-weight:600;vertical-align:top;}
-.mcd{width:30px;font-size:150%;color:#888;}
+.mcd{width:30px;color:#888;}
 .mci{margin:2px;padding:2px;text-align:left;font-size:90%;border-radius:5px;}
 .db{color:#88d;}
 .dr{color:#f88;}
-.ctt{margin:40px auto 0 auto;width:360px;padding:0;text-align:center;font-size:17px;}
-.ctb{display:inline-block;pointer-events:all;width:80px;font-weight:400;font-size:14px;border:1px solid #444;text-align:center;color:#444;margin:auto 5px;padding:2px;border-radius:5px;}
+.ctt{margin:40px auto 0 auto;width:360px;padding:0;text-align:center;font-size:16px;}
+.ctb{display:inline-block;pointer-events:all;width:80px;font-weight:400;font-size:13px;border:1px solid #444;text-align:center;color:#444;margin:auto 5px;padding:2px;border-radius:5px;}
 
-.mcb th{width:60px!important;text-align:center!important;border-radius:5px;}
+.mcb th{width:60px!important;text-align:center!important;border-radius:5px;font-size:16px!important;}
 .mcb td{width:70vw!important;text-align:left;}
 .ccc{width:100%;}
 
