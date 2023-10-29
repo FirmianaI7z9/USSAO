@@ -117,7 +117,7 @@ p{line-height:130%;}
 
 .mca{margin:0 auto 40px auto;}
 .mca thead th,.mca td{width:12vw;min-width:150px;text-align:center;border:1px solid #888;}
-.mca tbody th{text-align:left;vertical-align:top;}
+.mca tbody th{text-align:left;vertical-align:top;font-size:16px!important;}
 .mtb{color:#fff;background-color:#00b;}
 .mtr{color:#fff;background-color:#f00;}
 .mib{color:#fff;background-color:#88d;}
@@ -130,7 +130,7 @@ p{line-height:130%;}
 .ctt{margin:40px auto 0 auto;width:360px;padding:0;text-align:center;font-size:16px;}
 .ctb{display:inline-block;pointer-events:all;width:80px;font-weight:400;font-size:13px;border:1px solid #444;text-align:center;color:#444;margin:auto 5px;padding:2px;border-radius:5px;}
 
-.mcb th{width:60px!important;text-align:center!important;border-radius:5px;font-size:16px!important;}
+.mcb th{width:60px!important;text-align:center!important;border-radius:5px;}
 .mcb td{width:70vw!important;text-align:left;}
 .ccc{width:100%;}
 
