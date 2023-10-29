@@ -54,7 +54,6 @@ p{line-height:130%;}
 }
 @media only screen and (max-width:960px) {
   .gc{display:none;}
-  .ccc{display:none;}
 }
 
 .as{color:#fff!important;background-color:#000;}
@@ -115,7 +114,7 @@ p{line-height:130%;}
 .tls{margin:0 5px;}
 
 .mca{margin:0 auto 40px auto;}
-.mca thead th,.mca td{width:12vw;text-align:center;border:1px solid #888;}
+.mca thead th,.mca td{width:12vw;min-width:150px;text-align:center;border:1px solid #888;}
 .mca tbody th{text-align:left;vertical-align:top;}
 .mtb{color:#fff;background-color:#00b;}
 .mtr{color:#fff;background-color:#f00;}
@@ -159,3 +158,5 @@ p{line-height:130%;}
 .sts{font-weight:500;background-color:#000;color:#fff;padding:5px;}
 .std{display:flex;flex-wrap:wrap;margin:5px 0;}
 .stc button{font-size:16px;margin-bottom:5px;}
+
+.bov{overflow:hidden;}
