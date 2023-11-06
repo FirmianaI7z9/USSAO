@@ -52,10 +52,12 @@ p{line-height:130%;}
 @media only screen and (min-width:960px) {
   .sgc{display:none;}
   .mcd{font-size:150%;}
+  .svc{width:65%;}
 }
 @media only screen and (max-width:960px) {
   .gc{display:none;}
   .mcd{font-size:120%;}
+  .svc{width:90%;}
 }
 
 .as{color:#fff!important;background-color:#000;}
@@ -164,3 +166,10 @@ p{line-height:130%;}
 .stc button{font-size:16px;margin-bottom:5px;}
 
 .bov{overflow:hidden;}
+
+.svc{position:relative;aspect-ratio:3507/2480;margin:10px auto;border-radius:5px;border:solid 1px #000;}
+.svg{position:absolute;top:0;left:0;}
+.kbe{fill:#888;}
+.kqn{fill:#f80;}
+.kqf{fill:#0bb;}
+.krd{fill:#f00;}
