@@ -87,16 +87,16 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/index.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/index.html</loc>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/brainscience/index.html</loc>
   <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/index.html</loc>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/calendar_e.html</loc>
@@ -191,6 +191,14 @@
   <priority>0.7</priority>
 </url>
 <url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/info.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/contest.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/info.html</loc>
   <priority>0.7</priority>
 </url>
@@ -205,14 +213,6 @@
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/brainscience/contest.html</loc>
   <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/info.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/contest.html</loc>
-  <priority>0.6</priority>
 </url>
 
 </urlset>
