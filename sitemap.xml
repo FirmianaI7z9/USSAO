@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-<!--  created with free sitemap generation system www.sitemapxml.jp  -->
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/index.html</loc>
+  <loc>https://firmianai7z9.github.io/USSAO/</loc>
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/something/d_booking.html</loc>
+  <loc>https://firmianai7z9.github.io/USSAO/index.html</loc>
   <priority>0.8</priority>
 </url>
 <url>
@@ -20,6 +20,30 @@
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contest.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/calendar.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/something.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contact.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/about.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/something/d_booking.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/something/links_tmp.html</loc>
   <priority>0.8</priority>
 </url>
 <url>
@@ -63,10 +87,6 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/index.html</loc>
   <priority>0.8</priority>
 </url>
@@ -75,20 +95,20 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/calendar.html</loc>
-  <priority>0.8</priority>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/index.html</loc>
+  <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/something.html</loc>
-  <priority>0.8</priority>
+  <loc>https://firmianai7z9.github.io/USSAO/calendar_e.html</loc>
+  <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/contact.html</loc>
-  <priority>0.8</priority>
+  <loc>https://firmianai7z9.github.io/USSAO/something/common_t.html</loc>
+  <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/about.html</loc>
-  <priority>0.8</priority>
+  <loc>https://firmianai7z9.github.io/USSAO/something/terms.html</loc>
+  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/math/info.html</loc>
@@ -171,14 +191,6 @@
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/info.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/contest.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/info.html</loc>
   <priority>0.7</priority>
 </url>
@@ -195,20 +207,12 @@
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/calendar_e.html</loc>
-  <priority>0.7</priority>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/info.html</loc>
+  <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/something/common_t.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/something/terms.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/something/links_tmp.html</loc>
-  <priority>0.7</priority>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/contest.html</loc>
+  <priority>0.6</priority>
 </url>
 
 </urlset>
