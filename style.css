@@ -22,7 +22,7 @@ p{line-height:130%;}
 
 .bc{display:flex;flex-wrap:wrap;width:100%;justify-content:center;height:fit-content;background-color:#fff;margin:0 auto;}
 .nc,.sc,.cc,.ic{width:30%;min-width:340px;margin:2px;height:fit-content;}
-.ic{padding:10px;border:solid 1px #444;min-height:300px;border-radius:5px;}
+.ic{min-width:320px;padding:10px;border:solid 1px #444;min-height:300px;border-radius:5px;}
 .ic h3,.lnq h3,.lnc h3{margin-top:0;margin-bottom:10px;padding-bottom:5px;pointer-events:none;}
 .ic h3,.lnq h3{border-bottom:solid 1px #444;}
 .lcc .h3r{border-bottom:solid 1px #444;}
@@ -195,7 +195,7 @@ p{line-height:130%;}
 .lnk a:hover,.lnq a:hover,.lnc a:hover{background-color:#000;opacity:0.1;box-shadow:0 3px 2px #000;}
 .lnk p{margin:3px;}
 
-.lnq,.lnc{position:relative;padding:10px;border:solid 1px #888;border-radius:5px;width:30%;min-width:340px;margin:2px;height:fit-content;}
+.lnq,.lnc{position:relative;padding:10px;border:solid 1px #888;border-radius:5px;width:30%;min-width:320px;margin:2px;height:fit-content;}
 .lnq{min-height:150px;}
 .lnc{min-height:110px;}
 
