@@ -190,7 +190,7 @@ p{line-height:130%;}
 .kqf{fill:#0bb;}
 .krd{fill:#f00;}
 
-.lnk{position:relative;border:solid 1px #888;border-radius:5px;padding:5px;max-width:330px;width:100%;}
+.lnk{position:relative;border:solid 1px #888;border-radius:5px;padding:5px;max-width:330px;width:90%;}
 .lnk a,.lnq a,.lnc a{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:5px;box-shadow:0 3px 2px #888;z-index:3;}
 .lnk a:hover,.lnq a:hover,.lnc a:hover{background-color:#000;opacity:0.1;box-shadow:0 3px 2px #000;}
 .lnk p{margin:3px;}
