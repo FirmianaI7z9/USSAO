@@ -199,7 +199,7 @@ p{line-height:130%;}
 .lnq{min-height:150px;}
 .lnc{min-height:110px;}
 
-.ltx,.lty{transform:scaleX(0.75);transform-origin:top left;margin:3px;font-size:12px;}
+.ltx,.lty{transform:scaleX(0.75);width:133%;word-break:break-all;transform-origin:top left;margin:3px;font-size:12px;}
 .ltx{color:#444;}
 .lty{color:#ddd;}
 .lbx,.lby{position:absolute;top:0;left:0;margin:5px;font-size:100px;opacity:0.45;z-index:1;}
