@@ -216,7 +216,7 @@ p{line-height:130%;}
 .hba{position:relative;width:100%;height:100px;}
 .hbc{position:absolute;top:0;left:0;margin:20px;z-index:2;}
 .hba p{margin:0;}
-.hbt{font-size:30px;font-weight:500;}
+.hbt{font-size:30px;font-weight:600;}
 .hbe{font-size:20px;font-weight:300;opacity:0.7;}
 .hba img{position:absolute;width:100%;height:100%;object-fit:cover;z-index:1;object-position:right;}
 .joc{position:relative;width:90%;height:fit-content;min-height:80px;margin:0 auto;padding:10px;border-radius:5px;}
