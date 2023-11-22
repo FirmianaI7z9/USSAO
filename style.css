@@ -238,4 +238,4 @@ p{line-height:130%;}
 .cbs:before{content:"◆";}
 
 .npc{width:100%;height:fit-content;margin:10px auto;}
-.npc a{border-radius:3px;border:solid 1px #000;text-decoration-line:none;padding:2px 4px;display:inline-block;margin-bottom:5px;}
+.npc a{border-radius:3px;border:solid 1px #000;text-decoration-line:none;padding:2px 4px;display:inline-block;margin:0 2px 5px 0;}
