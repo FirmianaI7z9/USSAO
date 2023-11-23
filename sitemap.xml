@@ -7,10 +7,6 @@
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
   <loc>https://firmianai7z9.github.io/USSAO/info.html</loc>
   <priority>0.8</priority>
 </url>
@@ -36,6 +32,10 @@
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/about.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/index.html</loc>
   <priority>0.8</priority>
 </url>
 <url>
@@ -68,10 +68,6 @@
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/information/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/index.html</loc>
   <priority>0.8</priority>
 </url>
 <url>
@@ -108,6 +104,18 @@
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/something/terms.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/qualify.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/info.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/contest.html</loc>
   <priority>0.7</priority>
 </url>
 <url>
@@ -159,14 +167,6 @@
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/info.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/contest.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/language/info.html</loc>
   <priority>0.7</priority>
 </url>
@@ -183,6 +183,10 @@
   <priority>0.7</priority>
 </url>
 <url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/astrologics/syllabus_jp.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/geography/info.html</loc>
   <priority>0.7</priority>
 </url>
@@ -192,10 +196,6 @@
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/info.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/contest.html</loc>
   <priority>0.7</priority>
 </url>
 <url>
