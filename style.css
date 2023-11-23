@@ -53,7 +53,7 @@ p{line-height:130%;}
 .cac,.can{margin:10px auto;width:90%;height:fit-content;padding:5px;border-radius:5px;}
 .cac{border:solid 2px #f00;}
 .can{border:solid 2px #0aa;}
-.cac .cat,.can .cat{border-radius:5px 5px 0 0;margin:-5px;font-weight:600;font-size:18px;padding:5px;}
+.cac .cat,.can .cat{margin:-5px;font-weight:600;font-size:18px;padding:5px;}
 .cac .cat{background-color:#f00;color:#fff;}
 .can .cat{background-color:#0aa;color:#fff;}
 .cr{font-size:70%;text-align:center;}
