@@ -5,214 +5,272 @@
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/</loc>
   <priority>1.0</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/info.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/schedule.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contest.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/calendar.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/something.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contact.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/about.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/index.html</loc>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/economy/qualify.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/something/d_booking.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/something/links_tmp.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/math/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/physics/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/chemistry/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/biology/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/earthscience/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/information/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/index.html</loc>
+  <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/language/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/astrologics/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/geography/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/brainscience/index.html</loc>
   <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/calendar_e.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/something/common_t.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/something/terms.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/qualify.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/info.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/contest.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/math/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/math/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/physics/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/physics/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/chemistry/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/chemistry/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/biology/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/biology/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/earthscience/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/earthscience/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/information/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/information/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/qualify.html</loc>
+  <priority>0.7</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/info.html</loc>
+  <priority>0.7</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/contest.html</loc>
+  <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/language/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/language/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/astrologics/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/astrologics/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/astrologics/syllabus_jp.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/geography/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/geography/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/philosophy/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/brainscience/info.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/brainscience/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
 </url>
 
 </urlset>
