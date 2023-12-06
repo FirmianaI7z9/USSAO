@@ -14,7 +14,7 @@ function cha(){
     case '学術オリンピック非公式まとめサイト | カレンダー(簡易)':
       k='a';h1='\">';b='</th>';break;
     case '学術オリンピック非公式まとめサイト | カレンダー':
-      k='mci';h1='.html\">';b=' ';break;
+      k='i';h1='.html\">';b=' ';break;
     case '学術オリンピック非公式まとめサイト | スケジュール':
       k='si';h1='<span class=\"sl\">';h2=' ';b=' ';break;
   }
