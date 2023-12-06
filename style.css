@@ -1,11 +1,18 @@
+/* 基本設定 */
 body{padding-top:80px;font-size:16px!important;width:95%;margin:0 auto;font-family:sans-serif;-webkit-text-size-adjust:100%;}
 
+/* TODO : idのアンカーを全てancクラスに移植する */
 h3{font-size:20px;}
 h4{font-size:18px;margin:10px 0;}
 h3[id],h4[id]{position:relative;pointer-events:none;}
 h3[id]:before,h4[id]:before{content:'';display:block;height:90px;margin-top:-90px;}
 .h3b{font-size:60%;font-weight:normal;}
+.ch3{display:flex;text-align:center;align-items:center;}
+.ch3::before,.ch3::after{content:"";height:1px;flex-grow:1;background-color:#444;margin:0 10px;}
+a{color:inherit;}
+p{line-height:120%;}
 
+/* ヘッダー */
 .gc{padding:10px 4% 0 4%;position:fixed;margin:0 auto;top:0;width:87%;background-color:#fff;border-bottom:solid 2px #000;z-index:10000;}
 .gm{display:flex;align-items:center;}
 .gc h1{margin:0 auto;padding:0;width:90%;text-align:center;font-size:22px;font-weight:600;}
@@ -17,9 +24,6 @@ h3[id]:before,h4[id]:before{content:'';display:block;height:90px;margin-top:-90p
 .gc nav li:hover{background-color:#eee;}
 .sgc{padding:10px 10px 0 10px;position:fixed;margin:0 auto;left:0;top:0;height:70px;width:calc(100vw - 20px);background-color:#fff;border-bottom:solid 2px #000;z-index:10000;}
 .sgc h1{margin:0;width:fit-content;font-size:20px;}
-
-a{color:inherit;}
-p{line-height:130%;}
 
 .bc{display:flex;flex-wrap:wrap;width:100%;justify-content:center;height:fit-content;background-color:#fff;margin:0 auto;}
 .nc,.sc,.cc,.ic{width:30%;min-width:340px;margin:2px;height:fit-content;}
@@ -94,6 +98,20 @@ p{line-height:130%;}
 .ph{color:#fff!important;background-color:#002060;}
 .ps{color:#000!important;background-color:#f2f2f2;}
 .dev{color:#fff!important;background-color:#888;font-weight:400;}
+.asl{border-color:#000;}
+.bil{border-color:#e60000;}
+.bal{border-color:#006630;}
+.chl{border-color:#ff0;}
+.eal{border-color:#ffc000;}
+.ecl{border-color:#0070c0;}
+.gel{border-color:#92d050;}
+.inl{border-color:#7030a0;}
+.kal{border-color:#9e0000;}
+.lal{border-color:#ff8224;}
+.mal{border-color:#64d3ff;}
+.phl{border-color:#002060;}
+.psl{border-color:#f2f2f2;}
+.dev{border-color:#888;}
 .ttr{opacity:50%;}
 
 .lg{background:linear-gradient(transparent 60%,#ff6 60%);}
@@ -155,13 +173,17 @@ p{line-height:130%;}
 .ctb{display:inline-block;pointer-events:all;width:80px;font-weight:400;font-size:13px;border:1px solid #444;text-align:center;color:#444;margin:auto 5px;padding:2px;border-radius:5px;}
 .tp{font-weight:500;width:90vw;margin:0 auto;}
 
+/*  */
 .mcb th{width:60px!important;text-align:center!important;border-radius:5px;}
 .mcb td{width:70vw!important;text-align:left;}
+
+/*  */
 .ccc{width:100%;}
 
+/* ページ更新日時表記 */
 .ud::before{background-image:url(icon/arrows-rotate-solid.svg);content:"";display:inline-block;width:20px;height:20px;margin-right:10px;background-size:contain;vertical-align:middle;}
-.ur{display:none;}
 
+/*  */
 .vba,.vbc,.vbg,.vbq{border-radius:5px;font-weight:600;padding:2px 10px;display:flex;align-items:center;}
 .vba p,.vbc p,.vbg p,.vbq p{margin:5px;}
 .vba img,.vbc img{width:8px;height:42px;margin:5px 20px 5px 20px;vertical-align:middle;}
@@ -171,23 +193,28 @@ p{line-height:130%;}
 .vbg{border:solid 2px #0d0;}
 .vbq{border:solid 2px #777;}
 
+/*  */
 .sli ul li{position:relative;list-style:none;}
 .sli ul li:before{content:"・";font-size:18px;position:absolute;top:0px;left:-30px;}
 
+/*  */
 .std label{margin:5px 5px 5px 0;}
 .std label input{display:none;}
 .std label span{font-size:16px;border-radius:3px;padding:2px 10px;font-weight:600;height:21px;}
 .std label input:checked + span{border:1px solid #fff;}
 .std label input:not(:checked) + span{background-color:#fff!important;border:1px solid #000;color:#000!important;}
 
+/*  */
 .stc{border:solid 2px #bbb;border-radius:5px;padding:0 5px;}
 .sti{margin:5px 0;}
 .sts{font-weight:500;background-color:#000;color:#fff;padding:5px;}
 .std{display:flex;flex-wrap:wrap;margin:5px 0;}
 .stc button{font-size:16px;margin-bottom:5px;}
 
+/*  */
 .bov{overflow:hidden;}
 
+/*  */
 .svc{position:relative;aspect-ratio:3507/2480;margin:10px auto;border-radius:5px;border:solid 1px #000;}
 .svg{position:absolute;top:0;left:0;}
 .kbe{fill:#888;}
@@ -195,15 +222,18 @@ p{line-height:130%;}
 .kqf{fill:#0bb;}
 .krd{fill:#f00;}
 
+/*  */
 .lnk{position:relative;border:solid 1px #888;border-radius:5px;padding:5px;max-width:330px;width:90%;margin:10px 0;}
 .lnk a,.lnq a,.lnc a{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:5px;box-shadow:0 3px 2px #888;z-index:3;}
 .lnk a:hover,.lnq a:hover,.lnc a:hover{background-color:#000;opacity:0.1;box-shadow:0 3px 2px #000;}
 .lnk p{margin:3px;}
 
+/*  */
 .lnq,.lnc{position:relative;padding:10px;border:solid 1px #888;border-radius:5px;width:30%;min-width:320px;margin:2px;height:fit-content;}
 .lnq{min-height:150px;}
 .lnc{min-height:110px;}
 
+/*  */
 .ltx,.lty{transform:scaleX(0.75);width:133%;word-break:break-all;transform-origin:top left;margin:3px;font-size:12px;}
 .ltx{color:#444;}
 .lty{color:#ddd;}
@@ -212,38 +242,45 @@ p{line-height:130%;}
 .lby{text-shadow:1px 0px #fff,0px -1px #fff,-1px 0px #fff,0px 1px #fff;}
 
 .lcc{position:absolute;z-index:2;margin:auto;width:94%;pointer-events:none;}
-.ch3{display:flex;text-align:center;align-items:center;}
-.ch3::before,.ch3::after{content:"";height:1px;flex-grow:1;background-color:#444;margin:0 10px;}
 
+/*  */
 .lks{display:flex;flex-wrap:wrap;width:100%;justify-content:left;height:fit-content;background-color:#fff;margin:0 auto;}
 
+/*  */
 .hba{position:relative;width:100%;height:100px;}
 .hbc{position:absolute;top:0;left:0;margin:20px;z-index:2;}
 .hba p{margin:0;}
 .hbt{font-size:30px;font-weight:600;}
 .hbe{font-size:20px;font-weight:300;opacity:0.7;}
 .hba img{position:absolute;width:100%;height:100%;object-fit:cover;z-index:1;object-position:right;}
+
+/*  */
 .joc{position:relative;width:90%;height:fit-content;min-height:80px;margin:0 auto;padding:10px;border-radius:5px;}
 .joc p{margin:0 auto;width:fit-content;text-align:center;}
 .joc .d{font-size:20px;}
 .joc .t{font-size:30px;font-weight:600;}
 .joc a{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;}
 
+/*  */
 .cqt{table-layout:fixed;width:80%;min-width:360px!important;}
 .cqt th{width:25%;padding:10px;}
 .cqt td{width:75%;padding:10px;}
 .cqt .nu{width:40px!important;font-size:30px;padding:0;min-width:20px!important;}
 
+/*  */
 .ast th{width:15%;min-width:100px;padding:10px;}
 .ast td{width:60%;min-width:200px;padding:10px;}
 
+/*  */
 .cb{font-size:18px;font-weight:600;padding:5px 10px;margin:10px 0;}
 .cbs{font-size:16px;font-weight:600;}
 .cbs:before{content:"◆";}
 
+/*  */
 .npc{width:100%;height:fit-content;margin:10px auto;}
 .npc a{border-radius:3px;border:solid 1px #000;text-decoration-line:none;padding:2px 4px;display:inline-block;margin:0 2px 5px 0;}
 
+/* 都道府県予選通過リスト */
 .rdk,.rde{margin:5px auto;width:90%;display:flex;flex-wrap:wrap;border-radius:5px;height:fit-content;}
 .rdk{border:solid 2px #9e0000;}
 .rde{border:solid 2px #0070c0;}
@@ -259,6 +296,7 @@ p{line-height:130%;}
   .rdc,.rdr{width:calc(50% - 20px);}
 }
 
+/* フッター */
 .ftr{background-color:#444;min-height:100px;margin:30px auto 0 auto;height:fit-content;padding:10px;}
 .ftt{color:#fff;font-size:17px;font-weight:600;margin:0 auto 10px auto;width:fit-content;}
 .ftc{display:flex;flex-wrap:wrap;width:100%;justify-content:center;}
@@ -267,3 +305,15 @@ p{line-height:130%;}
 .fti h3{color:#fff;margin:5px 0;font-size:16px;}
 .ftp{color:#fff;font-size:15px;margin:5px 0;border-bottom:solid 1px #aaa;}
 .ftm{width:100%;}
+
+/* 情報詳細アイテム */
+.ii{margin:10px auto;width:95%;height:fit-content;border-left-style:solid;border-left-width:7px;border-radius:5px;height:fit-content;}
+.ii .h{margin:0 0 10px 0;padding:5px 5px;border-radius:0 5px 0 0;}
+.ii .h .t{font-weight:500;font-size:20px;margin:5px 5px;}
+.ii .h .d{font-size:14px;opacity:0.8;margin:5px 5px;}
+.ii .c{padding:3px 10px;height:fit-content;}
+.ii .c p{margin:0.5em 0;}
+
+/* ページ内リンクアンカー */
+.anc[id]{position:relative;pointer-events:none;width:95%;margin:0 auto;color:#ddd;font-size:14px;}
+.anc[id]:before{content:'';display:block;height:90px;margin-top:-90px;}
