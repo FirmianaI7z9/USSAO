@@ -43,6 +43,11 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/qualify.html</loc>
+  <priority>0.8</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/qualify.html</loc>
   <priority>0.8</priority>
   <changefreq>daily</changefreq>
@@ -194,11 +199,6 @@
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/information/contest.html</loc>
-  <priority>0.7</priority>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/qualify.html</loc>
   <priority>0.7</priority>
   <changefreq>daily</changefreq>
 </url>
