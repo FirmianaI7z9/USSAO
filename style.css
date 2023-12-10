@@ -7,8 +7,8 @@ body{padding-top:80px;font-size:16px!important;width:95%;margin:0 auto;font-fami
 /* TODO : idのアンカーを全てancクラスに移植する */
 h3{font-size:20px;}
 h4{font-size:18px;margin:10px 0;}
-h3[id],h4[id]{position:relative;pointer-events:none;}
-h3[id]:before,h4[id]:before{content:'';display:block;height:90px;margin-top:-90px;}
+h4[id]{position:relative;pointer-events:none;}
+h4[id]:before{content:'';display:block;height:90px;margin-top:-90px;}
 .h3b{font-size:60%;font-weight:normal;}
 .ch3{display:flex;text-align:center;align-items:center;}
 .ch3::before,.ch3::after{content:"";height:1px;flex-grow:1;background-color:#444;margin:0 10px;}
