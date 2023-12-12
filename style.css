@@ -12,6 +12,7 @@ h4[id]:before{content:'';display:block;height:90px;margin-top:-90px;}
 .h3b{font-size:60%;font-weight:normal;}
 .ch3{display:flex;text-align:center;align-items:center;}
 .ch3::before,.ch3::after{content:"";height:1px;flex-grow:1;background-color:#444;margin:0 10px;}
+.wh3{padding:5px 15px;}
 a{color:inherit;}
 p{line-height:120%;}
 
