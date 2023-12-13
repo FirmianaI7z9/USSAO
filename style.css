@@ -19,7 +19,7 @@ p{line-height:120%;}
 .bc{display:flex;flex-wrap:wrap;width:100%;justify-content:center;height:fit-content;background-color:#fff;margin:0 auto;}
 .nc,.sc,.cc,.ic{width:30%;min-width:340px;margin:2px;height:fit-content;}
 .ic{min-width:320px;padding:10px;border:solid 1px #444;min-height:300px;border-radius:5px;}
-.ic h3,.lq h3,.lc h3{margin-top:0;margin-bottom:10px;padding-bottom:5px;pointer-events:none;}
+.ic h3,.lq h3,.lc h3,.lm h3{margin-top:0;margin-bottom:10px;padding-bottom:5px;pointer-events:none;}
 .ic h3,.lq h3{border-bottom:solid 1px #444;}
 .cc1{width:96%;display:flex;flex-wrap:wrap;}
 .sc1{display:flex;flex-wrap:wrap;width:100%;justify-content:center;}
@@ -233,32 +233,35 @@ p{line-height:120%;}
 }
 
 /* リンク */
-.lk a,.lq a,.lc a{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:5px;box-shadow:0 3px 2px #888;z-index:3;}
-.lk a:hover,.lq a:hover,.lc a:hover{background-color:#000;opacity:0.1;box-shadow:0 3px 2px #000;}
+.lk a,.lq a,.lc a,.lm a{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:5px;box-shadow:0 3px 2px #888;z-index:3;}
+.lk a:hover,.lq a:hover,.lc a:hover,.lm a:hover{background-color:#000;opacity:0.1;box-shadow:0 3px 2px #000;}
 
 /* 通常リンク(lk) */
 .lk{position:relative;border:solid 1px #888;border-radius:5px;padding:5px;max-width:330px;width:90%;margin:10px 0;}
 .lk p{margin:3px;}
 
 /* 大型リンク(lq) */
-.lq,.lc{position:relative;padding:10px;border:solid 1px #888;border-radius:5px;width:30%;min-width:320px;margin:2px;height:fit-content;}
+.lq,.lc,.lm{position:relative;padding:10px;border:solid 1px #888;border-radius:5px;width:30%;min-width:320px;margin:2px;height:fit-content;}
 .lq{min-height:150px;}
 
-/* コンテスト用リンク(lc) */
+/* コンテスト用リンク(lc/lm) */
 .lc{min-height:110px;}
-.lc .c{position:absolute;z-index:2;margin:auto;width:94%;pointer-events:none;}
-.lc .c .r{border-bottom:solid 1px #444;}
-.lc .c .w{border-bottom:solid 1px #ccc;}
+.lm{min-height:70px;}
+.lc .c,.lm .c{position:absolute;z-index:2;margin:auto;width:94%;pointer-events:none;}
+.lc .c .r,.lm .c .r{border-bottom:solid 1px #444;}
+.lc .c .w,.lm .c .w{border-bottom:solid 1px #ccc;}
+
+/* コンテスト用リンク背景白抜き文字設定 */
+.wl,.wd{position:absolute;top:0;left:0;margin:5px;opacity:0.45;z-index:1;}
+.lc .wl,.lc .wd{font-size:100px;}
+.lm .wl,.lm .wd{font-size:60px;}
+.wl{text-shadow:1px 0px #000,0px -1px #000,-1px 0px #000,0px 1px #000;}
+.wd{text-shadow:1px 0px #fff,0px -1px #fff,-1px 0px #fff,0px 1px #fff;}
 
 /* リンクのURL表示[Link Light/Link Dark] */
 .ll,.ld{transform:scaleX(0.75);width:133%;word-break:break-all;transform-origin:top left;margin:3px;font-size:12px;}
 .ll{color:#444;}
 .ld{color:#ddd;}
-
-/* コンテスト用リンク背景白抜き文字設定 */
-.wl,.wd{position:absolute;top:0;left:0;margin:5px;font-size:100px;opacity:0.45;z-index:1;}
-.wl{text-shadow:1px 0px #000,0px -1px #000,-1px 0px #000,0px 1px #000;}
-.wd{text-shadow:1px 0px #fff,0px -1px #fff,-1px 0px #fff,0px 1px #fff;}
 
 /* 複数リンク */
 .ls{display:flex;flex-wrap:wrap;width:100%;height:fit-content;background-color:#fff;margin:0 auto;}
@@ -272,7 +275,7 @@ p{line-height:120%;}
 /* コンテストヘッダー[Contest hEader] */
 .ce{position:relative;width:100%;height:100px;}
 .ce p{margin:0;}
-.ce img{position:absolute;width:100%;height:100%;object-fit:cover;z-index:1;object-position:right;}
+.ce img{position:absolute;height:100px;object-fit:cover;z-index:1;right:0;}
 .ce .c{position:absolute;top:0;left:0;margin:20px;z-index:2;}
 .ce .t{font-size:30px;font-weight:600;}
 .ce .e{font-size:20px;font-weight:300;opacity:0.7;}
@@ -303,6 +306,7 @@ p{line-height:120%;}
 /* 年度選択リスト[Year List] */
 .yl{width:100%;height:fit-content;margin:10px auto;}
 .yl a{border-radius:3px;border:solid 1px #000;text-decoration-line:none;padding:2px 4px;display:inline-block;margin:0 2px 5px 0;}
+.yl a:hover{background-color:#eee;}
 
 /* 都道府県予選通過リスト[Prefecture Representative] */
 .pr{margin:5px auto;width:90%;display:flex;flex-wrap:wrap;border-radius:5px;height:fit-content;border-width:2px;border-style:solid;}
