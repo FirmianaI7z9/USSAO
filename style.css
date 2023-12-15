@@ -234,7 +234,9 @@ p{line-height:120%;}
 
 /* リンク */
 .lk a,.lq a,.lc a,.lm a{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:5px;box-shadow:0 3px 2px #888;z-index:3;}
-.lk a:hover,.lq a:hover,.lc a:hover,.lm a:hover{background-color:#000;opacity:0.1;box-shadow:0 3px 2px #000;}
+.lk a{border-style:solid;border-width:0 0 0 5px;border-color:#fff;width:calc(100% - 5px);}
+.lk a:visited{border-color:#f00;}
+.lk a:hover,.lq a:hover,.lc a:hover,.lm a:hover{background-color:#0001;box-shadow:0 3px 2px #0005;}
 
 /* 通常リンク(lk) */
 .lk{position:relative;border:solid 1px #888;border-radius:5px;padding:5px;max-width:330px;width:90%;margin:10px 0;}
@@ -305,8 +307,10 @@ p{line-height:120%;}
 
 /* 年度選択リスト[Year List] */
 .yl{width:100%;height:fit-content;margin:10px auto;}
-.yl a{border-radius:3px;border:solid 1px #000;text-decoration-line:none;padding:2px 4px;display:inline-block;margin:0 2px 5px 0;}
+.yl a{position:relative;border-radius:3px;border:solid 1px #000;text-decoration-line:none;padding:2px 4px;display:inline-block;margin:0 2px 5px 0;}
 .yl a:hover{background-color:#eee;}
+.yl a::before{position:absolute;display:block;content:"";top:0;left:0;width:3px;height:100%;background-color:#fff;}
+.yl a:visited::before{background-color:#f00;}
 
 /* 都道府県予選通過リスト[Prefecture Representative] */
 .pr{margin:5px auto;width:90%;display:flex;flex-wrap:wrap;border-radius:5px;height:fit-content;border-width:2px;border-style:solid;}
