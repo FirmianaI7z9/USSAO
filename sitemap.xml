@@ -43,12 +43,17 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/qualify.html</loc>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/index.html</loc>
   <priority>0.8</priority>
   <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/qualify.html</loc>
+  <priority>0.8</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/kako/qualify.html</loc>
   <priority>0.8</priority>
   <changefreq>daily</changefreq>
 </url>
@@ -59,11 +64,6 @@
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/something/links_tmp.html</loc>
-  <priority>0.8</priority>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/math/index.html</loc>
   <priority>0.8</priority>
   <changefreq>daily</changefreq>
 </url>
@@ -270,6 +270,66 @@
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/brainscience/contest.html</loc>
   <priority>0.7</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/past/jmo.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/past/jjmo.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/past/imo.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/hhttps://egmo2024.ge/</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/past/egmo.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/past/egmo_qual.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/past/apmo.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/chemistry/past/jcho.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/chemistry/past/icho.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/astrologics/past/jao.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/astrologics/past/ioaa.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/problems/1999_eng.pdf</loc>
+  <priority>0.5</priority>
   <changefreq>daily</changefreq>
 </url>
 
