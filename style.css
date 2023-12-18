@@ -170,7 +170,7 @@ p{line-height:120%;}
 .cm thead .b{color:#fff;background-color:#00b;}
 .cm thead .r{color:#fff;background-color:#f00;}
 .cm tbody tr td .d{width:30px;color:#888;}
-.cm tbody tr td .i{margin:2px;padding:2px;text-align:left;font-size:90%;border-radius:5px;}
+.cm tbody tr td .i,.cm tbody tr th .i{margin:2px;padding:2px;text-align:left;font-size:90%;border-radius:5px;}
 .db{color:#88d!important;}
 .dr{color:#f88!important;}
 .cs{opacity:50%;}
