@@ -1,4 +1,4 @@
-const c={ma:['JMO','JJMO','IMO','EGMO','APMO'],ph:['JPhO','IPhO','APhO'],ch:['JChO','IChO'],bi:['JBO','IBO'],ea:['JESO','IESO'],in:['JOI','JOIG','IOI','EGOI','APIO'],ka:['科甲','科甲Jr','SO'],la:['JOL','IOL','APLO'],as:['JAO','IOAA'],ge:['JGeO','iGeO'],ps:['JPO','IPO'],ec:['JEO','IEO'],ba:['JBB','IBB']};
+const c={ma:['JMO','JJMO','IMO','EGMO','APMO'],ph:['JPhO','IPhO','APhO'],ch:['JChO','IChO'],bi:['JBO','IBO'],ea:['JESO','IESO'],in:['JOI','JOIG','IOI','EGOI','APIO'],ka:['科甲','科甲Jr','SO'],la:['JOL','IOL','APLO'],as:['JAO','IOAA'],ge:['JGeO','iGeo'],ps:['JPO','IPO'],ec:['JEO','IEO'],ba:['JBB','IBB']};
 
 function gen(g){
   var a=c[g.value];
