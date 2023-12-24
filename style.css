@@ -351,8 +351,8 @@ p{line-height:120%;margin:10px 0;}
 
 /* 大会進行状況バー[Progress] */
 .pc{width:100%;height:fit-content;display:flex;flex-wrap:wrap;margin:0 auto;padding:0 15px;}
-.pc .pf,.pc .pe{margin:5px 18px;padding:0 30px 0 20px;position:relative;font-size:16px;display:flex;justify-content:center;align-items:center;font-weight:600;height:69px;}
-.pc .pe{padding-right:10px!important;}
-.pc .pf::before{content:'';position:absolute;top:0;left:-29px;border-color:inherit;border-top-style:solid;border-top-width:35px;border-bottom-style:solid;border-bottom-width:35px;border-left-style:solid;border-left-width:30px;border-left-color:transparent;}
-.pc .pe::after{content:'';position:absolute;top:0;right:-29px;border-color:inherit;border-top-style:solid;border-top-width:35px;border-top-color:transparent;border-bottom-style:solid;border-bottom-width:35px;border-bottom-color:transparent;border-left-style:solid;border-left-width:30px;}
+.pc .pf,.pc .pe{margin:2px 11px;padding:0 20px 0 10px;position:relative;font-size:15px;display:flex;justify-content:center;align-items:center;font-weight:600;height:69px;}
+.pc .pe{padding-right:5px!important;}
+.pc .pf::before{content:'';position:absolute;top:0;left:-19px;border-color:inherit;border-top-style:solid;border-top-width:35px;border-bottom-style:solid;border-bottom-width:35px;border-left-style:solid;border-left-width:20px;border-left-color:transparent;}
+.pc .pe::after{content:'';position:absolute;top:0;right:-19px;border-color:inherit;border-top-style:solid;border-top-width:35px;border-top-color:transparent;border-bottom-style:solid;border-bottom-width:35px;border-bottom-color:transparent;border-left-style:solid;border-left-width:20px;}
 .po{opacity:0.5;}
