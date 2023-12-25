@@ -241,7 +241,7 @@ p{line-height:120%;margin:10px 0;}
 
 /* 通常リンク(lk) */
 .lk{position:relative;border:solid 1px #888;border-radius:5px;padding:5px;max-width:330px;width:90%;margin:10px 0;}
-.lk p{margin:3px;}
+.lk p{margin:3px;text-indent:0.2rem!important;}
 
 /* 大型リンク(lq) */
 .lq,.lc,.lm{position:relative;padding:10px;border:solid 1px #888;border-radius:5px;width:30%;min-width:320px;margin:2px;height:fit-content;}
@@ -343,7 +343,7 @@ p{line-height:120%;margin:10px 0;}
 .ii .h .t{font-weight:500;font-size:20px;margin:5px 5px;}
 .ii .h .d{font-size:14px;opacity:0.8;margin:5px 5px;}
 .ii .c{padding:3px 10px;height:fit-content;}
-.ii .c p{margin:0.5em 0;}
+.ii .c p{margin:0.5em 0;text-indent:1rem;}
 
 /* ページ内リンクアンカー[Anchor] */
 .anc[id]{position:relative;pointer-events:none;width:95%;margin:0 auto;color:#ddd;font-size:14px;}
