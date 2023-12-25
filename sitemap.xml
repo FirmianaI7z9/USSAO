@@ -43,16 +43,6 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/math/index.html</loc>
-  <priority>0.8</priority>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/economy/qualify.html</loc>
-  <priority>0.8</priority>
-  <changefreq>daily</changefreq>
-</url>
-<url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/kako/qualify.html</loc>
   <priority>0.8</priority>
   <changefreq>daily</changefreq>
@@ -64,6 +54,11 @@
 </url>
 <url>
   <loc>https://firmianai7z9.github.io/USSAO/something/links_tmp.html</loc>
+  <priority>0.8</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/math/index.html</loc>
   <priority>0.8</priority>
   <changefreq>daily</changefreq>
 </url>
@@ -253,6 +248,11 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/economy/qualify.html</loc>
+  <priority>0.7</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
   <loc>https://firmianai7z9.github.io/USSAO/contests/economy/info.html</loc>
   <priority>0.7</priority>
   <changefreq>daily</changefreq>
@@ -323,8 +323,13 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>https://firmianai7z9.github.io/USSAO/contests/math/problems/1999_eng.pdf</loc>
-  <priority>0.5</priority>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/geography/past/jgeo.html</loc>
+  <priority>0.6</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://firmianai7z9.github.io/USSAO/contests/geography/past/igeo.html</loc>
+  <priority>0.6</priority>
   <changefreq>daily</changefreq>
 </url>
 
