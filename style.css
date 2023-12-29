@@ -172,6 +172,7 @@ p{line-height:120%;margin:10px 0;}
 .cm thead .r{color:#fff;background-color:#f00;}
 .cm tbody tr td .d{width:30px;color:#888;}
 .cm tbody tr td .ib,.cm tbody tr th .ib,.cm tbody tr td .im,.cm tbody tr th .im,.cm tbody tr td .ie,.cm tbody tr th .ie,.cm tbody tr td .i,.cm tbody tr th .i{position:relative;margin:2px 1px;padding:2px;text-align:left;font-size:90%;}
+.cm tbody tr td .ib span,.cm tbody tr th .ib span,.cm tbody tr td .im span,.cm tbody tr th .im span,.cm tbody tr td .ie span,.cm tbody tr th .ie span,.cm tbody tr td .i span,.cm tbody tr th .i span{opacity:0;}
 .cm tbody tr td .ib,.cm tbody tr th .ib{border-top-left-radius:5px;border-bottom-left-radius:5px;}
 .cm tbody tr td .ie,.cm tbody tr th .ie{border-top-right-radius:5px;border-bottom-right-radius:5px;}
 .cm tbody tr td .i,.cm tbody tr th .i{border-radius:5px;}
