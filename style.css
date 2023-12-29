@@ -171,7 +171,12 @@ p{line-height:120%;margin:10px 0;}
 .cm thead .b{color:#fff;background-color:#00b;}
 .cm thead .r{color:#fff;background-color:#f00;}
 .cm tbody tr td .d{width:30px;color:#888;}
-.cm tbody tr td .i,.cm tbody tr th .i{margin:2px;padding:2px;text-align:left;font-size:90%;border-radius:5px;}
+.cm tbody tr td .ib,.cm tbody tr th .ib,.cm tbody tr td .im,.cm tbody tr th .im,.cm tbody tr td .ie,.cm tbody tr th .ie,.cm tbody tr td .i,.cm tbody tr th .i{position:relative;margin:2px 1px;padding:2px;text-align:left;font-size:90%;}
+.cm tbody tr td .ib,.cm tbody tr th .ib{border-top-left-radius:5px;border-bottom-left-radius:5px;}
+.cm tbody tr td .ie,.cm tbody tr th .ie{border-top-right-radius:5px;border-bottom-right-radius:5px;}
+.cm tbody tr td .i,.cm tbody tr th .i{border-radius:5px;}
+.cm tbody tr td .ib::after,.cm tbody tr th .ib::after,.cm tbody tr td .im::after,.cm tbody tr th .im::after{content:"";position:absolute;background-color:inherit;top:0;left:100%;height:100%;width:4px;}
+.cm tbody tr td .im::before,.cm tbody tr th .im::before,.cm tbody tr td .ie::before,.cm tbody tr th .ie::before{content:"";position:absolute;background-color:inherit;top:0;right:100%;height:100%;width:4px;}
 .db{color:#88d!important;}
 .dr{color:#f88!important;}
 .cs{opacity:50%;}
