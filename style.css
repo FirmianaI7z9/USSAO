@@ -43,7 +43,7 @@ p{line-height:120%;margin:10px 0;}
 .nr{transform-origin:top left;display:inline-block;}
 .sl{font-size:16px;}
 
-.tg{margin:0 3px;padding:0 7px;border-radius:5px;font-weight:600;font-size:90%;}
+.tg{margin:0 3px;padding:1px 7px;border-radius:5px;font-weight:600;font-size:90%;}
 
 /* 注記・お知らせコンテナ */
 .cac,.can{margin:10px auto;width:90%;height:fit-content;padding:5px;border-radius:5px;}
@@ -57,11 +57,13 @@ p{line-height:120%;margin:10px 0;}
 .cr{font-size:70%;text-align:center;color:#fff;}
 
 .nc1{margin:10px;}
-.ni1{position:relative;padding:5px;border:solid 1px #888;border-radius:5px;box-shadow:0 3px 2px #ccc;margin-bottom:5px;}
+.ni1{position:relative;padding:5px;border:solid 1px #888;border-radius:5px;box-shadow:0 3px 2px #ddd;margin-bottom:5px;}
 .ni1 p{margin:5px 0;}
-.nd1{color:#444;font-size:14px;width:80%;padding-left:5px;}
-.nnw{font-weight:600;background-color:#f00;border-radius:5px;padding:1px 5px;color:#fff;margin:0 3px;}
-.nni{font-weight:600;background-color:#ff0;border-radius:5px;padding:1px 5px;color:#000;margin:0 3px;}
+.nd1{color:#444;font-size:13px;padding-left:5px;font-weight:normal;display:inline-block;}
+.nd1::before{content:"-";padding-right:3px;}
+.nnw,.nni{font-weight:600;margin:0 3px;}
+.nnw::before{content:"#新着";color:#08f;}
+.nni::before{content:"#重要";color:#f00;}
 .nt1{font-weight:500;margin-top:5px;}
 .ni1 a{position:absolute;top:0;left:0;width:100%;height:100%;}
 .ni1 a:hover{opacity:0.1;background-color:#000;}
@@ -120,7 +122,7 @@ p{line-height:120%;margin:10px 0;}
 .ma{color:#000!important;background-color:#64d3ff;}
 .ph{color:#fff!important;background-color:#002060;}
 .ps{color:#000!important;background-color:#f2f2f2;}
-.dev{color:#fff!important;background-color:#888;font-weight:400;}
+.dev{color:#fff!important;background-color:#888;}
 .asl{border-color:#000;}
 .bil{border-color:#e60000;}
 .bal{border-color:#006630;}
@@ -346,7 +348,7 @@ p{line-height:120%;margin:10px 0;}
 /* 情報詳細アイテム[Information Item] */
 .ii{margin:10px auto;width:95%;height:fit-content;border-left-style:solid;border-left-width:7px;border-radius:5px;height:fit-content;}
 .ii .h{margin:0 0 10px 0;padding:5px 5px;border-radius:0 5px 0 0;}
-.ii .h .t{font-weight:500;font-size:20px;margin:5px 5px;}
+.ii .h .t{font-weight:600;font-size:20px;margin:5px 5px;}
 .ii .h .d{font-size:14px;opacity:0.8;margin:5px 5px;}
 .ii .c{padding:3px 10px;height:fit-content;}
 .ii .c p{margin:0.5em 0;text-indent:1rem;}
