@@ -14,7 +14,7 @@ h4[id]:before{content:'';display:block;height:90px;margin-top:-90px;}
 .ch3::before,.ch3::after{content:"";height:1px;flex-grow:1;background-color:#444;margin:0 10px;}
 .wh3{padding:5px 15px;}
 a{color:inherit;}
-p{line-height:120%;margin:10px 0;}
+p{line-height:140%;margin:10px 0;}
 .id{text-indent:1rem;}
 
 .bc{display:flex;flex-wrap:wrap;width:100%;justify-content:center;height:fit-content;background-color:#fff;margin:0 auto;}
@@ -263,7 +263,7 @@ p{line-height:120%;margin:10px 0;}
 .lc .c .w,.lm .c .w{border-bottom:solid 1px #ccc;}
 
 /* コンテスト用リンク背景白抜き文字設定 */
-.wl,.wd{position:absolute;top:0;left:0;margin:5px;opacity:0.45;z-index:1;}
+.wl,.wd{position:absolute;top:0;left:0;margin:5px;opacity:0.45;z-index:1;line-height:120%;}
 .lc .wl,.lc .wd{font-size:100px;}
 .lm .wl,.lm .wd{font-size:60px;}
 .wl{text-shadow:1px 0px #000,0px -1px #000,-1px 0px #000,0px 1px #000;}
