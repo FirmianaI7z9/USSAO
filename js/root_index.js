@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', function() {
   function load_file() {
     const promise = new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
-      xhr.open('GET', `../json/schedule.json`);
+      xhr.open('GET', `json/schedule.json`);
       xhr.addEventListener('load', (f) => resolve(xhr));
       xhr.send();
     });
