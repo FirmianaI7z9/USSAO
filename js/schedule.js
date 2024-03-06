@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function() {
     return promise;
   }
 
-  var dw = document.getElementById('sc_sample').clientWidth - 10;
+  var dw = document.getElementById('sc_sample').clientWidth - 20;
   var cur_month = 0;
   load_file().then((xhr) => {
     var data = JSON.parse(xhr.response);

@@ -743,7 +743,7 @@
             {
               "problemid": "1",
               "problemname": "分子イメージング",
-              "difficulty": 1444,
+              "difficulty": 1088,
               "answerrate": 62.27,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=11",
@@ -752,7 +752,7 @@
             {
               "problemid": "2",
               "problemname": "CO<sub>2</sub>の電気化学的還元",
-              "difficulty": 1729,
+              "difficulty": 1369,
               "answerrate": 55.55,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=19",
@@ -761,7 +761,7 @@
             {
               "problemid": "3",
               "problemname": "人工光合成",
-              "difficulty": 2315,
+              "difficulty": 1924,
               "answerrate": 42.05,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=27",
@@ -770,7 +770,7 @@
             {
               "problemid": "4",
               "problemname": "フッ素を有する超原子価化合物",
-              "difficulty": 2200,
+              "difficulty": 1827,
               "answerrate": 44.68,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=38",
@@ -779,7 +779,7 @@
             {
               "problemid": "5",
               "problemname": "水素化脱硫",
-              "difficulty": 2645,
+              "difficulty": 2189,
               "answerrate": 34.6,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=47",
@@ -788,7 +788,7 @@
             {
               "problemid": "6",
               "problemname": "メタンからメタノールへの直接変換",
-              "difficulty": 2569,
+              "difficulty": 2129,
               "answerrate": 36.32,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=54",
@@ -797,7 +797,7 @@
             {
               "problemid": "7",
               "problemname": "酵素の反応速度論",
-              "difficulty": 3084,
+              "difficulty": 2523,
               "answerrate": 24.8,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=62",
@@ -806,7 +806,7 @@
             {
               "problemid": "8",
               "problemname": "ナザロフ環化",
-              "difficulty": 2127,
+              "difficulty": 1764,
               "answerrate": 46.35,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=70",
@@ -815,7 +815,7 @@
             {
               "problemid": "9",
               "problemname": "電解有機合成",
-              "difficulty": 2084,
+              "difficulty": 1726,
               "answerrate": 47.34,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=75",
@@ -824,7 +824,7 @@
             {
               "problemid": "10",
               "problemname": "スイス連邦‑医薬品の持ちたる国",
-              "difficulty": 2221,
+              "difficulty": 1844,
               "answerrate": 44.21,
               "genre": "?",
               "link": "../problems/IChO55_theo_prob.pdf#page=86",
@@ -839,7 +839,7 @@
             {
               "problemid": "1",
               "problemname": "漂白剤: カメレオンのように変幻自在な試薬",
-              "difficulty": 1364,
+              "difficulty": 1042,
               "answerrate": 64.18,
               "genre": "?",
               "link": "../problems/IChO55_prac_prob.pdf#page=22",
@@ -848,7 +848,7 @@
             {
               "problemid": "2",
               "problemname": "滴定のタンゴ",
-              "difficulty": 1801,
+              "difficulty": 1866,
               "answerrate": 53.89,
               "genre": "?",
               "link": "../problems/IChO55_prac_prob.pdf#page=38",
@@ -857,7 +857,7 @@
             {
               "problemid": "3",
               "problemname": "質素さの中の美",
-              "difficulty": 1565,
+              "difficulty": 1490,
               "answerrate": 59.41,
               "genre": "?",
               "link": "../problems/IChO55_prac_prob.pdf#page=47",
@@ -1227,7 +1227,7 @@
             {
               "problemid": "1",
               "problemname": "見てすぐ分かる COVID‑19 の核酸検査",
-              "difficulty": 953,
+              "difficulty": 654,
               "answerrate": 74.14,
               "genre": "?",
               "link": "https://icho.csj.jp/54/IChO54Theoretical_JPN.pdf#page=8",
@@ -1236,7 +1236,7 @@
             {
               "problemid": "2",
               "problemname": "クロムいまむかし",
-              "difficulty": 1447,
+              "difficulty": 1091,
               "answerrate": 62.19,
               "genre": "?",
               "link": "https://icho.csj.jp/54/IChO54Theoretical_JPN.pdf#page=12",
@@ -1245,7 +1245,7 @@
             {
               "problemid": "3",
               "problemname": "二酸化炭素の捕捉と変換",
-              "difficulty": 2009,
+              "difficulty": 1659,
               "answerrate": 49.06,
               "genre": "?",
               "link": "https://icho.csj.jp/54/IChO54Theoretical_JPN.pdf#page=19",
@@ -1254,7 +1254,7 @@
             {
               "problemid": "4",
               "problemname": "いにしえの硫黄をめぐる新たな旅",
-              "difficulty": 1814,
+              "difficulty": 1471,
               "answerrate": 53.58,
               "genre": "?",
               "link": "https://icho.csj.jp/54/IChO54Theoretical_JPN.pdf#page=29",
@@ -1263,7 +1263,7 @@
             {
               "problemid": "5",
               "problemname": "様々な窒素酸化物の相互変換",
-              "difficulty": 1926,
+              "difficulty": 1583,
               "answerrate": 50.97,
               "genre": "?",
               "link": "https://icho.csj.jp/54/IChO54Theoretical_JPN.pdf#page=38",
@@ -1272,7 +1272,7 @@
             {
               "problemid": "6",
               "problemname": "ホスフィンならできる",
-              "difficulty": 952,
+              "difficulty": 653,
               "answerrate": 74.17,
               "genre": "?",
               "link": "https://icho.csj.jp/54/IChO54Theoretical_JPN.pdf#page=48",
@@ -1281,7 +1281,7 @@
             {
               "problemid": "7",
               "problemname": "生命の有機分子",
-              "difficulty": 1729,
+              "difficulty": 1368,
               "answerrate": 55.56,
               "genre": "?",
               "link": "https://icho.csj.jp/54/IChO54Theoretical_JPN.pdf#page=56",
@@ -1290,7 +1290,7 @@
             {
               "problemid": "8",
               "problemname": "驚異のキラルスピロ環触媒",
-              "difficulty": 1599,
+              "difficulty": 1233,
               "answerrate": 58.61,
               "genre": "?",
               "link": "https://icho.csj.jp/54/IChO54Theoretical_JPN.pdf#page=62",
@@ -1299,7 +1299,7 @@
             {
               "problemid": "9",
               "problemname": "カピツラクトンの全合成",
-              "difficulty": 1226,
+              "difficulty": 892,
               "answerrate": 67.48,
               "genre": "?",
               "link": "https://icho.csj.jp/54/IChO54Theoretical_JPN.pdf#page=69",
@@ -1683,7 +1683,7 @@
             {
               "problemid": "1",
               "problemname": "Hydrogen at a Metal Surface",
-              "difficulty": 2010,
+              "difficulty": 1660,
               "answerrate": 49.04,
               "genre": "?",
               "link": "https://www.icho2021.org/pdf/Official%20English%20version.pdf#page=8",
@@ -1692,7 +1692,7 @@
             {
               "problemid": "2",
               "problemname": "Isotope Time Capsule",
-              "difficulty": 2590,
+              "difficulty": 2146,
               "answerrate": 35.84,
               "genre": "?",
               "link": "https://www.icho2021.org/pdf/Official%20English%20version.pdf#page=13",
@@ -1701,7 +1701,7 @@
             {
               "problemid": "3",
               "problemname": "Lambert–Beer Law?",
-              "difficulty": 2284,
+              "difficulty": 1897,
               "answerrate": 42.78,
               "genre": "?",
               "link": "https://www.icho2021.org/pdf/Official%20English%20version.pdf#page=17",
@@ -1710,7 +1710,7 @@
             {
               "problemid": "4",
               "problemname": "The Redox Chemistry of Zinc",
-              "difficulty": 1989,
+              "difficulty": 1641,
               "answerrate": 49.53,
               "genre": "?",
               "link": "https://www.icho2021.org/pdf/Official%20English%20version.pdf#page=19",
@@ -1719,7 +1719,7 @@
             {
               "problemid": "5",
               "problemname": "Mysterious Silicon",
-              "difficulty": 2281,
+              "difficulty": 1895,
               "answerrate": 42.83,
               "genre": "?",
               "link": "https://www.icho2021.org/pdf/Official%20English%20version.pdf#page=22",
@@ -1728,7 +1728,7 @@
             {
               "problemid": "6",
               "problemname": "The Solid-State Chemistry of Transition Metals",
-              "difficulty": 2561,
+              "difficulty": 2123,
               "answerrate": 36.48,
               "genre": "?",
               "link": "https://www.icho2021.org/pdf/Official%20English%20version.pdf#page=26",
@@ -1737,7 +1737,7 @@
             {
               "problemid": "7",
               "problemname": "Playing with Non-benzenoid Aromaticity",
-              "difficulty": 2164,
+              "difficulty": 1796,
               "answerrate": 45.52,
               "genre": "?",
               "link": "https://www.icho2021.org/pdf/Official%20English%20version.pdf#page=32",
@@ -1746,7 +1746,7 @@
             {
               "problemid": "8",
               "problemname": "Dynamic Organic Molecules and Their Chirality",
-              "difficulty": 2204,
+              "difficulty": 1830,
               "answerrate": 44.6,
               "genre": "?",
               "link": "https://www.icho2021.org/pdf/Official%20English%20version.pdf#page=37",
@@ -1755,7 +1755,7 @@
             {
               "problemid": "9",
               "problemname": "Likes and Dislikes of Capsule",
-              "difficulty": 1968,
+              "difficulty": 1622,
               "answerrate": 50.01,
               "genre": "?",
               "link": "https://www.icho2021.org/pdf/Official%20English%20version.pdf#page=42",
