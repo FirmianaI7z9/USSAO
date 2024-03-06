@@ -15,6 +15,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="icon/favicon.ico">
   <!--<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>-->
   <title>学術オリンピック非公式まとめサイト | サイト更新情報</title>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
   <link rel="stylesheet" href="style.css">
   <script src="https://www.googletagmanager.com/gtag/js?id=G-3N6WM60S2G"></script>
   <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-3N6WM60S2G');</script>
@@ -61,13 +62,56 @@
     <p class="pl"><a href="index.html">ホーム</a>サイトのお知らせ</p>
 
     <h2>サイトのお知らせ</h2>
-    <p class="ud">2024年3月4日</p>
+    <p class="ud">2024年3月6日</p>
 
     <div class="lk">
       <a href="info.html"></a>
       <p>最新情報ページに戻る</p>
       <p class="ll">https://firmianai7z9.github.io/USSAO/info.html</p>
     </div><br>
+
+    <p class="anc" id="si2024030600">notification_id = si2024030600</p>
+    <div class="ii del">
+      <div class="h dev">
+        <p class="t">「Difficulty」について</p>
+        <p class="d">2024年3月6日 更新</p>
+      </div>
+      <div class="c">
+        <p>「Difficulty/Diff」とは、各問題の平均点から産出された、各問題の難易度を表す指標です。</p>
+        <p>この値は、「その問題の平均得点率」に加え、「直近数年分の問題の平均点の平均点」および「本サイト運営が設定した定数」に依存します。よって、「Difficulty」の値は<b>その大会・その問題種の間でのみ比較可能であり、他の大会・問題種との間での比較は無意味です。</b>さらに、同じ大会・問題種でも年によって難易度に差があり、また同時に出題された他の問題の難易度にも左右されるため、<b>厳密な問題の難易度の指標ではありません。</b></p>
+        <p>以上の点を踏まえたうえで、適切に活用していただければ幸いです。以下に詳しい説明を掲載します。</p>
+        <hr>
+        <p>まず、「Difficulty」(以下、単にDiffと呼ぶ)は、競技プログラミングコンテストサイト「AtCoder」や競技数学コンテストサイト「OnlineMathContest」で既に用いられている指標です。ただし、それらのサイトでの算出方法とは異なり、本サイトのDiffは単に、競技者の平均得点率を用い、大会ごとの補正を行って算出します。</p>
+        <p>以下にDiffの計算式を示します。なお、\(X,Y,Z,W\) は定数、\(A\) は平均得点率です。</p>
+        <p>\(\mathrm{Diff}=\)\(\left\lfloor\{|X-A|\times Y\}^{Z}\times\mathrm{sign}(X-A)\times 4000\right\rfloor\)\(+W\) (ただし \(\mathrm{sign}(V)\) は、\(V\) が正のとき1、0のとき0、負のとき-1)</p>
+        <p>IChO2023-Theoretical 1を例に取ると、この問題の平均得点率は \(62.27 \%\)、IChO Theoreticalでの各定数の値は、\(X=50,Y=0.014,Z=1,W=2000\) となっているので、</p>
+        <p>\(\mathrm{Diff}=\)\(\left\lfloor\{|50-62.27|\times 0.014\}^{1}\times(-1)\times 4000\right\rfloor\)\(+2000=1312\)</p>
+        <p>となり、この問題のDiffは1312であることが分かりました。</p>
+        <p>ちなみに、\(W,X\) は、平均得点率 \(X\) の問題がDiff \(W\) になるような調整を、\(Y,Z\) は問題のDiffを程よくばらけさせるような値に設定しています。</p>
+        <br>
+        <p>Diffはより簡単な問題では小さな、難しい問題では大きな値を取ります。つまり、Diffが1000の問題よりもDiffが2000の問題の方が難しい、ということです。また、本サイトでは参考にしたサイトに倣い、Diffに応じて問題に色を付け、視覚的に難易度を捉えられるようにしています。以下に一覧を示します。</p>
+        <table>
+          <thead>
+            <tr><th>色</th><th>Diffの範囲</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="color:#a000a0;"><span class="difx" style="border-color:#ffd700;background:linear-gradient(to right,#ffd700,#fff,#ffd700);"></span>金色</td><td>3300以上</td></tr>
+            <tr><td style="color:#a000a0;"><span class="difx" style="border-color:#808080;background:linear-gradient(to right,#808080,#fff,#808080);"></span>銀色</td><td>3000～3299</td></tr>
+            <tr><td style="color:#a000a0;"><span class="difx" style="border-color:#965c38;background:linear-gradient(to right,#965c38,#ffdac1,#965c38);"></span>銅色</td><td>2700～2999</td></tr>
+            <tr><td style="color:#a000a0;"><span class="difx" style="border-color:#a000a0;background-color:#a000a0;"></span>紫色</td><td>2400～2699</td></tr>
+            <tr><td style="color:#ff80ff;"><span class="difx" style="border-color:#ff80ff;background-color:#ff80ff;"></span>桃色</td><td>2100～2399</td></tr>
+            <tr><td style="color:#f00;"><span class="difx" style="border-color:#f00;background-color:#f00;"></span>赤色</td><td>1800～2099</td></tr>
+            <tr><td style="color:#ff8000;"><span class="difx" style="border-color:#ff8000;background-color:#ff8000;"></span>橙色</td><td>1500～1799</td></tr>
+            <tr><td style="color:#c0c000;"><span class="difx" style="border-color:#c0c000;background-color:#c0c000;"></span>黄色</td><td>1200～1499</td></tr>
+            <tr><td style="color:#008000;"><span class="difx" style="border-color:#008000;background-color:#008000;"></span>緑色</td><td>900～1199</td></tr>
+            <tr><td style="color:#00c0c0;"><span class="difx" style="border-color:#00c0c0;background-color:#00c0c0;"></span>水色</td><td>600～899</td></tr>
+            <tr><td style="color:#00f;"><span class="difx" style="border-color:#00f;background-color:#00f;"></span>青色</td><td>300～599</td></tr>
+            <tr><td style="color:#808080;"><span class="difx" style="border-color:#808080;background-color:#808080;"></span>灰色</td><td>1～299</td></tr>
+            <tr><td>黒色</td><td>0以下 または Diffデータなし</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
     <p class="anc" id="si2024021800">notification_id = si2024021800</p>
     <div class="ii del">
