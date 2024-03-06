@@ -83,10 +83,10 @@
         <hr>
         <p>まず、「Difficulty」(以下、単にDiffと呼ぶ)は、競技プログラミングコンテストサイト「AtCoder」や競技数学コンテストサイト「OnlineMathContest」で既に用いられている指標です。ただし、それらのサイトでの算出方法とは異なり、本サイトのDiffは単に、競技者の平均得点率を用い、大会ごとの補正を行って算出します。</p>
         <p>以下にDiffの計算式を示します。なお、\(X,Y,Z,W\) は定数、\(A\) は平均得点率です。</p>
-        <p>\(\mathrm{Diff}=\)\(\left\lfloor\{|X-A|\times Y\}^{Z}\times\mathrm{sign}(X-A)\times 4000\right\rfloor\)\(+W\) (ただし \(\mathrm{sign}(V)\) は、\(V\) が正のとき1、0のとき0、負のとき-1)</p>
-        <p>IChO2023-Theoretical 1を例に取ると、この問題の平均得点率は \(62.27 \%\)、IChO Theoreticalでの各定数の値は、\(X=50,Y=0.014,Z=1,W=2000\) となっているので、</p>
-        <p>\(\mathrm{Diff}=\)\(\left\lfloor\{|50-62.27|\times 0.014\}^{1}\times(-1)\times 4000\right\rfloor\)\(+2000=1312\)</p>
-        <p>となり、この問題のDiffは1312であることが分かりました。</p>
+        <p>\(\mathrm{Diff}=\)\(\left\lfloor\{|X-A|\times Y\}^{Z}\times\mathrm{sign}(X-A)\times 3300\right\rfloor\)\(+W\) (ただし \(\mathrm{sign}(V)\) は、\(V\) が正のとき1、0のとき0、負のとき-1)</p>
+        <p>IChO2023-Theoretical 1を例に取ると、この問題の平均得点率は \(62.27 \%\)、IChO Theoreticalでの各定数の値は、\(X=55,Y=0.01,Z=0.9,W=1400\) となっているので、</p>
+        <p>\(\mathrm{Diff}=\)\(\left\lfloor\{|55-62.27|\times 0.01\}^{0.9}\times(-1)\times 3300\right\rfloor\)\(+1400=1088\)</p>
+        <p>となり、この問題のDiffは1088であることが分かりました。</p>
         <p>ちなみに、\(W,X\) は、平均得点率 \(X\) の問題がDiff \(W\) になるような調整を、\(Y,Z\) は問題のDiffを程よくばらけさせるような値に設定しています。</p>
         <br>
         <p>Diffはより簡単な問題では小さな、難しい問題では大きな値を取ります。つまり、Diffが1000の問題よりもDiffが2000の問題の方が難しい、ということです。また、本サイトでは参考にしたサイトに倣い、Diffに応じて問題に色を付け、視覚的に難易度を捉えられるようにしています。以下に一覧を示します。</p>
