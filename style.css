@@ -373,7 +373,7 @@ p{line-height:140%;margin:10px 0;}
 .cce{border-top-right-radius:5px;border-bottom-right-radius:5px;}
 .cci:hover{background-color:#888;}
 
-.att{border-collapse:collapse;width:100%;min-width:fit-content;}
+.att{border-collapse:collapse;width:100%;min-width:fit-content;font-size:14px;}
 .att thead{border-bottom:solid 3px #ccc;}
 .att th,.att td{position:relative;border:solid 1px #ccc;text-align:left;padding:12px 7px;min-width:80px;}
 .att tbody th{font-weight:400;}
@@ -383,7 +383,7 @@ p{line-height:140%;margin:10px 0;}
 .att td a:hover{background-color:#000;}
 
 .ico::before{content:"◉";margin-right:5px;}
-.dif{position:absolute;top:18px;left:10px;height:12px;width:12px;border-radius:50%;margin-right:3px;border:solid 1px #000;z-index:3;}
+.dif{position:absolute;top:16px;left:10px;height:12px;width:12px;border-radius:50%;margin-right:3px;border:solid 1px #000;z-index:3;}
 .difx{display:inline-block;height:12px;width:12px;border-radius:50%;margin-right:3px;border:solid 1px #000;}
 .did{display:none;position:absolute;top:-5px;left:27px;width:100px;height:fit-content;background:#000;border-radius:5px;color:#fff;padding:5px;font-size:14px;z-index:5;}
 .dif:hover + .did{display:block;}
