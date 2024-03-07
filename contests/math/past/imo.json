@@ -1304,6 +1304,2054 @@
           ]
         }
       ]
+    },
+    {
+      "year": 2011,
+      "no": 52,
+      "country": "オランダ アムステルダム",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2011-1",
+              "answerrate": 76.4,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2011/imo2011/problems/2011.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2011-2",
+              "answerrate": 9.34,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2011/imo2011/problems/2011.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2011-3",
+              "answerrate": 15.07,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2011/imo2011/problems/2011.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2011-4",
+              "answerrate": 58.13,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2011/imo2011/problems/2011.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2011-5",
+              "answerrate": 46.56,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2011/imo2011/problems/2011.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2011-6",
+              "answerrate": 4.54,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2011/imo2011/problems/2011.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "no": 51,
+      "country": "カザフスタン アスタナ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2010-1",
+              "answerrate": 77.86,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2010/imo2010/problems/2010.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2010-2",
+              "answerrate": 36.83,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2010/imo2010/problems/2010.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2010-3",
+              "answerrate": 6.64,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2010/imo2010/problems/2010.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2010-4",
+              "answerrate": 76.36,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2010/imo2010/problems/2010.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2010-5",
+              "answerrate": 13.31,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2010/imo2010/problems/2010.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2010-6",
+              "answerrate": 5.26,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2010/imo2010/problems/2010.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "no": 50,
+      "country": "ドイツ ブレーメン",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2009-1",
+              "answerrate": 68.63,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2009/imo2009/problems/2009.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2009-2",
+              "answerrate": 53.0,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2009/imo2009/problems/2009.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2009-3",
+              "answerrate": 14.56,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2009/imo2009/problems/2009.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2009-4",
+              "answerrate": 41.64,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2009/imo2009/problems/2009.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2009-5",
+              "answerrate": 35.34,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2009/imo2009/problems/2009.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2009-6",
+              "answerrate": 2.4,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2009/imo2009/problems/2009.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "no": 49,
+      "country": "スペイン マドリード",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2008-1",
+              "answerrate": 71.13,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2008/imo2008/problems/2008.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2008-2",
+              "answerrate": 36.61,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2008/imo2008/problems/2008.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2008-3",
+              "answerrate": 11.49,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2008/imo2008/problems/2008.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2008-4",
+              "answerrate": 62.89,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2008/imo2008/problems/2008.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2008-5",
+              "answerrate": 29.67,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2008/imo2008/problems/2008.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2008-6",
+              "answerrate": 3.71,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2008/imo2008/problems/2008.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "no": 48,
+      "country": "ベトナム ハノイ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2007-1",
+              "answerrate": 48.33,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2007/imo2007/problems/imo48.html",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2007-2",
+              "answerrate": 35.99,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2007/imo2007/problems/imo48.html",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2007-3",
+              "answerrate": 4.34,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2007/imo2007/problems/imo48.html",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2007-4",
+              "answerrate": 81.16,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2007/imo2007/problems/imo48.html",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2007-5",
+              "answerrate": 27.11,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2007/imo2007/problems/imo48.html",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2007-6",
+              "answerrate": 2.17,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2007/imo2007/problems/imo48.html",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "no": 47,
+      "country": "スロベニア リュブリャナ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2006-1",
+              "answerrate": 80.2,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2006/imo2006/problems/2006.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2006-2",
+              "answerrate": 26.19,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2006/imo2006/problems/2006.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2006-3",
+              "answerrate": 9.41,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2006/imo2006/problems/2006.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2006-4",
+              "answerrate": 71.4,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2006/imo2006/problems/2006.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2006-5",
+              "answerrate": 16.9,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2006/imo2006/problems/2006.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2006-6",
+              "answerrate": 2.67,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2006/imo2006/problems/2006.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "no": 46,
+      "country": "メキシコ メリダ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2005-1",
+              "answerrate": 37.34,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2005/imo2005/problems/imo46.html",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2005-2",
+              "answerrate": 43.59,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2005/imo2005/problems/imo46.html",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2005-3",
+              "answerrate": 13.03,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2005/imo2005/problems/imo46.html",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2005-4",
+              "answerrate": 53.69,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2005/imo2005/problems/imo46.html",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2005-5",
+              "answerrate": 31.0,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2005/imo2005/problems/imo46.html",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2005-6",
+              "answerrate": 19.21,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2005/imo2005/problems/imo46.html",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "no": 45,
+      "country": "ギリシャ アテネ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2004-1",
+              "answerrate": 65.76,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2004/imo2004/problems/imo45.html",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2004-2",
+              "answerrate": 39.44,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2004/imo2004/problems/imo45.html",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2004-3",
+              "answerrate": 14.46,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2004/imo2004/problems/imo45.html",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2004-4",
+              "answerrate": 58.29,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2004/imo2004/problems/imo45.html",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2004-5",
+              "answerrate": 35.89,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2004/imo2004/problems/imo45.html",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2004-6",
+              "answerrate": 17.96,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2004/imo2004/problems/imo45.html",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "no": 44,
+      "country": "日本 東京",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2003-1",
+              "answerrate": 50.83,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2003/imo2003/problems/imo44.html",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2003-2",
+              "answerrate": 32.91,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2003/imo2003/problems/imo44.html",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2003-3",
+              "answerrate": 5.79,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2003/imo2003/problems/imo44.html",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2003-4",
+              "answerrate": 66.17,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2003/imo2003/problems/imo44.html",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2003-5",
+              "answerrate": 23.04,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2003/imo2003/problems/imo44.html",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2003-6",
+              "answerrate": 8.26,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2003/imo2003/problems/imo44.html",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "no": 43,
+      "country": "イギリス グラスゴー",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2002-1",
+              "answerrate": 49.27,
+              "genre": "組み合わせ",
+              "link": "../problems/IMO2022.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2002-2",
+              "answerrate": 50.81,
+              "genre": "幾何",
+              "link": "../problems/IMO2022.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2002-3",
+              "answerrate": 8.44,
+              "genre": "整数",
+              "link": "../problems/IMO2022.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2002-4",
+              "answerrate": 55.66,
+              "genre": "整数",
+              "link": "../problems/IMO2022.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2002-5",
+              "answerrate": 32.39,
+              "genre": "代数",
+              "link": "../problems/IMO2022.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2002-6",
+              "answerrate": 5.84,
+              "genre": "幾何",
+              "link": "../problems/IMO2022.pdf#page=2",
+              "domestic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "no": 42,
+      "country": "アメリカ ワシントン",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2001-1",
+              "answerrate": 52.07,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2001/imo2001/problems/imo42.html",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2001-2",
+              "answerrate": 22.14,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2001/imo2001/problems/imo42.html",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2001-3",
+              "answerrate": 12.53,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2001/imo2001/problems/imo42.html",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2001-4",
+              "answerrate": 46.19,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2001/imo2001/problems/imo42.html",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2001-5",
+              "answerrate": 38.99,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2001/imo2001/problems/imo42.html",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2001-6",
+              "answerrate": 11.11,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2001/imo2001/problems/imo42.html",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "no": 41,
+      "country": "韓国 テジョン広域市",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2000-1",
+              "answerrate": 58.5,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2000/imo2000/problems/imo41.html",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2000-2",
+              "answerrate": 39.54,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2000/imo2000/problems/imo41.html",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2000-3",
+              "answerrate": 9.36,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2000/imo2000/problems/imo41.html",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2000-4",
+              "answerrate": 45.46,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2000/imo2000/problems/imo41.html",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2000-5",
+              "answerrate": 23.33,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2000/imo2000/problems/imo41.html",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2000-6",
+              "answerrate": 15.0,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2000/imo2000/problems/imo41.html",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "no": 40,
+      "country": "ルーマニア ブカレスト",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1999-1(en)",
+              "answerrate": 61.4,
+              "genre": "幾何",
+              "link": "../problems/1999_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1999-2(en)",
+              "answerrate": 23.87,
+              "genre": "代数",
+              "link": "../problems/1999_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1999-3(en)",
+              "answerrate": 22.63,
+              "genre": "組み合わせ",
+              "link": "../problems/1999_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1999-4(en)",
+              "answerrate": 40.13,
+              "genre": "整数",
+              "link": "../problems/1999_eng.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1999-5(en)",
+              "answerrate": 25.87,
+              "genre": "幾何",
+              "link": "../problems/1999_eng.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1999-6(en)",
+              "answerrate": 16.44,
+              "genre": "代数",
+              "link": "../problems/1999_eng.pdf#page=2",
+              "domestic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "no": 39,
+      "country": "台湾 台北",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1998-1",
+              "answerrate": 45.79,
+              "genre": "幾何",
+              "link": "../problems/1998_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1998-2",
+              "answerrate": 39.07,
+              "genre": "?",
+              "link": "../problems/1998_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1998-3",
+              "answerrate": 25.16,
+              "genre": "整数",
+              "link": "../problems/1998_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1998-4",
+              "answerrate": 49.47,
+              "genre": "整数",
+              "link": "../problems/1998_eng.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1998-5",
+              "answerrate": 41.87,
+              "genre": "幾何",
+              "link": "../problems/1998_eng.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1998-6",
+              "answerrate": 9.69,
+              "genre": "代数",
+              "link": "../problems/1998_eng.pdf#page=2",
+              "domestic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "no": 38,
+      "country": "アルゼンチン マル・デル・プラタ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1997-1",
+              "answerrate": 35.37,
+              "genre": "?",
+              "link": "../problems/1997_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1997-2",
+              "answerrate": 55.69,
+              "genre": "幾何",
+              "link": "../problems/1997_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1997-3",
+              "answerrate": 25.4,
+              "genre": "代数",
+              "link": "../problems/1997_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1997-4",
+              "answerrate": 53.47,
+              "genre": "組み合わせ",
+              "link": "../problems/1997_eng.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1997-5",
+              "answerrate": 47.91,
+              "genre": "整数",
+              "link": "../problems/1997_eng.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1997-6",
+              "answerrate": 11.64,
+              "genre": "組み合わせ?",
+              "link": "../problems/1997_eng.pdf#page=2",
+              "domestic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1996,
+      "no": 37,
+      "country": "インド ムンバイ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1996-1",
+              "answerrate": 45.36,
+              "genre": "組み合わせ",
+              "link": "../problems/1996_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1996-2",
+              "answerrate": 29.01,
+              "genre": "幾何",
+              "link": "../problems/1996_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1996-3",
+              "answerrate": 34.27,
+              "genre": "代数",
+              "link": "../problems/1996_eng.pdf#page=1",
+              "domestic": true
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1996-4",
+              "answerrate": 30.29,
+              "genre": "整数",
+              "link": "../problems/1996_eng.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1996-5",
+              "answerrate": 7.04,
+              "genre": "幾何",
+              "link": "../problems/1996_eng.pdf#page=2",
+              "domestic": true
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1996-6",
+              "answerrate": 32.04,
+              "genre": "組み合わせ",
+              "link": "../problems/1996_eng.pdf#page=2",
+              "domestic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "no": 36,
+      "country": "カナダ トロント",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1995-1",
+              "answerrate": 72.23,
+              "genre": "幾何",
+              "link": "../problems/1995_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1995-2",
+              "answerrate": 24.41,
+              "genre": "代数",
+              "link": "../problems/1995_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1995-3",
+              "answerrate": 44.66,
+              "genre": "?",
+              "link": "../problems/1995_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1995-4",
+              "answerrate": 65.6,
+              "genre": "代数",
+              "link": "../problems/1995_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1995-5",
+              "answerrate": 48.71,
+              "genre": "幾何",
+              "link": "../problems/1995_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1995-6",
+              "answerrate": 15.11,
+              "genre": "整数",
+              "link": "../problems/1995_eng.pdf",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "no": 35,
+      "country": "香港",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1994-1",
+              "answerrate": 36.59,
+              "genre": "整数",
+              "link": "../problems/1994_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1994-2",
+              "answerrate": 71.47,
+              "genre": "幾何",
+              "link": "../problems/1994_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1994-3",
+              "answerrate": 56.17,
+              "genre": "?",
+              "link": "../problems/1994_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1994-4",
+              "answerrate": 47.76,
+              "genre": "整数",
+              "link": "../problems/1994_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1994-5",
+              "answerrate": 46.01,
+              "genre": "代数",
+              "link": "../problems/1994_eng.pdf",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1994-6",
+              "answerrate": 29.87,
+              "genre": "?",
+              "link": "../problems/1994_eng.pdf",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "no": 34,
+      "country": "トルコ イスタンブル",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1993-1",
+              "answerrate": 28.96,
+              "genre": "代数",
+              "link": "../problems/1993_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1993-2",
+              "answerrate": 27.6,
+              "genre": "幾何",
+              "link": "../problems/1993_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1993-3",
+              "answerrate": 16.16,
+              "genre": "組み合わせ",
+              "link": "../problems/1993_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1993-4",
+              "answerrate": 32.9,
+              "genre": "幾何",
+              "link": "../problems/1993_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1993-5",
+              "answerrate": 48.33,
+              "genre": "?",
+              "link": "../problems/1993_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1993-6",
+              "answerrate": 25.94,
+              "genre": "整数",
+              "link": "../problems/1993_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "no": 33,
+      "country": "ロシア モスクワ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1992-1",
+              "answerrate": 52.13,
+              "genre": "整数",
+              "link": "../problems/1992_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1992-2",
+              "answerrate": 42.33,
+              "genre": "代数",
+              "link": "../problems/1992_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1992-3",
+              "answerrate": 27.19,
+              "genre": "組み合わせ",
+              "link": "../problems/1992_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1992-4",
+              "answerrate": 50.0,
+              "genre": "幾何",
+              "link": "../problems/1992_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1992-5",
+              "answerrate": 10.81,
+              "genre": "?",
+              "link": "../problems/1992_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1992-6",
+              "answerrate": 32.2,
+              "genre": "整数",
+              "link": "../problems/1992_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1991,
+      "no": 32,
+      "country": "スウェーデン シグトゥーナ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1991-1",
+              "answerrate": 54.26,
+              "genre": "幾何",
+              "link": "../problems/1991_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1991-2",
+              "answerrate": 60.3,
+              "genre": "整数",
+              "link": "../problems/1991_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1991-3",
+              "answerrate": 36.54,
+              "genre": "組み合わせ",
+              "link": "../problems/1991_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1991-4",
+              "answerrate": 44.69,
+              "genre": "?",
+              "link": "../problems/1991_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1991-5",
+              "answerrate": 54.3,
+              "genre": "幾何",
+              "link": "../problems/1991_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1991-6",
+              "answerrate": 25.83,
+              "genre": "代数",
+              "link": "../problems/1991_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "no": 31,
+      "country": "中国 北京",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1990-1",
+              "answerrate": 41.1,
+              "genre": "幾何",
+              "link": "../problems/1990_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1990-2",
+              "answerrate": 50.6,
+              "genre": "組み合わせ",
+              "link": "../problems/1990_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1990-3",
+              "answerrate": 29.87,
+              "genre": "整数",
+              "link": "../problems/1990_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1990-4",
+              "answerrate": 42.21,
+              "genre": "代数",
+              "link": "../problems/1990_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1990-5",
+              "answerrate": 59.93,
+              "genre": "?",
+              "link": "../problems/1990_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1990-6",
+              "answerrate": 21.47,
+              "genre": "?",
+              "link": "../problems/1990_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1989,
+      "no": 30,
+      "country": "ドイツ ブラウンシュヴァイク",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1989-1",
+              "answerrate": 43.4,
+              "genre": "整数",
+              "link": "../problems/1989_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1989-2",
+              "answerrate": 60.39,
+              "genre": "幾何",
+              "link": "../problems/1989_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1989-3",
+              "answerrate": 19.1,
+              "genre": "?",
+              "link": "../problems/1989_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1989-4",
+              "answerrate": 57.0,
+              "genre": "幾何",
+              "link": "../problems/1989_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1989-5",
+              "answerrate": 54.4,
+              "genre": "整数",
+              "link": "../problems/1989_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1989-6",
+              "answerrate": 36.09,
+              "genre": "組み合わせ",
+              "link": "../problems/1989_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1988,
+      "no": 29,
+      "country": "オーストラリア キャンベラ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1988-1",
+              "answerrate": 56.4,
+              "genre": "幾何",
+              "link": "../problems/1988_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1988-2",
+              "answerrate": 46.11,
+              "genre": "整数",
+              "link": "../problems/1988_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1988-3",
+              "answerrate": 24.73,
+              "genre": "整数",
+              "link": "../problems/1988_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1988-4",
+              "answerrate": 33.31,
+              "genre": "代数",
+              "link": "../problems/1988_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1988-5",
+              "answerrate": 47.44,
+              "genre": "幾何",
+              "link": "../problems/1988_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1988-6",
+              "answerrate": 9.06,
+              "genre": "整数",
+              "link": "../problems/1988_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1987,
+      "no": 28,
+      "country": "キューバ ハバナ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1987-1",
+              "answerrate": 49.49,
+              "genre": "?",
+              "link": "../problems/1987_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1987-2",
+              "answerrate": 67.21,
+              "genre": "幾何",
+              "link": "../problems/1987_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1987-3",
+              "answerrate": 30.8,
+              "genre": "代数",
+              "link": "../problems/1987_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1987-4",
+              "answerrate": 50.33,
+              "genre": "整数",
+              "link": "../problems/1987_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1987-5",
+              "answerrate": 60.7,
+              "genre": "組み合わせ",
+              "link": "../problems/1987_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1987-6",
+              "answerrate": 26.1,
+              "genre": "整数",
+              "link": "../problems/1987_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1986,
+      "no": 27,
+      "country": "ポーランド ワルシャワ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1986-1",
+              "answerrate": 54.76,
+              "genre": "整数",
+              "link": "../problems/1986_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1986-2",
+              "answerrate": 57.89,
+              "genre": "幾何",
+              "link": "../problems/1986_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1986-3",
+              "answerrate": 12.44,
+              "genre": "?",
+              "link": "../problems/1986_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1986-4",
+              "answerrate": 46.87,
+              "genre": "幾何",
+              "link": "../problems/1986_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1986-5",
+              "answerrate": 59.31,
+              "genre": "代数",
+              "link": "../problems/1986_eng.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1986-6",
+              "answerrate": 27.83,
+              "genre": "?",
+              "link": "../problems/1986_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1985,
+      "no": 26,
+      "country": "フィンランド ヨーツァ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1985-1",
+              "answerrate": 58.37,
+              "genre": "幾何",
+              "link": "../problems/1985_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1985-2",
+              "answerrate": 53.46,
+              "genre": "組み合わせ",
+              "link": "../problems/1985_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1985-3",
+              "answerrate": 11.21,
+              "genre": "代数",
+              "link": "../problems/1985_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1985-4",
+              "answerrate": 34.44,
+              "genre": "整数",
+              "link": "../problems/1985_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1985-5",
+              "answerrate": 26.39,
+              "genre": "幾何",
+              "link": "../problems/1985_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1985-6",
+              "answerrate": 28.84,
+              "genre": "代数",
+              "link": "../problems/1985_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1984,
+      "no": 25,
+      "country": "旧チェコスロバキア プラハ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1984-1",
+              "answerrate": 65.1,
+              "genre": "代数",
+              "link": "../problems/1984_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1984-2",
+              "answerrate": 45.91,
+              "genre": "整数",
+              "link": "../problems/1984_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1984-3",
+              "answerrate": 22.61,
+              "genre": "幾何",
+              "link": "../problems/1984_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1984-4",
+              "answerrate": 63.61,
+              "genre": "幾何",
+              "link": "../problems/1984_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1984-5",
+              "answerrate": 36.16,
+              "genre": "?",
+              "link": "../problems/1984_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1984-6",
+              "answerrate": 20.99,
+              "genre": "整数",
+              "link": "../problems/1984_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1983,
+      "no": 24,
+      "country": "フランス パリ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1983-1",
+              "answerrate": 51.07,
+              "genre": "代数",
+              "link": "../problems/1983_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1983-2",
+              "answerrate": 40.71,
+              "genre": "幾何",
+              "link": "../problems/1983_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1983-3",
+              "answerrate": 51.07,
+              "genre": "整数",
+              "link": "../problems/1983_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1983-4",
+              "answerrate": 57.86,
+              "genre": "幾何",
+              "link": "../problems/1983_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1983-5",
+              "answerrate": 30.71,
+              "genre": "整数",
+              "link": "../problems/1983_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1983-6",
+              "answerrate": 30.36,
+              "genre": "組み合わせ",
+              "link": "../problems/1983_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1982,
+      "no": 23,
+      "country": "ハンガリー ブダペスト",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1982-1",
+              "answerrate": 65.9,
+              "genre": "代数",
+              "link": "../problems/1982_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1982-2",
+              "answerrate": 18.49,
+              "genre": "幾何",
+              "link": "../problems/1982_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1982-3",
+              "answerrate": 43.46,
+              "genre": "代数",
+              "link": "../problems/1982_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1982-4",
+              "answerrate": 54.03,
+              "genre": "整数",
+              "link": "../problems/1982_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1982-5",
+              "answerrate": 78.63,
+              "genre": "幾何",
+              "link": "../problems/1982_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1982-6",
+              "answerrate": 36.5,
+              "genre": "?",
+              "link": "../problems/1982_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1981,
+      "no": 22,
+      "country": "アメリカ ワシントン",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1981-1",
+              "answerrate": 78.43,
+              "genre": "幾何",
+              "link": "../problems/1981_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1981-2",
+              "answerrate": 89.64,
+              "genre": "代数",
+              "link": "../problems/1981_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1981-3",
+              "answerrate": 74.51,
+              "genre": "整数",
+              "link": "../problems/1981_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1981-4",
+              "answerrate": 89.64,
+              "genre": "整数",
+              "link": "../problems/1981_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1981-5",
+              "answerrate": 89.64,
+              "genre": "幾何",
+              "link": "../problems/1981_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1981-6",
+              "answerrate": 93.0,
+              "genre": "代数",
+              "link": "../problems/1981_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1979,
+      "no": 21,
+      "country": "イギリス ロンドン",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1980-1",
+              "answerrate": 27.52,
+              "genre": "整数",
+              "link": "../problems/1979_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1980-2",
+              "answerrate": 44.06,
+              "genre": "組み合わせ",
+              "link": "../problems/1979_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1980-3",
+              "answerrate": 54.39,
+              "genre": "幾何",
+              "link": "../problems/1979_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1980-4",
+              "answerrate": 72.48,
+              "genre": "幾何",
+              "link": "../problems/1979_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1980-5",
+              "answerrate": 44.67,
+              "genre": "代数",
+              "link": "../problems/1979_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1980-6",
+              "answerrate": 53.53,
+              "genre": "?",
+              "link": "../problems/1979_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
