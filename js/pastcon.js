@@ -1,8 +1,12 @@
 var data;
 var contest;
+var arg = {x:0,y:0};
 
 window.addEventListener('DOMContentLoaded', function() {
-  contest = document.getElementById('arg').innerText;
+  var args = document.getElementById('arg').innerText.split(' ');
+  contest = args[0];
+  arg.x = parseInt(args[1]);
+  arg.y = parseFloat(args[2]);
 
   function load_file() {
     const promise = new Promise((resolve, reject) => {
@@ -52,7 +56,11 @@ function load(index){
       });
     });
 
-    for (var i of pname) {
+    var parray = [];
+    for (var i of pname) parray.push(i);
+    parray.sort((a,b) => parseInt(a) - parseInt(b));
+
+    for (var i of parray) {
       value += `<th class="aw10">${i}</th>`;
     }
     value += `</tr></thead><tbody>`;
@@ -65,14 +73,15 @@ function load(index){
       item['problemset'].forEach((problemset) => {
         if (problemset.setname == set) {
           var cnt = 0;
-          for (var i of pname) {
+          for (var i of parray) {
             var trig = false;
             for (var j = cnt; j < problemset['problem'].length; j++) {
               var problem = problemset['problem'][j];
               if (i == problem.problemid) {
                 cnt = j + 1;
                 trig = true;
-                value += `<td>${problem.difficulty > 0 ? `<span class="dif" style="` + (problem.difficulty < 2700 ? `border-color:#${color[Math.floor(problem.difficulty / 300)]};background:linear-gradient(to top,#${color[Math.floor(problem.difficulty / 300)]} ${problem.difficulty % 300 / 3}%,#0000 ${problem.difficulty % 300 / 3}%) border-box border-box;` : metal[Math.floor((problem.difficulty - 2700) / 300)]) + `"></span><span class="did">Difficulty : ${problem.difficulty}<br>Mean : ${problem.answerrate}%</span>` : ''}<a href="${problem.link}"${problem.domestic ? '' : `target="_blank" rel="noopener noreferrer"`}></a><span class="atx" style="color:#${problem.difficulty == 0 ? '000;' : color[Math.floor(Math.min(2699, problem.difficulty) / 300)] + ';padding-left:20px;'}">${problem.problemname}</span><span class="rat">${problem.genre}</span></td>`;
+                difficulty = diff(problem.answerrate);
+                value += `<td>${difficulty > 0 ? `<span class="dif" style="` + (difficulty < 2700 ? `border-color:#${color[Math.floor(difficulty / 300)]};background:linear-gradient(to top,#${color[Math.floor(difficulty / 300)]} ${difficulty % 300 / 3}%,#0000 ${difficulty % 300 / 3}%) border-box border-box;` : metal[Math.floor((difficulty - 2700) / 300)]) + `"><span style="color:#${difficulty <= 0 ? '000' : color[Math.floor(Math.min(2699, difficulty) / 300)]};">${difficulty > 0 ? difficulty : ''}</span></span><span class="did">Difficulty : ${difficulty}<br>Mean : ${problem.answerrate}%</span>` : ''}<a href="${problem.link}"${problem.domestic ? '' : `target="_blank" rel="noopener noreferrer"`}></a><span class="atx" style="color:#${difficulty <= 0 ? '000;' : color[Math.floor(Math.min(2699, difficulty) / 300)] + ';padding-left:20px;'}">${problem.problemname}</span><span class="rat">${problem.genre}</span></td>`;
                 break;
               }
             }
@@ -98,11 +107,12 @@ function search(){
   data['item'].forEach((item) => {
     item['problemset'].forEach((problemset) => {
       problemset['problem'].forEach((problem) => {
-        if (problem.difficulty <= 0) return;
+        difficulty = diff(problem.answerrate);
+        if (difficulty <= 0) return;
         pset.push({
           pname:problem.problemname,
           contest:`${contest}${item.year} (#${item.no})`,
-          difficulty:problem.difficulty,
+          difficulty:difficulty,
           ansrate:problem.answerrate,
           setname:problemset.setname,
           link:problem.link,
@@ -124,9 +134,14 @@ function search(){
   var metal2 = [`,linear-gradient(to top,#965c3880,#ffdac180,#965c3880);border-color:#965c3880;`,`,linear-gradient(to top,#80808080,#ffffff80,#80808080);border-color:#80808080;`,`,linear-gradient(to top,#ffd70080,#ffffff80,#ffd70080);border-color:#ffd70080;`];
 
   pset.forEach((item) => {
-    value += `<tr><td>${item.difficulty > 0 ? `<span class="dif" style="` + (item.difficulty < 2700 ? `border-color:#${color[Math.floor(item.difficulty / 300)]};background:linear-gradient(to top,#${color[Math.floor(item.difficulty / 300)]} ${item.difficulty % 300 / 3}%,#0000 ${item.difficulty % 300 / 3}%) border-box border-box;` : metal[Math.floor((item.difficulty - 2700) / 300)]) + `"></span><span class="did">Difficulty : ${item.difficulty}<br>Mean : ${item.ansrate}%</span>` : ''}<a href="${item.link}"${item.domestic ? '' : `target="_blank" rel="noopener noreferrer"`}></a><span class="atx" style="color:#${item.difficulty == 0 ? '000;' : color[Math.floor(Math.min(2699, item.difficulty) / 300)] + ';padding-left:20px;'}">${item.pname}</span></td><td>${item.contest}</td><td>${item.setname}</td><td>${item.genre}</td><td style="font-weight:600;` + (item.difficulty < 2700 ? `border-color:#${color[Math.floor(item.difficulty / 300)]};background:linear-gradient(to right,#${color[Math.floor(item.difficulty / 300)]}80 ${item.difficulty % 300 / 3}%,#0000 ${item.difficulty % 300 / 3}%) border-box border-box` : `background-image:linear-gradient(to right,#0000 ${item.difficulty % 300 / 3}%,#ffff ${item.difficulty % 300 / 3}%)` + metal2[Math.floor((item.difficulty - 2700) / 300)]) + `;">${item.difficulty}</td><td>${item.ansrate}%</td></tr>`;
+    value += `<tr><td>${item.difficulty > 0 ? `<p class="dif" style="` + (item.difficulty < 2700 ? `border-color:#${color[Math.floor(item.difficulty / 300)]};background:linear-gradient(to top,#${color[Math.floor(item.difficulty / 300)]} ${item.difficulty % 300 / 3}%,#0000 ${item.difficulty % 300 / 3}%) border-box border-box;` : metal[Math.floor((item.difficulty - 2700) / 300)]) + `"><span style="color:#${item.difficulty == 0 ? '000' : color[Math.floor(Math.min(2699, item.difficulty) / 300)]};">${item.difficulty}</span></p><span class="did">Difficulty : ${item.difficulty}<br>Mean : ${item.ansrate}%</span>` : ''}<a href="${item.link}"${item.domestic ? '' : `target="_blank" rel="noopener noreferrer"`}></a><span class="atx" style="color:#${item.difficulty == 0 ? '000;' : color[Math.floor(Math.min(2699, item.difficulty) / 300)] + ';padding-left:20px;'}">${item.pname}</span></td><td>${item.contest}</td><td>${item.setname}</td><td>${item.genre}</td><td style="font-weight:600;` + (item.difficulty < 2700 ? `border-color:#${color[Math.floor(item.difficulty / 300)]};background:linear-gradient(to right,#${color[Math.floor(item.difficulty / 300)]}80 ${item.difficulty % 300 / 3}%,#0000 ${item.difficulty % 300 / 3}%) border-box border-box` : `background-image:linear-gradient(to right,#0000 ${Math.min(3599, item.difficulty) % 300 / 3}%,#ffff ${Math.min(3599, item.difficulty) % 300 / 3}%)` + metal2[Math.floor((item.difficulty - 2700) / 300)]) + `;">${item.difficulty}</td><td>${item.ansrate}%</td></tr>`;
   });
   value += `</tbody></table>`;
 
   contest_item_container.innerHTML = value;
+}
+
+function diff(rate){
+  if (rate < 0 || rate > 100) return 0;
+  else return Math.floor((arg.x - 1) * Math.pow(1 - rate * 0.01, arg.y) + 1);
 }

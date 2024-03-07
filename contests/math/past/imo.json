@@ -3,7 +3,7 @@
     {
       "year": 2023,
       "no": 64,
-      "country": "日本",
+      "country": "日本 千葉",
       "online": false,
       "link": "https://imo2023.jp/ja/",
       "info": "",
@@ -15,7 +15,6 @@
             {
               "problemid": "1",
               "problemname": "IMO2023-1",
-              "difficulty": 433,
               "answerrate": 83.5,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2023/imo2023/problems/2023.pdf#page=1",
@@ -24,7 +23,6 @@
             {
               "problemid": "2",
               "problemname": "IMO2023-2",
-              "difficulty": 1909,
               "answerrate": 45.17,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2023/imo2023/problems/2023.pdf#page=1",
@@ -33,7 +31,6 @@
             {
               "problemid": "3",
               "problemname": "IMO2023-3",
-              "difficulty": 2850,
               "answerrate": 17.94,
               "genre": "代数",
               "link": "https://www.imojp.org/archive/mo2023/imo2023/problems/2023.pdf#page=1",
@@ -42,7 +39,6 @@
             {
               "problemid": "4",
               "problemname": "IMO2023-4",
-              "difficulty": 996,
               "answerrate": 67.39,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2023/imo2023/problems/2023.pdf#page=2",
@@ -51,7 +47,6 @@
             {
               "problemid": "5",
               "problemname": "IMO2023-5",
-              "difficulty": 2291,
               "answerrate": 34.53,
               "genre": "組み合わせ",
               "link": "https://www.imojp.org/archive/mo2023/imo2023/problems/2023.pdf#page=2",
@@ -60,20 +55,24 @@
             {
               "problemid": "6",
               "problemname": "IMO2023-6",
-              "difficulty": 3302,
               "answerrate": 3.93,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2023/imo2023/problems/2023.pdf#page=2",
               "domestic": false
             }
           ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
         }
       ]
     },
     {
       "year": 2022,
       "no": 63,
-      "country": "ノルウェー",
+      "country": "ノルウェー オスロ",
       "online": false,
       "link": "https://www.imo2022.org/",
       "info": "",
@@ -85,7 +84,6 @@
             {
               "problemid": "1",
               "problemname": "IMO2022-1",
-              "difficulty": 581,
               "answerrate": 79.14,
               "genre": "組み合わせ",
               "link": "https://www.imojp.org/archive/mo2022/imo2022/problems/2022.pdf#page=1",
@@ -94,7 +92,6 @@
             {
               "problemid": "2",
               "problemname": "IMO2022-2",
-              "difficulty": 1217,
               "answerrate": 61.51,
               "genre": "代数",
               "link": "https://www.imojp.org/archive/mo2022/imo2022/problems/2022.pdf#page=1",
@@ -103,7 +100,6 @@
             {
               "problemid": "3",
               "problemname": "IMO2022-3",
-              "difficulty": 3058,
               "answerrate": 11.54,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2022/imo2022/problems/2022.pdf#page=1",
@@ -112,7 +108,6 @@
             {
               "problemid": "4",
               "problemname": "IMO2022-4",
-              "difficulty": 617,
               "answerrate": 78.1,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2022/imo2022/problems/2022.pdf#page=2",
@@ -121,7 +116,6 @@
             {
               "problemid": "5",
               "problemname": "IMO2022-5",
-              "difficulty": 1711,
               "answerrate": 50.29,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2022/imo2022/problems/2022.pdf#page=2",
@@ -130,10 +124,279 @@
             {
               "problemid": "6",
               "problemname": "IMO2022-6",
-              "difficulty": 3116,
               "answerrate": 9.76,
               "genre": "組み合わせ",
               "link": "https://www.imojp.org/archive/mo2022/imo2022/problems/2022.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": [
+            {
+              "problemid": "A1",
+              "problemname": "IMO2022SL-A1(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A2",
+              "problemname": "IMO2022SL-A2(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A3",
+              "problemname": "IMO2022SL-A3(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A4",
+              "problemname": "IMO2022SL-A4(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A5",
+              "problemname": "IMO2022SL-A5(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A6",
+              "problemname": "IMO2022SL-A6(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A7",
+              "problemname": "IMO2022SL-A7(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A8",
+              "problemname": "IMO2022SL-A8(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "C1",
+              "problemname": "IMO2022SL-C1(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C2",
+              "problemname": "IMO2022SL-C2(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C3",
+              "problemname": "IMO2022SL-C3(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C4",
+              "problemname": "IMO2022SL-C4(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C5",
+              "problemname": "IMO2022SL-C5(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=7",
+              "domestic": false
+            },
+            {
+              "problemid": "C6",
+              "problemname": "IMO2022SL-C6(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=7",
+              "domestic": false
+            },
+            {
+              "problemid": "C7",
+              "problemname": "IMO2022SL-C7(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=7",
+              "domestic": false
+            },
+            {
+              "problemid": "C8",
+              "problemname": "IMO2022SL-C8(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=7",
+              "domestic": false
+            },
+            {
+              "problemid": "C9",
+              "problemname": "IMO2022SL-C9(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=7",
+              "domestic": false
+            },
+            {
+              "problemid": "G1",
+              "problemname": "IMO2022SL-G1(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G2",
+              "problemname": "IMO2022SL-G2(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G3",
+              "problemname": "IMO2022SL-G3(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G4",
+              "problemname": "IMO2022SL-G4(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G5",
+              "problemname": "IMO2022SL-G5(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G6",
+              "problemname": "IMO2022SL-G6(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G7",
+              "problemname": "IMO2022SL-G7(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G8",
+              "problemname": "IMO2022SL-G8(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "N1",
+              "problemname": "IMO2022SL-N1(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=9",
+              "domestic": false
+            },
+            {
+              "problemid": "N2",
+              "problemname": "IMO2022SL-N2(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=9",
+              "domestic": false
+            },
+            {
+              "problemid": "N3",
+              "problemname": "IMO2022SL-N3(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=9",
+              "domestic": false
+            },
+            {
+              "problemid": "N4",
+              "problemname": "IMO2022SL-N4(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=9",
+              "domestic": false
+            },
+            {
+              "problemid": "N5",
+              "problemname": "IMO2022SL-N5(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=9",
+              "domestic": false
+            },
+            {
+              "problemid": "N6",
+              "problemname": "IMO2022SL-N6(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=9",
+              "domestic": false
+            },
+            {
+              "problemid": "N7",
+              "problemname": "IMO2022SL-N7(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=9",
+              "domestic": false
+            },
+            {
+              "problemid": "N8",
+              "problemname": "IMO2022SL-N8(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2022SL.pdf#page=9",
               "domestic": false
             }
           ]
@@ -143,7 +406,7 @@
     {
       "year": 2021,
       "no": 62,
-      "country": "ロシア",
+      "country": "ロシア サンクトペテルブルク",
       "online": true,
       "link": "",
       "info": "別のサイトにリダイレクトされるため掲載していない",
@@ -155,7 +418,6 @@
             {
               "problemid": "1",
               "problemname": "IMO2021-1",
-              "difficulty": 1168,
               "answerrate": 62.77,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2021/imo2021/problems/2021.pdf#page=1",
@@ -164,7 +426,6 @@
             {
               "problemid": "2",
               "problemname": "IMO2021-2",
-              "difficulty": 3257,
               "answerrate": 5.36,
               "genre": "代数",
               "link": "https://www.imojp.org/archive/mo2021/imo2021/problems/2021.pdf#page=1",
@@ -173,7 +434,6 @@
             {
               "problemid": "3",
               "problemname": "IMO2021-3",
-              "difficulty": 3258,
               "answerrate": 5.31,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2021/imo2021/problems/2021.pdf#page=1",
@@ -182,7 +442,6 @@
             {
               "problemid": "4",
               "problemname": "IMO2021-4",
-              "difficulty": 1526,
               "answerrate": 54.53,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2021/imo2021/problems/2021.pdf#page=2",
@@ -191,7 +450,6 @@
             {
               "problemid": "5",
               "problemname": "IMO2021-5",
-              "difficulty": 2422,
               "answerrate": 30.74,
               "genre": "組み合わせ",
               "link": "https://www.imojp.org/archive/mo2021/imo2021/problems/2021.pdf#page=2",
@@ -200,10 +458,271 @@
             {
               "problemid": "6",
               "problemname": "IMO2021-6",
-              "difficulty": 3208,
               "answerrate": 6.87,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2021/imo2021/problems/2021.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": [
+            {
+              "problemid": "A1",
+              "problemname": "IMO2021SL-A1(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A2",
+              "problemname": "IMO2021SL-A2(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A3",
+              "problemname": "IMO2021SL-A3(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A4",
+              "problemname": "IMO2021SL-A4(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A5",
+              "problemname": "IMO2021SL-A5(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A6",
+              "problemname": "IMO2021SL-A6(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A7",
+              "problemname": "IMO2021SL-A7(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "A8",
+              "problemname": "IMO2021SL-A8(en)",
+              "answerrate": 9999,
+              "genre": "代数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=5",
+              "domestic": false
+            },
+            {
+              "problemid": "C1",
+              "problemname": "IMO2021SL-C1(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C2",
+              "problemname": "IMO2021SL-C2(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C3",
+              "problemname": "IMO2021SL-C3(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C4",
+              "problemname": "IMO2021SL-C4(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C5",
+              "problemname": "IMO2021SL-C5(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C6",
+              "problemname": "IMO2021SL-C6(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=6",
+              "domestic": false
+            },
+            {
+              "problemid": "C7",
+              "problemname": "IMO2021SL-C7(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=7",
+              "domestic": false
+            },
+            {
+              "problemid": "C8",
+              "problemname": "IMO2021SL-C8(en)",
+              "answerrate": 9999,
+              "genre": "組み合わせ",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=7",
+              "domestic": false
+            },
+            {
+              "problemid": "G1",
+              "problemname": "IMO2021SL-G1(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G2",
+              "problemname": "IMO2021SL-G2(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G3",
+              "problemname": "IMO2021SL-G3(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G4",
+              "problemname": "IMO2021SL-G4(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G5",
+              "problemname": "IMO2021SL-G5(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G6",
+              "problemname": "IMO2021SL-G6(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=8",
+              "domestic": false
+            },
+            {
+              "problemid": "G7",
+              "problemname": "IMO2021SL-G7(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=9",
+              "domestic": false
+            },
+            {
+              "problemid": "G8",
+              "problemname": "IMO2021SL-G8(en)",
+              "answerrate": 9999,
+              "genre": "幾何",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=9",
+              "domestic": false
+            },
+            {
+              "problemid": "N1",
+              "problemname": "IMO2021SL-N1(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=10",
+              "domestic": false
+            },
+            {
+              "problemid": "N2",
+              "problemname": "IMO2021SL-N2(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=10",
+              "domestic": false
+            },
+            {
+              "problemid": "N3",
+              "problemname": "IMO2021SL-N3(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=10",
+              "domestic": false
+            },
+            {
+              "problemid": "N4",
+              "problemname": "IMO2021SL-N4(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=10",
+              "domestic": false
+            },
+            {
+              "problemid": "N5",
+              "problemname": "IMO2021SL-N5(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=10",
+              "domestic": false
+            },
+            {
+              "problemid": "N6",
+              "problemname": "IMO2021SL-N6(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=10",
+              "domestic": false
+            },
+            {
+              "problemid": "N7",
+              "problemname": "IMO2021SL-N7(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=10",
+              "domestic": false
+            },
+            {
+              "problemid": "N8",
+              "problemname": "IMO2021SL-N8(en)",
+              "answerrate": 9999,
+              "genre": "整数",
+              "link": "https://www.imo-official.org/problems/IMO2021SL.pdf#page=10",
               "domestic": false
             }
           ]
@@ -213,7 +732,7 @@
     {
       "year": 2020,
       "no": 61,
-      "country": "ロシア",
+      "country": "ロシア サンクトペテルブルク",
       "online": true,
       "link": "https://imo2020.ru/",
       "info": "",
@@ -225,7 +744,6 @@
             {
               "problemid": "1",
               "problemname": "IMO2020-1",
-              "difficulty": 693,
               "answerrate": 75.9,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2020/imo2020/problems/2020.pdf#page=1",
@@ -234,7 +752,6 @@
             {
               "problemid": "2",
               "problemname": "IMO2020-2",
-              "difficulty": 2375,
               "answerrate": 32.11,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2020/imo2020/problems/2020.pdf#page=1",
@@ -243,7 +760,6 @@
             {
               "problemid": "3",
               "problemname": "IMO2020-3",
-              "difficulty": 2997,
               "answerrate": 13.43,
               "genre": "組み合わせ",
               "link": "https://www.imojp.org/archive/mo2020/imo2020/problems/2020.pdf#page=1",
@@ -252,7 +768,6 @@
             {
               "problemid": "4",
               "problemname": "IMO2020-4",
-              "difficulty": 1435,
               "answerrate": 56.26,
               "genre": "組み合わせ",
               "link": "https://www.imojp.org/archive/mo2020/imo2020/problems/2020.pdf#page=2",
@@ -261,7 +776,6 @@
             {
               "problemid": "5",
               "problemname": "IMO2020-5",
-              "difficulty": 2099,
               "answerrate": 39.96,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2020/imo2020/problems/2020.pdf#page=2",
@@ -270,7 +784,6 @@
             {
               "problemid": "6",
               "problemname": "IMO2020-6",
-              "difficulty": 3299,
               "answerrate": 4.03,
               "genre": "代数",
               "link": "https://www.imojp.org/archive/mo2020/imo2020/problems/2020.pdf#page=2",
@@ -283,7 +796,7 @@
     {
       "year": 2019,
       "no": 60,
-      "country": "イギリス",
+      "country": "イギリス バース",
       "online": false,
       "link": "https://www.imo2019.uk/",
       "info": "",
@@ -295,7 +808,6 @@
             {
               "problemid": "1",
               "problemname": "IMO2019-1",
-              "difficulty": 760,
               "answerrate": 73.99,
               "genre": "代数",
               "link": "https://www.imojp.org/archive/mo2019/imo2019/problems/2019.pdf#page=1",
@@ -304,7 +816,6 @@
             {
               "problemid": "2",
               "problemname": "IMO2019-2",
-              "difficulty": 2300,
               "answerrate": 34.27,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2019/imo2019/problems/2019.pdf#page=1",
@@ -313,7 +824,6 @@
             {
               "problemid": "3",
               "problemname": "IMO2019-3",
-              "difficulty": 3167,
               "answerrate": 8.17,
               "genre": "組み合わせ",
               "link": "https://www.imojp.org/archive/mo2019/imo2019/problems/2019.pdf#page=1",
@@ -322,7 +832,6 @@
             {
               "problemid": "4",
               "problemname": "IMO2019-4",
-              "difficulty": 1792,
               "answerrate": 48.23,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2019/imo2019/problems/2019.pdf#page=2",
@@ -331,7 +840,6 @@
             {
               "problemid": "5",
               "problemname": "IMO2019-5",
-              "difficulty": 1683,
               "answerrate": 50.96,
               "genre": "組み合わせ",
               "link": "https://www.imojp.org/archive/mo2019/imo2019/problems/2019.pdf#page=2",
@@ -340,7 +848,6 @@
             {
               "problemid": "6",
               "problemname": "IMO2019-6",
-              "difficulty": 3244,
               "answerrate": 5.76,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2019/imo2019/problems/2019.pdf#page=2",
@@ -353,7 +860,7 @@
     {
       "year": 2018,
       "no": 59,
-      "country": "ルーマニア",
+      "country": "ルーマニア クルジュ=ナポカ",
       "online": false,
       "link": "",
       "info": "別のサイトにリダイレクトされるため掲載していない",
@@ -365,7 +872,6 @@
             {
               "problemid": "1",
               "problemname": "IMO2018-1",
-              "difficulty": 884,
               "answerrate": 70.49,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2018/imo2018/problems/2018.pdf#page=1",
@@ -374,7 +880,6 @@
             {
               "problemid": "2",
               "problemname": "IMO2018-2",
-              "difficulty": 2022,
               "answerrate": 42.09,
               "genre": "代数",
               "link": "https://www.imojp.org/archive/mo2018/imo2018/problems/2018.pdf#page=1",
@@ -383,7 +888,6 @@
             {
               "problemid": "3",
               "problemname": "IMO2018-3",
-              "difficulty": 3301,
               "answerrate": 3.97,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2018/imo2018/problems/2018.pdf#page=1",
@@ -392,16 +896,14 @@
             {
               "problemid": "4",
               "problemname": "IMO2018-4",
-              "difficulty": 1420,
               "answerrate": 56.59,
-              "genre": "組み合わせ?",
+              "genre": "?",
               "link": "https://www.imojp.org/archive/mo2018/imo2018/problems/2018.pdf#page=2",
               "domestic": false
             },
             {
               "problemid": "5",
               "problemname": "IMO2018-5",
-              "difficulty": 2152,
               "answerrate": 38.5,
               "genre": "整数",
               "link": "https://www.imojp.org/archive/mo2018/imo2018/problems/2018.pdf#page=2",
@@ -410,10 +912,393 @@
             {
               "problemid": "6",
               "problemname": "IMO2018-6",
-              "difficulty": 3136,
               "answerrate": 9.11,
               "genre": "幾何",
               "link": "https://www.imojp.org/archive/mo2018/imo2018/problems/2018.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "no": 58,
+      "country": "ブラジル リオデジャネイロ",
+      "online": false,
+      "link": "https://impa.br/acervo/imo2017/",
+      "info": "",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2017-1",
+              "answerrate": 84.9,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2017/imo2017/problems/2017.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2017-2",
+              "answerrate": 32.91,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2017/imo2017/problems/2017.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2017-3",
+              "answerrate": 0.6,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2017/imo2017/problems/2017.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2017-4",
+              "answerrate": 71.84,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2017/imo2017/problems/2017.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2017-5",
+              "answerrate": 13.84,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2017/imo2017/problems/2017.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2017-6",
+              "answerrate": 4.2,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2017/imo2017/problems/2017.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "no": 57,
+      "country": "香港",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2016-1",
+              "answerrate": 75.31,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2016/imo2016/problems/2016.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2016-2",
+              "answerrate": 29.04,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2016/imo2016/problems/2016.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2016-3",
+              "answerrate": 3.59,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2016/imo2016/problems/2016.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2016-4",
+              "answerrate": 67.77,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2016/imo2016/problems/2016.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2016-5",
+              "answerrate": 23.97,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2016/imo2016/problems/2016.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2016-6",
+              "answerrate": 11.51,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2016/imo2016/problems/2016.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "no": 56,
+      "country": "タイ チェンマイ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2015-1",
+              "answerrate": 61.53,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2015/imo2015/problems/2015.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2015-2",
+              "answerrate": 19.41,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2015/imo2015/problems/2015.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2015-3",
+              "answerrate": 9.33,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2015/imo2015/problems/2015.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2015-4",
+              "answerrate": 68.49,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2015/imo2015/problems/2015.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2015-5",
+              "answerrate": 21.61,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2015/imo2015/problems/2015.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2015-6",
+              "answerrate": 5.07,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2015/imo2015/problems/2015.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "no": 55,
+      "country": "南アフリカ共和国 ケープタウン",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2014-1",
+              "answerrate": 76.4,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2014/imo2014/problems/2014.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2014-2",
+              "answerrate": 42.44,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2014/imo2014/problems/2014.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2014-3",
+              "answerrate": 7.21,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2014/imo2014/problems/2014.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2014-4",
+              "answerrate": 74.13,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2014/imo2014/problems/2014.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2014-5",
+              "answerrate": 24.41,
+              "genre": "組み合わせ",
+              "link": "https://www.imojp.org/archive/mo2014/imo2014/problems/2014.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2014-6",
+              "answerrate": 4.84,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2014/imo2014/problems/2014.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "no": 54,
+      "country": "コロンビア サンタマルタ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2013-1",
+              "answerrate": 58.69,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2013/imo2013/problems/2013.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2013-2",
+              "answerrate": 36.09,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2013/imo2013/problems/2013.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2013-3",
+              "answerrate": 11.23,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2013/imo2013/problems/2013.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2013-4",
+              "answerrate": 77.74,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2013/imo2013/problems/2013.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2013-5",
+              "answerrate": 35.03,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2013/imo2013/problems/2013.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2013-6",
+              "answerrate": 4.23,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2013/imo2013/problems/2013.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "no": 53,
+      "country": "アルゼンチン マル・デル・プラタ",
+      "online": false,
+      "link": "",
+      "info": "存在はしているが開けない",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO2012-1",
+              "answerrate": 80.36,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2012/imo2012/problems/2012.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO2012-2",
+              "answerrate": 36.43,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2012/imo2012/problems/2012.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO2012-3",
+              "answerrate": 5.9,
+              "genre": "?",
+              "link": "https://www.imojp.org/archive/mo2012/imo2012/problems/2012.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO2012-4",
+              "answerrate": 53.8,
+              "genre": "代数",
+              "link": "https://www.imojp.org/archive/mo2012/imo2012/problems/2012.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO2012-5",
+              "answerrate": 23.77,
+              "genre": "幾何",
+              "link": "https://www.imojp.org/archive/mo2012/imo2012/problems/2012.pdf#page=2",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO2012-6",
+              "answerrate": 4.8,
+              "genre": "整数",
+              "link": "https://www.imojp.org/archive/mo2012/imo2012/problems/2012.pdf#page=2",
               "domestic": false
             }
           ]
