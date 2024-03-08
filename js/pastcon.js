@@ -48,19 +48,7 @@ function load(index){
     document.getElementById('atti').innerText = set;
     value = `<table class="att"><thead><tr><th class="aw10">Contest</th>`;
     
-    data['item'].forEach((item) => {
-      item['problemset'].forEach((problemset) => {
-        if (problemset.setname == set) {
-          problemset['problem'].forEach((problem) => {
-            pname.add(problem.problemid);
-          });
-        }
-      });
-    });
-
-    var parray = [];
-    for (var i of pname) parray.push(i);
-    parray.sort((a,b) => parseInt(a) - parseInt(b));
+    var parray = data['pn'][index - 1].item;
 
     for (var i of parray) {
       value += `<th class="aw10">${i}</th>`;
