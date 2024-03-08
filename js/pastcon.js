@@ -32,7 +32,8 @@ function load(index){
   var value = '';
     
   if (index == 0) {
-    value = `<h3 style="margin:10px 0;">大会ページ</h3><table class="att"><thead><tr><th class="aw10">Contest</th><th class="aw10">Country/Online?</th><th class="aw20">URL</th><th class="aw20">備考</th></tr></thead><tbody>`;
+    document.getElementById('atti').innerText = "大会ページ";
+    value = `<table class="att"><thead><tr><th class="aw10">Contest</th><th class="aw10">Country/Online?</th><th class="aw20">URL</th><th class="aw20">備考</th></tr></thead><tbody>`;
     data['item'].forEach((item) => {
       value += `<tr><th><span class="ico"></span>${contest}${item.year} (#${item.no})</th><td>${item.country}/${item.online ? "オンライン開催" : "現地開催"}</td><td>${item.link != '' ? `<a href="${item.link}"${!item.domestic ? 'target="_blank" rel="noopener noreferrer"' : ''}></a>${item.link}</td>` : ''}<td>${item.info}</td></tr>`
     });
@@ -44,7 +45,8 @@ function load(index){
       return (a.setid < b.setid) ? -1 : 1;
     });
     var set = data['item'][0]['problemset'][index - 1].setname;
-    value = `<h3 style="display:absolute;top:0;left:0;">${set}</h3><table class="att"><thead><tr><th class="aw10">Contest</th>`;
+    document.getElementById('atti').innerText = set;
+    value = `<table class="att"><thead><tr><th class="aw10">Contest</th>`;
     
     data['item'].forEach((item) => {
       item['problemset'].forEach((problemset) => {
@@ -127,7 +129,8 @@ function search(){
     return (a.difficulty < b.difficulty) ? -1 : 1;
   });
 
-  value = `<h3>問題リスト</h3><p>注：現状Diffの決まっていない問題は表示していません。</p><table class="att"><thead><tr><th class="aw20">問題</th><th class="aw20">大会</th><th class="aw10">問題種</th><th class="aw10">ジャンル</th><th class="aw10">Difficulty</th><th class="aw10">平均得点率</th></tr></thead><tbody>`;
+  document.getElementById('atti').innerText = "問題リスト";
+  value = `<p>注：現状Diffの決まっていない問題は表示していません。</p><table class="att"><thead><tr><th class="aw20">問題</th><th class="aw20">大会</th><th class="aw10">問題種</th><th class="aw10">ジャンル</th><th class="aw10">Difficulty</th><th class="aw10">平均得点率</th></tr></thead><tbody>`;
 
   var color = ['808080','0000ff','00c0c0','008000','c0c000','ff8000','ff0000','ff80ff','a000a0'];
   var metal = [`border-color:#965c38;background:linear-gradient(to right,#965c38,#ffdac1,#965c38);`,`border-color:#808080;background:linear-gradient(to right,#808080,#fff,#808080);`,`border-color:#ffd700;background:linear-gradient(to right,#ffd700,#fff,#ffd700);`];
@@ -144,4 +147,30 @@ function search(){
 function diff(rate){
   if (rate < 0 || rate > 100) return 0;
   else return Math.floor((arg.x - 1) * Math.pow(1 - rate * 0.01, arg.y) + 1);
+}
+
+async function movex(direction){
+  var w = 500, t = 30;
+  if (direction == 0) {
+    let def = document.getElementById("attc").scrollLeft;
+    let v = w / t / t;
+    for (let i = t; i >= 0; --i) {
+      document.getElementById("attc").scrollLeft = def - w + i * i * v;
+      await wait(0.01);
+    }
+    document.getElementById("attc").scrollLeft = def - w;
+  }
+  else {
+    let def = document.getElementById("attc").scrollLeft;
+    let v = w / t / t;
+    for (let i = t; i >= 0; --i) {
+      document.getElementById("attc").scrollLeft = def + w - i * i * v;
+      await wait(0.01);
+    }
+    document.getElementById("attc").scrollLeft = def + w;
+  }
+}
+
+async function wait(second) {
+  return new Promise(resolve => setTimeout(resolve, 1000 * second));
 }
