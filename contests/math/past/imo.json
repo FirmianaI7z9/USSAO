@@ -7164,6 +7164,1402 @@
           "problem": []
         }
       ]
+    },
+    {
+      "year": 1978,
+      "no": 20,
+      "country": "ルーマニア ブカレスト",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1978-1(en)",
+              "answerrate": 73.97,
+              "genre": "整数",
+              "link": "../problems/1978_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1978-2(en)",
+              "answerrate": 37.2,
+              "genre": "幾何",
+              "link": "../problems/1978_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1978-3(en)",
+              "answerrate": 41.41,
+              "genre": "代数",
+              "link": "../problems/1978_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1978-4(en)",
+              "answerrate": 82.08,
+              "genre": "幾何",
+              "link": "../problems/1978_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1978-5(en)",
+              "answerrate": 86.12,
+              "genre": "整数",
+              "link": "../problems/1978_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1978-6(en)",
+              "answerrate": 11.46,
+              "genre": "組み合わせ",
+              "link": "../problems/1978_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1977,
+      "no": 19,
+      "country": "旧ユーゴスラビア ベオグラード",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1977-1(en)",
+              "answerrate": 86.93,
+              "genre": "幾何",
+              "link": "../problems/1977_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1977-2(en)",
+              "answerrate": 50.9,
+              "genre": "代数",
+              "link": "../problems/1977_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1977-3(en)",
+              "answerrate": 49.41,
+              "genre": "?",
+              "link": "../problems/1977_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1977-4(en)",
+              "answerrate": 53.6,
+              "genre": "代数",
+              "link": "../problems/1977_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1977-5(en)",
+              "answerrate": 49.41,
+              "genre": "整数",
+              "link": "../problems/1977_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1977-6(en)",
+              "answerrate": 38.18,
+              "genre": "代数?",
+              "link": "../problems/1977_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1976,
+      "no": 18,
+      "country": "オーストリア リンツ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1976-1(en)",
+              "answerrate": 52.24,
+              "genre": "幾何",
+              "link": "../problems/1976_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1976-2(en)",
+              "answerrate": 27.64,
+              "genre": "代数",
+              "link": "../problems/1976_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1976-3(en)",
+              "answerrate": 38.94,
+              "genre": "?",
+              "link": "../problems/1976_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1976-4(en)",
+              "answerrate": 62.58,
+              "genre": "整数",
+              "link": "../problems/1976_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1976-5(en)",
+              "answerrate": 15.63,
+              "genre": "代数",
+              "link": "../problems/1976_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1976-6(en)",
+              "answerrate": 65.57,
+              "genre": "代数",
+              "link": "../problems/1976_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1975,
+      "no": 17,
+      "country": "ブルガリア ブルガス",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1975-1(en)",
+              "answerrate": 78.78,
+              "genre": "代数",
+              "link": "../problems/1975_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1975-2(en)",
+              "answerrate": 59.49,
+              "genre": "整数",
+              "link": "../problems/1975_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1975-3(en)",
+              "answerrate": 57.81,
+              "genre": "幾何",
+              "link": "../problems/1975_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1975-4(en)",
+              "answerrate": 58.2,
+              "genre": "整数",
+              "link": "../problems/1975_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1975-5(en)",
+              "answerrate": 46.88,
+              "genre": "組み合わせ",
+              "link": "../problems/1975_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1975-6(en)",
+              "answerrate": 34.96,
+              "genre": "代数",
+              "link": "../problems/1975_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1974,
+      "no": 16,
+      "country": "旧東ドイツ エアフルト",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1974-1(en)",
+              "answerrate": 90.28,
+              "genre": "?",
+              "link": "../problems/1974_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1974-2(en)",
+              "answerrate": 62.73,
+              "genre": "幾何",
+              "link": "../problems/1974_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1974-3(en)",
+              "answerrate": 35.09,
+              "genre": "整数",
+              "link": "../problems/1974_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1974-4(en)",
+              "answerrate": 84.4,
+              "genre": "組み合わせ",
+              "link": "../problems/1974_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1974-5(en)",
+              "answerrate": 44.29,
+              "genre": "代数",
+              "link": "../problems/1974_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1974-6(en)",
+              "answerrate": 38.75,
+              "genre": "代数",
+              "link": "../problems/1974_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1973,
+      "no": 15,
+      "country": "旧ソビエト連邦 モスクワ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1973-1(en)",
+              "answerrate": 42.93,
+              "genre": "幾何",
+              "link": "../problems/1973_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1973-2(en)",
+              "answerrate": 44.8,
+              "genre": "組み合わせ",
+              "link": "../problems/1973_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1973-3(en)",
+              "answerrate": 49.9,
+              "genre": "代数",
+              "link": "../problems/1973_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1973-4(en)",
+              "answerrate": 64.4,
+              "genre": "組み合わせ",
+              "link": "../problems/1973_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1973-5(en)",
+              "answerrate": 56.27,
+              "genre": "代数",
+              "link": "../problems/1973_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1973-6(en)",
+              "answerrate": 14.1,
+              "genre": "代数",
+              "link": "../problems/1973_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1972,
+      "no": 14,
+      "country": "ポーランド トルン",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1972-1(en)",
+              "answerrate": 61.22,
+              "genre": "整数",
+              "link": "../problems/1972_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1972-2(en)",
+              "answerrate": 62.63,
+              "genre": "幾何",
+              "link": "../problems/1972_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1972-3(en)",
+              "answerrate": 33.33,
+              "genre": "整数",
+              "link": "../problems/1972_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1972-4(en)",
+              "answerrate": 70.13,
+              "genre": "代数",
+              "link": "../problems/1972_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1972-5(en)",
+              "answerrate": 40.26,
+              "genre": "代数",
+              "link": "../problems/1972_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1972-6(en)",
+              "answerrate": 48.49,
+              "genre": "?",
+              "link": "../problems/1972_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1971,
+      "no": 13,
+      "country": "旧チェコスロバキア ジリナ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1971-1(en)",
+              "answerrate": 46.42,
+              "genre": "代数",
+              "link": "../problems/1971_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1971-2(en)",
+              "answerrate": 27.04,
+              "genre": "?",
+              "link": "../problems/1971_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1971-3(en)",
+              "answerrate": 8.73,
+              "genre": "整数",
+              "link": "../problems/1971_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1971-4(en)",
+              "answerrate": 41.67,
+              "genre": "幾何",
+              "link": "../problems/1971_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1971-5(en)",
+              "answerrate": 19.9,
+              "genre": "組み合わせ",
+              "link": "../problems/1971_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1971-6(en)",
+              "answerrate": 6.25,
+              "genre": "?",
+              "link": "../problems/1971_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1970,
+      "no": 12,
+      "country": "ハンガリー ケストヘイ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1970-1(en)",
+              "answerrate": 69.72,
+              "genre": "幾何",
+              "link": "../problems/1970_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1970-2(en)",
+              "answerrate": 84.9,
+              "genre": "整数",
+              "link": "../problems/1970_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1970-3(en)",
+              "answerrate": 18.93,
+              "genre": "代数",
+              "link": "../problems/1970_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1970-4(en)",
+              "answerrate": 82.38,
+              "genre": "整数",
+              "link": "../problems/1970_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1970-5(en)",
+              "answerrate": 56.18,
+              "genre": "幾何",
+              "link": "../problems/1970_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1970-6(en)",
+              "answerrate": 30.0,
+              "genre": "組み合わせ",
+              "link": "../problems/1970_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1969,
+      "no": 11,
+      "country": "ルーマニア ブカレスト",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1969-1(en)",
+              "answerrate": 51.08,
+              "genre": "整数",
+              "link": "../problems/1969_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1969-2(en)",
+              "answerrate": 62.37,
+              "genre": "代数",
+              "link": "../problems/1969_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1969-3(en)",
+              "answerrate": 59.94,
+              "genre": "?",
+              "link": "../problems/1969_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1969-4(en)",
+              "answerrate": 37.8,
+              "genre": "幾何",
+              "link": "../problems/1969_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1969-5(en)",
+              "answerrate": 59.7,
+              "genre": "組み合わせ",
+              "link": "../problems/1969_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1969-6(en)",
+              "answerrate": 30.48,
+              "genre": "代数",
+              "link": "../problems/1969_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "no": 10,
+      "country": "旧ソビエト連邦 モスクワ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1968-1(en)",
+              "answerrate": 73.82,
+              "genre": "?",
+              "link": "../problems/1968_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1968-2(en)",
+              "answerrate": 86.66,
+              "genre": "整数",
+              "link": "../problems/1968_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1968-3(en)",
+              "answerrate": 57.77,
+              "genre": "代数",
+              "link": "../problems/1968_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1968-4(en)",
+              "answerrate": 71.42,
+              "genre": "幾何",
+              "link": "../problems/1968_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1968-5(en)",
+              "answerrate": 65.61,
+              "genre": "代数",
+              "link": "../problems/1968_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1968-6(en)",
+              "answerrate": 66.49,
+              "genre": "整数",
+              "link": "../problems/1968_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "no": 9,
+      "country": "旧ユーゴスラビア ツェティニエ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1967-1(en)",
+              "answerrate": 62.17,
+              "genre": "幾何",
+              "link": "../problems/1967_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1967-2(en)",
+              "answerrate": 57.91,
+              "genre": "?",
+              "link": "../problems/1967_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1967-3(en)",
+              "answerrate": 41.55,
+              "genre": "整数",
+              "link": "../problems/1967_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1967-4(en)",
+              "answerrate": 70.72,
+              "genre": "幾何",
+              "link": "../problems/1967_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1967-5(en)",
+              "answerrate": 50.97,
+              "genre": "代数",
+              "link": "../problems/1967_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1967-6(en)",
+              "answerrate": 63.18,
+              "genre": "組み合わせ",
+              "link": "../problems/1967_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "no": 8,
+      "country": "ブルガリア ソフィア",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1966-1(en)",
+              "answerrate": 88.88,
+              "genre": "組み合わせ",
+              "link": "../problems/1966_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1966-2(en)",
+              "answerrate": 86.24,
+              "genre": "幾何",
+              "link": "../problems/1966_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1966-3(en)",
+              "answerrate": 66.67,
+              "genre": "?",
+              "link": "../problems/1966_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1966-4(en)",
+              "answerrate": 94.08,
+              "genre": "代数",
+              "link": "../problems/1966_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1966-5(en)",
+              "answerrate": 71.43,
+              "genre": "代数",
+              "link": "../problems/1966_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1966-6(en)",
+              "answerrate": 91.66,
+              "genre": "幾何",
+              "link": "../problems/1966_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "no": 7,
+      "country": "旧東ドイツ ベルリン",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1965-1(en)",
+              "answerrate": 68.45,
+              "genre": "代数",
+              "link": "../problems/1965_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1965-2(en)",
+              "answerrate": 45.0,
+              "genre": "代数",
+              "link": "../problems/1965_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1965-3(en)",
+              "answerrate": 50.31,
+              "genre": "幾何",
+              "link": "../problems/1965_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1965-4(en)",
+              "answerrate": 69.8,
+              "genre": "組み合わせ",
+              "link": "../problems/1965_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1965-5(en)",
+              "answerrate": 54.11,
+              "genre": "幾何",
+              "link": "../problems/1965_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1965-6(en)",
+              "answerrate": 30.56,
+              "genre": "組み合わせ",
+              "link": "../problems/1965_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "no": 6,
+      "country": "旧ソビエト連邦 モスクワ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1964-1(en)",
+              "answerrate": 74.79,
+              "genre": "整数",
+              "link": "../problems/1964_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1964-2(en)",
+              "answerrate": 47.06,
+              "genre": "代数",
+              "link": "../problems/1964_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1964-3(en)",
+              "answerrate": 84.32,
+              "genre": "幾何",
+              "link": "../problems/1964_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1964-4(en)",
+              "answerrate": 41.18,
+              "genre": "組み合わせ",
+              "link": "../problems/1964_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1964-5(en)",
+              "answerrate": 52.1,
+              "genre": "?",
+              "link": "../problems/1964_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1964-6(en)",
+              "answerrate": 64.71,
+              "genre": "幾何",
+              "link": "../problems/1964_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "no": 5,
+      "country": "ポーランド ヴロツワフ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1963-1(en)",
+              "answerrate": 58.33,
+              "genre": "代数",
+              "link": "../problems/1963_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1963-2(en)",
+              "answerrate": 46.43,
+              "genre": "幾何",
+              "link": "../problems/1963_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1963-3(en)",
+              "answerrate": 27.69,
+              "genre": "幾何?",
+              "link": "../problems/1963_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1963-4(en)",
+              "answerrate": 27.5,
+              "genre": "代数",
+              "link": "../problems/1963_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1963-5(en)",
+              "answerrate": 39.58,
+              "genre": "代数",
+              "link": "../problems/1963_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1963-6(en)",
+              "answerrate": 75.79,
+              "genre": "組み合わせ",
+              "link": "../problems/1963_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "no": 4,
+      "country": "旧チェコスロバキア チェスケー・ブジェヨビツェ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1962-1(en)",
+              "answerrate": 90.2,
+              "genre": "整数",
+              "link": "../problems/1962_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1962-2(en)",
+              "answerrate": 75.48,
+              "genre": "代数",
+              "link": "../problems/1962_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1962-3(en)",
+              "answerrate": 61.03,
+              "genre": "幾何",
+              "link": "../problems/1962_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1962-4(en)",
+              "answerrate": 78.82,
+              "genre": "代数",
+              "link": "../problems/1962_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1962-5(en)",
+              "answerrate": 59.66,
+              "genre": "幾何",
+              "link": "../problems/1962_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1962-6(en)",
+              "answerrate": 37.25,
+              "genre": "幾何",
+              "link": "../problems/1962_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "7",
+              "problemname": "IMO1962-7(en)",
+              "answerrate": 19.11,
+              "genre": "幾何",
+              "link": "../problems/1962_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "no": 3,
+      "country": "ハンガリー ベスプレーム",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1961-1(en)",
+              "answerrate": 53.7,
+              "genre": "代数",
+              "link": "../problems/1961_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1961-2(en)",
+              "answerrate": 44.44,
+              "genre": "幾何",
+              "link": "../problems/1961_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1961-3(en)",
+              "answerrate": 36.51,
+              "genre": "代数",
+              "link": "../problems/1961_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1961-4(en)",
+              "answerrate": 44.45,
+              "genre": "幾何",
+              "link": "../problems/1961_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1961-5(en)",
+              "answerrate": 42.86,
+              "genre": "幾何",
+              "link": "../problems/1961_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1961-6(en)",
+              "answerrate": 26.99,
+              "genre": "幾何",
+              "link": "../problems/1961_eng.pdf#page=1",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "no": 2,
+      "country": "ルーマニア シナヤ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1960-1(en)",
+              "answerrate": 47.5,
+              "genre": "整数",
+              "link": "../problems/1960_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1960-2(en)",
+              "answerrate": 43.33,
+              "genre": "代数",
+              "link": "../problems/1960_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1960-3(en)",
+              "answerrate": 20.0,
+              "genre": "幾何",
+              "link": "../problems/1960_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1960-4(en)",
+              "answerrate": 72.0,
+              "genre": "幾何",
+              "link": "../problems/1960_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1960-5(en)",
+              "answerrate": 25.71,
+              "genre": "幾何",
+              "link": "../problems/1960_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1960-6(en)",
+              "answerrate": 24.29,
+              "genre": "幾何?",
+              "link": "../problems/1960_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "7",
+              "problemname": "IMO1960-7(en)",
+              "answerrate": 56.0,
+              "genre": "幾何?",
+              "link": "../problems/1960_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
+    },
+    {
+      "year": 1959,
+      "no": 1,
+      "country": "ルーマニア ブラショフ",
+      "online": false,
+      "link": "",
+      "info": "サイト不明",
+      "problemset": [
+        {
+          "setid": 1,
+          "setname": "問題",
+          "problem": [
+            {
+              "problemid": "1",
+              "problemname": "IMO1959-1(en)",
+              "answerrate": 55.56,
+              "genre": "整数",
+              "link": "../problems/1959_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "2",
+              "problemname": "IMO1959-2(en)",
+              "answerrate": 76.39,
+              "genre": "代数",
+              "link": "../problems/1959_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "3",
+              "problemname": "IMO1959-3(en)",
+              "answerrate": 60.31,
+              "genre": "代数",
+              "link": "../problems/1959_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "4",
+              "problemname": "IMO1959-4(en)",
+              "answerrate": 42.22,
+              "genre": "幾何",
+              "link": "../problems/1959_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "5",
+              "problemname": "IMO1959-5(en)",
+              "answerrate": 18.05,
+              "genre": "幾何",
+              "link": "../problems/1959_eng.pdf#page=1",
+              "domestic": false
+            },
+            {
+              "problemid": "6",
+              "problemname": "IMO1959-6(en)",
+              "answerrate": 36.51,
+              "genre": "幾何",
+              "link": "../problems/1959_eng.pdf#page=2",
+              "domestic": false
+            }
+          ]
+        },
+        {
+          "setid": 2,
+          "setname": "Shortlist",
+          "problem": []
+        }
+      ]
     }
   ],
   "pn": [
@@ -7174,7 +8570,8 @@
         "3",
         "4",
         "5",
-        "6"
+        "6",
+        "7"
       ]
     },
     {
