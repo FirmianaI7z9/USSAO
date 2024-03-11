@@ -16,6 +16,10 @@
   <!--<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>-->
   <title>学術オリンピック非公式まとめサイト | ヨーロッパ女子数学オリンピック過去大会・過去問</title>
   <link rel="stylesheet" href="../../../style.css">
+  <script src="../../../js/pastcon.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <script src="https://www.googletagmanager.com/gtag/js?id=G-3N6WM60S2G"></script>
   <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-3N6WM60S2G');</script>
 </head>
@@ -69,7 +73,7 @@
       <a href="../contest.html">数学オリンピックの大会一覧</a>ヨーロッパ女子数学オリンピック過去大会・過去問</p>
 
     <h2>ヨーロッパ女子数学オリンピック過去大会・過去問</h2>
-    <p class="ud">2023年12月24日</p>
+    <p class="ud">2024年3月11日</p>
 
     <p>注 : ヨーロッパ女子数学オリンピックの過去大会の情報は以下ページにまとめられています。</p>
     <div class="lk">
@@ -77,231 +81,24 @@
       <p>ヨーロッパ女子数学オリンピック概要</p>
       <p class="ll">https://www.imojp.org/overseas/egmo_statistics.html</p>
     </div>
-    
-    <p>以下をクリックで選択した年の大会に移動します。</p>
-    <div class="yl">
-      <a href="#egmo2023">2023年(#12)</a>
-      <a href="#egmo2022">2022年(#11)</a>
-      <a href="#egmo2021">2021年(#10)</a>
-      <a href="#egmo2020">2020年(#9)</a>
-      <a href="#egmo2019">2019年(#8)</a>
-      <a href="#egmo2018">2018年(#7)</a>
-      <a href="#egmo2017">2017年(#6)</a>
-      <a href="#egmo2016">2016年(#5)</a>
-      <a href="#egmo2015">2015年(#4)</a>
-      <a href="#egmo2014">2014年(#3)</a>
-      <a href="#egmo2013">2013年(#2)</a>
-      <a href="#egmo2012">2012年(#1)</a>
+    <p><b>注2 : 問題名に(en)とつくものは英語です。</b></p>
+    <a href="../../../siteinfo.html#si2024030600">「Difficulty」について</a>
+
+    <div class="cct">
+      <a class="cci ccb" href="javascript:load(0)">大会ページ</a>
+      <a class="cci cce" href="javascript:load(1)">問題</a>
+      <a class="cci ccb cce" href="javascript:search()">問題一覧</a>
     </div>
 
-    <p class="anc" id="egmo2023"></p>
-    <h5 class="c1 ma">第12回大会 / EGMO2023</h5>
-    <p>開催地 : スロベニア ポルトロシュ</p>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="https://egmo2023.dmfa.si/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第12回ヨーロッパ女子数学オリンピック</p>
-      <p class="ll">https://egmo2023.dmfa.si/</p>
-    </div>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2023/egmo/problems/2023.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第12回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2023/egmo/problems/2023.pdf</p>
-      </div>
-    </div>
+    <span id="arg" style="display:none;">EGMO 3600 1.8</span>
 
-    <p class="anc" id="egmo2022"></p>
-    <h5 class="c1 ma">第11回大会 / EGMO2022</h5>
-    <p>開催地 : ハンガリー エゲル</p>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="https://egmo2022.hu/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第11回ヨーロッパ女子数学オリンピック</p>
-      <p class="ll">https://egmo2022.hu/</p>
-    </div>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2022/egmo2022/problems/2022.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第11回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2022/egmo2022/problems/2022.pdf</p>
+    <div class="atcc">
+      <div class="atnv"><div><</div><a href="javascript:movex(0)"></a></div>
+      <div class="atvc">
+        <h3 id="atti"></h3>
+        <div id="attc"></div>
       </div>
-    </div>
-
-    <p class="anc" id="egmo2021"></p>
-    <h5 class="c1 ma">第10回大会 / EGMO2021</h5>
-    <p>開催地 : ジョージア クタイシ(オンライン)</p>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="https://egmo2021.atsu.edu.ge/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第10回ヨーロッパ女子数学オリンピック</p>
-      <p class="ll">https://egmo2021.atsu.edu.ge/</p>
-    </div>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2021/egmo2021/problems/2021.html" target="_blank" rel="noopener noreferrer"></a>
-        <p>第10回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2021/egmo2021/problems/2021.html</p>
-      </div>
-    </div>
-
-    <p class="anc" id="egmo2020"></p>
-    <h5 class="c1 ma">第9回大会 / EGMO2020</h5>
-    <p>開催地 : オランダ エグモント・アーン・ゼー</p>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="https://egmo2020.nl/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第9回ヨーロッパ女子数学オリンピック</p>
-      <p class="ll">https://egmo2020.nl/</p>
-    </div>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2020/egmo2020/problems/2020.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第9回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2020/egmo2020/problems/2020.pdf</p>
-      </div>
-    </div>
-
-    <p class="anc" id="egmo2019"></p>
-    <h5 class="c1 ma">第8回大会 / EGMO2019</h5>
-    <p>開催地 : ウクライナ キーウ</p>
-    <p class="c2">公式サイト</p>
-    <p>別のサイトにリダイレクトされるため掲載していない。</p>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2019/egmo2019/problems/2019.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第8回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2019/egmo2019/problems/2019.pdf</p>
-      </div>
-    </div>
-
-    <p class="anc" id="egmo2018"></p>
-    <h5 class="c1 ma">第7回大会 / EGMO2018</h5>
-    <p>開催地 : イタリア フローレンス</p>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="http://www.egmo2018.org/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第7回ヨーロッパ女子数学オリンピック</p>
-      <p class="ll">http://www.egmo2018.org/</p>
-    </div>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2018/egmo2018/problems/2018.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第7回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2018/egmo2018/problems/2018.pdf</p>
-      </div>
-    </div>
-
-    <p class="anc" id="egmo2017"></p>
-    <h5 class="c1 ma">第6回大会 / EGMO2017</h5>
-    <p>開催地 : スイス チューリッヒ</p>
-    <p class="c2">公式サイト</p>
-    <p>サイト削除済み</p>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2017/egmo2017/problems/2017.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第6回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2017/egmo2017/problems/2017.pdf</p>
-      </div>
-    </div>
-
-    <p class="anc" id="egmo2016"></p>
-    <h5 class="c1 ma">第5回大会 / EGMO2016</h5>
-    <p>開催地 : ルーマニア ブシュテニ</p>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="https://egmo.ssmr.ro/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第5回ヨーロッパ女子数学オリンピック</p>
-      <p class="ll">https://egmo.ssmr.ro/</p>
-    </div>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2016/egmo2016/problems/2016.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第5回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2016/egmo2016/problems/2016.pdf</p>
-      </div>
-    </div>
-
-    <p class="anc" id="egmo2015"></p>
-    <h5 class="c1 ma">第4回大会 / EGMO2015</h5>
-    <p>開催地 : ベラルーシ ミンスク</p>
-    <p class="c2">公式サイト</p>
-    <p>EGMO公式に情報なし</p>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2015/egmo2015/problems/2015.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第4回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2015/egmo2015/problems/2015.pdf</p>
-      </div>
-    </div>
-
-    <p class="anc" id="egmo2014"></p>
-    <h5 class="c1 ma">第3回大会 / EGMO2014</h5>
-    <p>開催地 : トルコ アンタルヤ</p>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="https://egmo2014.tubitak.gov.tr/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第3回ヨーロッパ女子数学オリンピック</p>
-      <p class="ll">https://egmo2014.tubitak.gov.tr/</p>
-    </div>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.imojp.org/archive/mo2014/egmo2014/problems/2014.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第3回ヨーロッパ女子数学オリンピック 問題</p>
-        <p class="ll">https://www.imojp.org/archive/mo2014/egmo2014/problems/2014.pdf</p>
-      </div>
-    </div>
-
-    <p class="anc" id="egmo2013"></p>
-    <h5 class="c1 ma">第2回大会 / EGMO2013</h5>
-    <p>開催地 : ルクセンブルク ルクセンブルク市</p>
-    <p class="c2">公式サイト</p>
-    <p>EGMO公式に情報なし</p>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.egmo.org/egmos/egmo2/paper-day1-English.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第2回ヨーロッパ女子数学オリンピック 1日目問題</p>
-        <p class="ll">https://www.egmo.org/egmos/egmo2/paper-day1-English.pdf</p>
-      </div>
-      <div class="lk">
-        <a href="https://www.egmo.org/egmos/egmo2/paper-day2-English.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第2回ヨーロッパ女子数学オリンピック 2日目問題</p>
-        <p class="ll">https://www.egmo.org/egmos/egmo2/paper-day2-English.pdf</p>
-      </div>
-    </div>
-
-    <p class="anc" id="egmo2012"></p>
-    <h5 class="c1 ma">第1回大会 / EGMO2012</h5>
-    <p>開催地 : イギリス ケンブリッジ</p>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="https://www.egmo2012.org.uk/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第1回ヨーロッパ女子数学オリンピック</p>
-      <p class="ll">https://www.egmo2012.org.uk/</p>
-    </div>
-    <p class="c2">過去問</p>
-    <div class="ls">
-      <div class="lk">
-        <a href="https://www.egmo.org/egmos/egmo1/paper-day1-bg-English.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第1回ヨーロッパ女子数学オリンピック 1日目問題</p>
-        <p class="ll">https://www.egmo.org/egmos/egmo1/paper-day1-bg-English.pdf</p>
-      </div>
-      <div class="lk">
-        <a href="https://www.egmo.org/egmos/egmo1/paper-day2-bg-English.pdf" target="_blank" rel="noopener noreferrer"></a>
-        <p>第1回ヨーロッパ女子数学オリンピック 2日目問題</p>
-        <p class="ll">https://www.egmo.org/egmos/egmo1/paper-day2-bg-English.pdf</p>
-      </div>
+      <div class="atnv"><div>></div><a href="javascript:movex(1)"></a></div>
     </div>
 
     <div class="ft">
