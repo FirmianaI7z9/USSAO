@@ -16,6 +16,10 @@
   <!--<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>-->
   <title>学術オリンピック非公式まとめサイト | 日本天文学オリンピック過去大会・過去問</title>
   <link rel="stylesheet" href="../../../style.css">
+  <script src="../../../js/pastcon.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <script src="https://www.googletagmanager.com/gtag/js?id=G-3N6WM60S2G"></script>
   <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-3N6WM60S2G');</script>
 </head>
@@ -69,41 +73,53 @@
       <a href="../contest.html">天文学オリンピックの大会一覧</a>日本天文学オリンピック過去大会・過去問</p>
 
     <h2>日本天文学オリンピック過去大会・過去問</h2>
-    <p class="ud">2023年12月13日</p>
+    <p class="ud">2024年3月14日</p>
 
-    <h4>過去大会・過去問</h4>
-    
-    <p>以下をクリックで選択した年の大会に移動します。</p>
-    <div class="yl">
-      <a href="#jao2023">2023年(#2)</a>
-      <a href="#jao2022">2022年(#1)</a>
-    </div>
+    <a href="../../../siteinfo.html#si2024030600">「Difficulty」について</a>
 
-    <p class="anc" id="jao2023"></p>
-    <h5 class="c1 as">第2回大会 / JAO2023</h5>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="https://iaojapan.org/archive/2023/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第2回日本天文学オリンピック</p>
-      <p class="ll">https://iaojapan.org/archive/2023/</p>
-    </div>
-    <p class="c2">過去問</p>
-    <div class="lk">
-      <a href="https://iaojapan.org/preparation/" target="_blank" rel="noopener noreferrer"></a>
-      <p>日本天文学オリンピック過去問</p>
-      <p class="ll">https://iaojapan.org/preparation/</p>
+    <p class="anc" id="0"></p>
+    <div class="cct">
+      <a class="cci ccb" href="javascript:load(0)">大会ページ</a>
+      <a class="cci" href="javascript:load(1)">予選</a>
+      <a class="cci" href="javascript:load(2)">本選(理論)</a>
+      <a class="cci cce" href="javascript:load(3)">本選(実技)</a>
+      <a class="cci ccb cce" href="javascript:fsearch()">問題一覧</a>
     </div>
 
-    <p class="anc" id="jao2022"></p>
-    <h5 class="c1 as">第1回大会 / JAO2022</h5>
-    <p class="c2">公式サイト</p>
-    <div class="lk">
-      <a href="https://iaojapan.org/archive/2022/" target="_blank" rel="noopener noreferrer"></a>
-      <p>第1回日本天文学オリンピック</p>
-      <p class="ll">https://iaojapan.org/archive/2022/</p>
+    <span id="arg" style="display:none;">JAO 3200 1.8</span>
+
+    <div class="atcc">
+      <div class="atnv"><div><</div><a href="javascript:movex(0)"></a></div>
+      <div class="atvc">
+        <h3 id="atti"></h3>
+        <div id="attx">
+          <div class="cct">
+            <span class="ccj ccb cce">Diff</span>
+            <a class="cci ccb" href="javascript:query('sort_diff', true)">昇順</a>
+            <a class="cci cce" href="javascript:query('sort_diff', false)">降順</a>
+          </div>
+          <!--<div class="cct">
+            <span class="ccj ccb cce">分野</span>
+            <input type="checkbox" id="genre1" onchange="query('genre', '代数')"/>
+            <label for="genre1" class="cci ccb">代数</label>
+            <input type="checkbox" id="genre2" onchange="query('genre', '組み合わせ')"/>
+            <label for="genre2" class="cci">組み合わせ</label>
+            <input type="checkbox" id="genre3" onchange="query('genre', '幾何')"/>
+            <label for="genre3" class="cci">幾何</label>
+            <input type="checkbox" id="genre4" onchange="query('genre', '整数')"/>
+            <label for="genre4" class="cci">整数</label>
+            <input type="checkbox" id="genre5" onchange="query('genre', '?')"/>
+            <label for="genre5" class="cci cce">?</label>
+          </div>-->
+          <div class="cct">
+            <span class="ccj ccb cce">年指定絞り込み</span>
+            <input type="text" id="atyv" class="cci ccb cce" onchange="query('year', '')"/>
+          </div>
+        </div>
+        <div id="attc"></div>
+      </div>
+      <div class="atnv"><div>></div><a href="javascript:movex(1)"></a></div>
     </div>
-    <p class="c2">過去問</p>
-    <p>第1回大会の問題は非公開です。</p>
 
     <div class="ft">
       <p class="t">学術オリンピック非公式まとめサイト</p>
