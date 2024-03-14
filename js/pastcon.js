@@ -119,6 +119,7 @@ function cquery(year){
 
 function fsearch(){
   sort_order = true;
+  document.getElementById('atyv').value = '';
   query_year = [];
   search();
 }
