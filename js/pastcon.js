@@ -117,6 +117,12 @@ function cquery(year){
   search();
 }
 
+function fsearch(){
+  sort_order = true;
+  query_year = [];
+  search();
+}
+
 function search(){
   const contest_item_container = document.getElementById('attc');
   document.getElementById('attx').style="";
