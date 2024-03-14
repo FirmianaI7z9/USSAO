@@ -1,6 +1,9 @@
 var data;
 var contest;
 var arg = {x:0,y:0};
+var sort_order = true;
+var query_genre = [];
+var query_year = [];
 
 window.addEventListener('DOMContentLoaded', function() {
   var args = document.getElementById('arg').innerText.split(' ');
@@ -29,6 +32,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 function load(index){
   const contest_item_container = document.getElementById('attc');
+  document.getElementById('attx').style="display:none;";
   var value = '';
     
   if (index == 0) {
@@ -59,7 +63,7 @@ function load(index){
     var metal = [`border-color:#965c38;background:linear-gradient(to right,#965c38,#ffdac1,#965c38);`,`border-color:#808080;background:linear-gradient(to right,#808080,#fff,#808080);`,`border-color:#ffd700;background:linear-gradient(to right,#ffd700,#fff,#ffd700);`];
 
     data['item'].forEach((item) => {
-      value += `<tr><th><span class="ico"></span>${contest}${item.year} (#${item.no})</th>`;
+      value += `<tr><th><span class="ico"></span><a href="javascript:cquery(${item.year})"></a>${contest}${item.year} (#${item.no})</th>`;
       item['problemset'].forEach((problemset) => {
         if (problemset.setname == set) {
           var cnt = 0;
@@ -87,10 +91,35 @@ function load(index){
   }
 
   contest_item_container.innerHTML = value;
+  location.href = '#0';
+}
+
+function query(type, value){
+  if (type == 'sort_diff') {
+    sort_order = value;
+  }
+  else if (type == 'genre') {
+    if (query_genre.indexOf(value) == -1) query_genre.push(value);
+    else query_genre = query_genre.filter(n => n !== value);
+  }
+  else if (type == 'year') {
+    value = document.getElementById('atyv').value;
+    query_year = (value == '' ? [] : value.split(','));
+  }
+  search();
+}
+
+function cquery(year){
+  year = year.toString();
+  sort_order = true;
+  document.getElementById('atyv').value = year;
+  query_year = [year];
+  search();
 }
 
 function search(){
   const contest_item_container = document.getElementById('attc');
+  document.getElementById('attx').style="";
   var value = '';
   var pset = [];
 
@@ -99,6 +128,20 @@ function search(){
       problemset['problem'].forEach((problem) => {
         difficulty = diff(problem.answerrate);
         if (difficulty <= 0) return;
+        if (query_genre.length > 0) {
+          var trig = false;
+          for (var gq in query_genre) {
+            if (problem.genre.indexOf(query_genre[gq]) != -1) { trig = true; break; }
+          }
+          if (!trig) return;
+        }
+        if (query_year.length > 0) {
+          var trig = false;
+          for (var yq in query_year) {
+            if (item.year.toString() == query_year[yq]) { trig = true; break; }
+          }
+          if (!trig) return;
+        }
         pset.push({
           pname:problem.problemname,
           contest:`${contest}${item.year} (#${item.no})`,
@@ -114,11 +157,17 @@ function search(){
   });
 
   pset.sort((a,b) => {
-    return (a.difficulty < b.difficulty) ? -1 : 1;
+    return (a.difficulty < b.difficulty) ? (sort_order ? -1 : 1) : (sort_order ? 1 : -1);
   });
 
   document.getElementById('atti').innerText = "問題リスト";
-  value = `<p>注：現状Diffの決まっていない問題は表示していません。</p><table class="att"><thead><tr><th class="aw20">問題</th><th class="aw20">大会</th><th class="aw10">問題種</th><th class="aw10">ジャンル</th><th class="aw10">Difficulty</th><th class="aw10">平均得点率</th></tr></thead><tbody>`;
+  if (pset.length == 0) {
+    value = '<p>該当する問題はありません。</p>';
+    contest_item_container.innerHTML = value;
+    location.href = '#0';
+    return;
+  }
+  value = `<p>注：現状Diffの決まっていない問題は表示していません。</p><table class="att"><thead><tr><th class="aw20">問題</th><th class="aw20">大会</th><th class="aw10">問題種</th><th class="aw10">分野</th><th class="aw10">Difficulty</th><th class="aw10">平均得点率</th></tr></thead><tbody>`;
 
   var color = ['808080','0000ff','00c0c0','008000','c0c000','ff8000','ff0000','ff80ff','a000a0'];
   var metal = [`border-color:#965c38;background:linear-gradient(to right,#965c38,#ffdac1,#965c38);`,`border-color:#808080;background:linear-gradient(to right,#808080,#fff,#808080);`,`border-color:#ffd700;background:linear-gradient(to right,#ffd700,#fff,#ffd700);`];
@@ -130,6 +179,7 @@ function search(){
   value += `</tbody></table>`;
 
   contest_item_container.innerHTML = value;
+  location.href = '#0';
 }
 
 function diff(rate){
