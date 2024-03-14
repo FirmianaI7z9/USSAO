@@ -5,6 +5,7 @@ window.addEventListener('DOMContentLoaded', function() {
   // 本日の予定
 
   const home_todays_schedule_container = document.getElementById('htsc');
+  const home_todays_schedule_item = document.getElementById('sc_sample');
   var value = `<h3>本日 (${d.month}月${d.date}日) の予定</h3>`;
 
   function load_file(file_name) {
@@ -18,7 +19,7 @@ window.addEventListener('DOMContentLoaded', function() {
   }
 
   var cnt = 0;
-  var dw = (home_todays_schedule_container.clientWidth) * 0.8 - 30;
+  var dw = (home_todays_schedule_item.clientWidth) * 0.8 - 30;
   load_file('json/schedule.json').then((xhr) => {
     var data = JSON.parse(xhr.response);
     data['item'].forEach((item) => {

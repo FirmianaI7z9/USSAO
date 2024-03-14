@@ -33,7 +33,8 @@ window.addEventListener('DOMContentLoaded', function() {
       if (ti != 'スケ' && item.subject != dic[ti]) return;
       var a = d.year * 10000 + d.month * 100 + d.date;
       var ds = new Date(item.start_time);
-      var b = ds.getFullYear() * 10000 + (ds.getMonth() + 1) * 100 + ds.getDate();
+      var df = new Date(item.finish_time);
+      var b = df.getFullYear() * 10000 + (df.getMonth() + 1) * 100 + df.getDate();
       if (b < a) return;
       else {
         if (cur_month < ds.getFullYear() * 100 + (ds.getMonth() + 1)) {
