@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', function() {
   }
 
   var cnt = 0;
-  var dw = (home_todays_schedule_item.clientWidth) * 0.8 - 30;
+  var dw = (home_todays_schedule_item.clientWidth) - 20;
   load_file('json/schedule.json').then((xhr) => {
     var data = JSON.parse(xhr.response);
     data['item'].forEach((item) => {

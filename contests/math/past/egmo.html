@@ -96,6 +96,30 @@
       <div class="atnv"><div><</div><a href="javascript:movex(0)"></a></div>
       <div class="atvc">
         <h3 id="atti"></h3>
+        <div id="attx">
+          <div class="cct">
+            <span class="ccj ccb cce">Diff</span>
+            <a class="cci ccb" href="javascript:query('sort_diff', true)">昇順</a>
+            <a class="cci cce" href="javascript:query('sort_diff', false)">降順</a>
+          </div>
+          <div class="cct">
+            <span class="ccj ccb cce">分野</span>
+            <input type="checkbox" id="genre1" onchange="query('genre', '代数')"/>
+            <label for="genre1" class="cci ccb">代数</label>
+            <input type="checkbox" id="genre2" onchange="query('genre', '組み合わせ')"/>
+            <label for="genre2" class="cci">組み合わせ</label>
+            <input type="checkbox" id="genre3" onchange="query('genre', '幾何')"/>
+            <label for="genre3" class="cci">幾何</label>
+            <input type="checkbox" id="genre4" onchange="query('genre', '整数')"/>
+            <label for="genre4" class="cci">整数</label>
+            <input type="checkbox" id="genre5" onchange="query('genre', '?')"/>
+            <label for="genre5" class="cci cce">?</label>
+          </div>
+          <div class="cct">
+            <span class="ccj ccb cce">年指定絞り込み</span>
+            <input type="text" id="atyv" class="cci ccb cce" onchange="query('year', '')"/>
+          </div>
+        </div>
         <div id="attc"></div>
       </div>
       <div class="atnv"><div>></div><a href="javascript:movex(1)"></a></div>
