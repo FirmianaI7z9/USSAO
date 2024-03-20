@@ -1237,6 +1237,56 @@
       "domestic_link": false,
       "link_text": "x",
       "important": true
+    },
+    {
+      "time": 1710428400000,
+      "contest": [
+        {
+          "subject": "ge",
+          "contest": "JGeO"
+        },
+        {
+          "subject": "ge",
+          "contest": "iGeo"
+        }
+      ],
+      "text": "第20回国際地理オリンピックの日本代表選手4名が発表されました",
+      "link": true,
+      "domestic_link": false,
+      "link_text": "https://japan-igeo.com/",
+      "important": true
+    },
+    {
+      "time": 1710860400000,
+      "contest": [
+        {
+          "subject": "ea",
+          "contest": "JESO"
+        },
+        {
+          "subject": "ge",
+          "contest": "IESO"
+        }
+      ],
+      "text": "第17回国際地学オリンピックの日本代表選手4名が発表されました",
+      "link": true,
+      "domestic_link": false,
+      "link_text": "https://jeso.jp/ieso/senbatsu.html",
+      "important": true
+    },
+    {
+      "time": 1710860400000,
+      "contest": [
+        {
+          "subject": "ea",
+          "contest": "JESO"
+        }
+      ],
+      "text": "第16回日本地学オリンピック本選の結果が発表されました",
+      "link": true,
+      "domestic_link": false,
+      "link_text": "https://jeso.jp/jeso/final.html#result-f",
+      "important": true
     }
   ]
 }
