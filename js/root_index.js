@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', function() {
       else {
         cnt++;
         const ctx = document.createElement('canvas').getContext('2d');
-        ctx.font = '19px "Segoe UI"';
+        ctx.font = '19px sans-serif';
         var w = ctx.measureText(item.text).width;
         value += `<div class="si ${item.subject}"><p class="sd">${ds.getFullYear()}年<br>${ds.getMonth() + 1}月${ds.getDate()}日</p><p class="st"><span class="sl">${item.contest.join(' ')} | ${item.type == 'c' ? '大会情報' : '申し込み情報'}</span><br><span class="nr" style="width:${Math.ceil(Math.max(100, 100 * w / dw)) + 5}%;transform:scalex(${Math.floor(Math.min(100, 100 * dw / w)) * 0.01});">${item.text}</span></p></div>`;
       }
