@@ -1236,7 +1236,7 @@
       "link": false,
       "domestic_link": false,
       "link_text": "x",
-      "important": true
+      "important": false
     },
     {
       "time": 1710428400000,
@@ -1286,6 +1286,34 @@
       "link": true,
       "domestic_link": false,
       "link_text": "https://jeso.jp/jeso/final.html#result-f",
+      "important": true
+    },
+    {
+      "time": 1711119600000,
+      "contest": [
+        {
+          "subject": "in",
+          "contest": "JOI"
+        }
+      ],
+      "text": "第24回日本情報オリンピックの概要が発表されました",
+      "link": true,
+      "domestic_link": false,
+      "link_text": "https://www.ioi-jp.org/wp-content/uploads/2024/03/joi_joig-2025-outline.pdf",
+      "important": true
+    },
+    {
+      "time": 1711119600000,
+      "contest": [
+        {
+          "subject": "in",
+          "contest": "JOIG"
+        }
+      ],
+      "text": "日本情報オリンピック第5回女性部門の概要が発表されました",
+      "link": true,
+      "domestic_link": false,
+      "link_text": "https://www.ioi-jp.org/wp-content/uploads/2024/03/joi_joig-2025-outline.pdf",
       "important": true
     }
   ]
