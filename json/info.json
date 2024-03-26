@@ -1315,6 +1315,42 @@
       "domestic_link": false,
       "link_text": "https://www.ioi-jp.org/wp-content/uploads/2024/03/joi_joig-2025-outline.pdf",
       "important": true
+    },
+    {
+      "time": 1711206000000,
+      "contest": [
+        {
+          "subject": "dev",
+          "contest": "お知らせ"
+        },
+        {
+          "subject": "bi",
+          "contest": "生物学"
+        },
+        {
+          "subject": "in",
+          "contest": "情報"
+        }
+      ],
+      "text": "第21回日本生物学オリンピック、第24回日本情報オリンピック、日本情報オリンピック第5回女性部門の日程を掲載しました",
+      "link": false,
+      "domestic_link": false,
+      "link_text": "x",
+      "important": false
+    },
+    {
+      "time": 1711378800000,
+      "contest": [
+        {
+          "subject": "dev",
+          "contest": "お知らせ"
+        }
+      ],
+      "text": "スケジュール表示について、今年の予定の年表示の省略および詳細な開始時刻の表示をするための改修を行いました",
+      "link": true,
+      "domestic_link": true,
+      "link_text": "schedule.html",
+      "important": false
     }
   ]
 }
