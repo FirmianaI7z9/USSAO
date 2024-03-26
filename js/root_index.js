@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   const home_todays_schedule_container = document.getElementById('htsc');
   const home_todays_schedule_item = document.getElementById('sc_sample');
-  var value = `<h3>本日 (${d.month}月${d.date}日) の予定</h3>`;
+  var svalue = `<h3><a href="schedule.html">本日 (${d.month}月${d.date}日) の予定</a></h3>`;
 
   function load_file(file_name) {
     const promise = new Promise((resolve, reject) => {
@@ -18,10 +18,14 @@ window.addEventListener('DOMContentLoaded', function() {
     return promise;
   }
 
-  var cnt = 0;
+  var scnt = 0;
   var dw = (home_todays_schedule_item.clientWidth) - 20;
+  var now = new Date();
   load_file('json/schedule.json').then((xhr) => {
     var data = JSON.parse(xhr.response);
+    data['item'] = data['item'].sort(function(a, b){
+      return (a.start_time < b.start_time) ? -1 : 1;
+    });
     data['item'].forEach((item) => {
       if (item.type == 'x') return;
       var a = d.year * 10000 + d.month * 100 + d.date;
@@ -31,25 +35,29 @@ window.addEventListener('DOMContentLoaded', function() {
       var c = df.getFullYear() * 10000 + (df.getMonth() + 1) * 100 + df.getDate();
       if (b > a || a > c) return;
       else {
-        cnt++;
+        scnt++;
         const ctx = document.createElement('canvas').getContext('2d');
         ctx.font = '19px sans-serif';
         var w = ctx.measureText(item.text).width;
-        value += `<div class="si ${item.subject}"><p class="sd">${ds.getFullYear()}年<br>${ds.getMonth() + 1}月${ds.getDate()}日</p><p class="st"><span class="sl">${item.contest.join(' ')} | ${item.type == 'c' ? '大会情報' : '申し込み情報'}</span><br><span class="nr" style="width:${Math.ceil(Math.max(100, 100 * w / dw)) + 5}%;transform:scalex(${Math.floor(Math.min(100, 100 * dw / w)) * 0.01});">${item.text}</span></p></div>`;
+        console.log(ds.getHours());
+        svalue += `<div class="si ${item.subject}${(now.getTime() > df.getTime() && (df.getHours() != 0 || df.getMinutes() != 0) && ds != df) ? ' cs' : ''}"><p class="sd">${ds.getFullYear() != now.getFullYear() ? `${ds.getFullYear()}年<br>` : ''}${ds.getMonth() + 1}月${ds.getDate()}日${(ds != df && ((ds.getHours() == 0 && ds.getMinutes() == 0))) ? '-' : ''}${(ds.getHours() != 0 || ds.getMinutes() != 0) ? `<br>${ds.getHours()}:${('00' + ds.getMinutes()).slice(-2)}${ds.getTime() == df.getTime() ? '' : '-'}` : ''}</p><p class="st"><span class="sl">${item.contest.join(' ')} | ${item.type == 'c' ? '大会情報' : '申し込み情報'}</span><br><span class="nr" style="width:${Math.ceil(Math.max(100, 100 * w / dw)) + 5}%;transform:scalex(${Math.floor(Math.min(100, 100 * dw / w)) * 0.01});">${item.text}</span></p></div>`;
       }
     });
-    if (cnt == 0) value += '<p>本日の予定はありません。</p>';
-    home_todays_schedule_container.innerHTML = value;
+    if (scnt == 0) svalue += '<p>本日の予定はありません。</p>';
+    home_todays_schedule_container.innerHTML = svalue;
   });
 
   // 最新情報
 
   const home_info_container = document.getElementById('htic');
-  var ivalue = '<h3>新着情報</h3>';
+  var ivalue = '<h3><a href="info.html">新着情報</a></h3>';
 
   var icnt = 0;
   load_file('json/info.json').then((xhr) => {
     var data = JSON.parse(xhr.response);
+    data['item'] = data['item'].sort(function(a, b){
+      return (a.time < b.time) ? 1 : -1;
+    });
     data['item'].forEach((item) => {
       var a = d.year * 10000 + d.month * 100 + d.date;
       var ds = new Date(item.time);
@@ -67,4 +75,8 @@ window.addEventListener('DOMContentLoaded', function() {
     if (icnt == 0) ivalue += '<p>5日以内のお知らせはありません。</p>';
     home_info_container.innerHTML = ivalue;
   });
+
+  // カウントダウン
+
+  
 });
