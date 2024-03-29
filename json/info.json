@@ -1351,6 +1351,20 @@
       "domestic_link": true,
       "link_text": "schedule.html",
       "important": false
+    },
+    {
+      "time": 1711551600000,
+      "contest": [
+        {
+          "subject": "ch",
+          "contest": "JChO"
+        }
+      ],
+      "text": "化学グランプリ2024の概要が発表されました",
+      "link": true,
+      "domestic_link": true,
+      "link_text": "https://gp.csj.jp/next/gp2024.html",
+      "important": true
     }
   ]
 }

@@ -570,6 +570,46 @@
       ],
       "type": "c",
       "text": "日本情報オリンピック第5回女性部門 春季トレーニング"
+    },
+    {
+      "start_time": 1711897200000,
+      "finish_time": 1711897200000,
+      "subject": "ch",
+      "contest": [
+        "JChO"
+      ],
+      "type": "a",
+      "text": "化学グランプリ2024 参加申し込み開始"
+    },
+    {
+      "start_time": 1717858740000,
+      "finish_time": 1717858740000,
+      "subject": "ch",
+      "contest": [
+        "JChO"
+      ],
+      "type": "a",
+      "text": "化学グランプリ2024 参加申し込み〆切"
+    },
+    {
+      "start_time": 1721016000000,
+      "finish_time": 1721026800000,
+      "subject": "ch",
+      "contest": [
+        "JChO"
+      ],
+      "type": "c",
+      "text": "化学グランプリ2024 一次選考(予選)"
+    },
+    {
+      "start_time": 1724079600000,
+      "finish_time": 1724252400000,
+      "subject": "ch",
+      "contest": [
+        "JChO"
+      ],
+      "type": "c",
+      "text": "化学グランプリ2024 二次選考(本選)"
     }
   ]
 }
