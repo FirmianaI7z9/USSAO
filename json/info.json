@@ -1365,6 +1365,20 @@
       "domestic_link": true,
       "link_text": "https://gp.csj.jp/next/gp2024.html",
       "important": true
+    },
+    {
+      "time": 1711897200000,
+      "contest": [
+        {
+          "subject": "ba",
+          "contest": "JBB"
+        }
+      ],
+      "text": "第11回脳科学オリンピック日本大会の概要が発表されました。",
+      "link": true,
+      "domestic_link": true,
+      "link_text": "https://www.brainscience-union.jp/brainbee/brainbee2024",
+      "important": true
     }
   ]
 }
