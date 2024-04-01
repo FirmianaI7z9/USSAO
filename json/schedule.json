@@ -610,6 +610,47 @@
       ],
       "type": "c",
       "text": "化学グランプリ2024 二次選考(本選)"
+    },
+    {
+      "start_time": 1714143600000,
+      "finish_time": 1715439600000,
+      "subject": "ba",
+      "contest": [
+        "JBB"
+      ],
+      "type": "c",
+      "text": "第11回脳科学オリンピック日本大会"
+    },
+    {
+      "start_time": 1711897200000,
+      "finish_time": 1711897200000,
+      "subject": "ba",
+      "contest": [
+        "JBB"
+      ],
+      "type": "a",
+      "text": "第11回脳科学オリンピック日本大会 参加申し込み開始"
+    },
+    {
+      "start_time": 1715180400000,
+      "finish_time": 1715180400000,
+      "subject": "ba",
+      "contest": [
+        "JBB"
+      ],
+      "type": "a",
+      "text": "第11回脳科学オリンピック日本大会 参加申し込み〆切"
+    },
+    {
+      "start_time": 1717167600000,
+      "finish_time": 1717167600000,
+      "subject": "ba",
+      "contest": [
+        "JBB",
+        "IBB"
+      ],
+      "type": "x",
+      "text": "第26回国際脳科学オリンピック 代表選考試験"
     }
   ]
 }
