@@ -46,7 +46,7 @@ window.addEventListener('DOMContentLoaded', function() {
         const ctx = document.createElement('canvas').getContext('2d');
         ctx.font = '19px sans-serif';
         var w = ctx.measureText(item.text).width;
-        svalue += `<div class="si ${item.subject}${(now.getTime() > df.getTime() && item.tdis) ? ' cs' : ''}"><p class="sd">${ds.getFullYear() != now.getFullYear() ? `${ds.getFullYear()}年<br>` : ''}${ds.getMonth() + 1}月${ds.getDate()}日${(ds != df && !item.tdis) ? '-' : ''}${item.tdis ? `<br>${ds.getHours()}:${('00' + ds.getMinutes()).slice(-2)}${ds.getTime() == df.getTime() ? '' : '-'}` : ''}</p><p class="st"><span class="sl">${item.contest.join(' ')} | ${item.type == 'c' ? '大会情報' : '申し込み情報'}</span><br><span class="nr" style="width:${Math.ceil(Math.max(100, 100 * w / dw)) + 5}%;transform:scalex(${Math.floor(Math.min(100, 100 * dw / w)) * 0.01});">${item.text}</span></p></div>`;
+        svalue += `<div class="si ${item.subject}${(now.getTime() > df.getTime() && item.tdis) ? ' cs' : ''}"><p class="sd">${ds.getFullYear() != now.getFullYear() ? `${ds.getFullYear()}年<br>` : ''}${ds.getMonth() + 1}月${ds.getDate()}日${(ds.getTime() != df.getTime() && !item.tdis) ? '-' : ''}${item.tdis ? `<br>${ds.getHours()}:${('00' + ds.getMinutes()).slice(-2)}${ds.getTime() == df.getTime() ? '' : '-'}` : ''}</p><p class="st"><span class="sl">${item.contest.join(' ')} | ${item.type == 'c' ? '大会情報' : '申し込み情報'}</span><br><span class="nr" style="width:${Math.ceil(Math.max(100, 100 * w / dw)) + 5}%;transform:scalex(${Math.floor(Math.min(100, 100 * dw / w)) * 0.01});">${item.text}</span></p></div>`;
       }
     });
 
@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', function() {
         ctx.font = '19px sans-serif';
         var w = ctx.measureText(item.text).width;
         var span = new Date(ds - nowc);
-        cvalue += `<div class="si ${item.subject}"><p class="sd">あと<br>${Math.floor(span / 86400000)}日${true ? `<br>${Math.floor(span % 86400000 / 3600000)}:${('00' + Math.floor(span % 3600000 / 60000)).slice(-2)}:${('00' + Math.floor(span % 60000 / 1000)).slice(-2)}` : ''}</p><p class="st"><span class="sl">${item.contest.join(' ')} | ${item.type == 'c' ? '大会情報' : '申し込み情報'}</span><br><span class="nr" style="width:${Math.ceil(Math.max(100, 100 * w / dw)) + 5}%;transform:scalex(${Math.floor(Math.min(100, 100 * dw / w)) * 0.01});">${item.text}</span></p></div>`;
+        cvalue += `<div class="si ${item.subject}"><p class="sd">あと${span >= 86400000 ? `<br>${Math.floor(span / 86400000)}日` : ''}${true ? `<br>${Math.floor(span % 86400000 / 3600000)}:${('00' + Math.floor(span % 3600000 / 60000)).slice(-2)}:${('00' + Math.floor(span % 60000 / 1000)).slice(-2)}` : ''}</p><p class="st"><span class="sl">${item.contest.join(' ')} | ${item.type == 'c' ? '大会情報' : '申し込み情報'}</span><br><span class="nr" style="width:${Math.ceil(Math.max(100, 100 * w / dw)) + 5}%;transform:scalex(${Math.floor(Math.min(100, 100 * dw / w)) * 0.01});">${item.text}</span></p></div>`;
       }
     });
     if (ccnt == 0) cvalue += '<p>2</p>';
