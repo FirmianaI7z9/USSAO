@@ -27,7 +27,7 @@ p{line-height:140%;margin:10px 0;}
 .sc1{display:flex;flex-wrap:wrap;width:100%;justify-content:center;}
 .sc1 hr,.sc1 h3{line-height:50%;}
 .ni{width:97%;margin:5px auto;background-color:#fff;border:solid 1px #888;height:fit-content;padding:0 5px;}
-.si{display:flex;width:100%;margin:5px 0;height:70px;border-radius:5px;}
+.si{display:flex;width:100%;margin:5px 0;height:70px;border-radius:5px;position:relative;}
 .si1{width:32%;min-width:340px;margin:2px;}
 .ci{display:flex;width:100%;margin:5px 0;height:70px;}
 .ci1{margin:0;}
@@ -124,6 +124,7 @@ p{line-height:140%;margin:10px 0;}
 .ph{color:#fff!important;background-color:#002060;}
 .ps{color:#000!important;background-color:#f2f2f2;border:solid 1px #444;}
 .dev{color:#fff!important;background-color:#555;}
+.ai{color:#fff!important;background-color:#43a;}
 .asl{border-color:#000;}
 .bil{border-color:#e60000;}
 .bal{border-color:#006630;}
@@ -421,3 +422,6 @@ p{line-height:140%;margin:10px 0;}
 .doc h4{margin-left:10px;}
 .doc ol{counter-reset:section;list-style-type:none;}
 .doc ol li:before{counter-increment:section;content:counters(section,"-")". ";}
+
+.si a{position:absolute;top:0;left:0;height:100%;width:100%;opacity:0;background-color:#000;}
+.si a:hover{opacity:0.2;}
