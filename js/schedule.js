@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function() {
   const root_schedule_container = document.getElementById('rsc');
   var value = '';
   const ti = this.document.title.split('|')[1].substring(1, 3);
-  var dic = {'数学':'ma','物理':'ph','化学':'ch','生物':'bi','地学':'ea','情報':'in','科学':'ka','言語':'la','天文':'as','地理':'ge','哲学':'ps','経済':'ec','脳科':'ba'};
+  var dic = {'数学':'ma','物理':'ph','化学':'ch','生物':'bi','地学':'ea','情報':'in','科学':'ka','言語':'la','天文':'as','地理':'ge','哲学':'ps','経済':'ec','脳科':'ba','人工':'ai'};
 
   function load_file() {
     const promise = new Promise((resolve, reject) => {

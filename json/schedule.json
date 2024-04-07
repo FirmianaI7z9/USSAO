@@ -621,6 +621,72 @@
       "type": "x",
       "text": "第26回国際脳科学オリンピック 代表選考試験",
       "tdis": false
+    },
+    {
+      "start_time": 1713365940000,
+      "finish_time": 1713365940000,
+      "subject": "ai",
+      "contest": [
+        "IOAI"
+      ],
+      "type": "a",
+      "text": "第1回国際人工知能オリンピック 代表選抜申し込み〆切",
+      "tdis": true
+    },
+    {
+      "start_time": 1723129200000,
+      "finish_time": 1723647600000,
+      "subject": "ai",
+      "contest": [
+        "IOAI"
+      ],
+      "type": "c",
+      "text": "第1回国際人工知能オリンピック",
+      "tdis": false
+    },
+    {
+      "start_time": 1713538800000,
+      "finish_time": 1713625200000,
+      "subject": "ai",
+      "contest": [
+        "IOAI"
+      ],
+      "type": "c",
+      "text": "第1回国際人工知能オリンピック 代表選抜面接",
+      "tdis": true
+    },
+    {
+      "start_time": 1714921200000,
+      "finish_time": 1714921200000,
+      "subject": "ma",
+      "contest": [
+        "JMO"
+      ],
+      "type": "a",
+      "text": "2024JMO夏季セミナー 応募開始",
+      "tdis": true
+    },
+    {
+      "start_time": 1717945140000,
+      "finish_time": 1717945140000,
+      "subject": "ma",
+      "contest": [
+        "JMO"
+      ],
+      "type": "a",
+      "text": "2024JMO夏季セミナー 応募〆切(必着)",
+      "tdis": true
+    },
+    {
+      "start_time": 1722697200000,
+      "finish_time": 1723647600000,
+      "subject": "ma",
+      "contest": [
+        "JMO"
+      ],
+      "type": "c",
+      "text": "2024JMO夏季セミナー",
+      "tdis": true
     }
   ]
 }
