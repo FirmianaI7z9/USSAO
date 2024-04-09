@@ -418,8 +418,9 @@ p{line-height:140%;margin:10px 0;}
 }
 
 .doc p{text-indent:1rem;margin-left:20px;}
-.doc h3{border-bottom:solid 1px #444;}
-.doc h4{margin-left:10px;}
+.doc h3{margin:8px 5px 8px 0;border-bottom:solid 1px #444;}
+.doc h4{margin:8px 5px 8px 10px;}
+.doc h5{margin:8px 5px 8px 20px;font-size:16px;}
 .doc ol{counter-reset:section;list-style-type:none;}
 .doc ol li:before{counter-increment:section;content:counters(section,"-")". ";}
 
