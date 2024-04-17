@@ -79,7 +79,6 @@ window.addEventListener('DOMContentLoaded', function() {
   // 申込受付中の大会
 
   var adata = [
-    ['ai','4月17日<br>23:59','IOAI','第1回国際人工知能オリンピック選抜'],
     ['ba','5月8日<br>23:59','JBB','第11回脳科学オリンピック日本大会'],
     ['ph','5月30日<br>13:00','JPhO','物理チャレンジ2024'],
     ['ch','6月8日<br>23:59','JChO','化学グランプリ2024']
