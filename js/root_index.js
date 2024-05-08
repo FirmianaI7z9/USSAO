@@ -2,9 +2,9 @@ window.addEventListener('DOMContentLoaded', function() {
   var date = new Date();
   var d = {year:date.getFullYear(), month:date.getMonth() + 1, date:date.getDate()};
 
-  // 本日の予定
-  // カウントダウン
-  // 申込受付中の大会
+  // 本日の予定 //
+  // カウントダウン //
+  // 申込受付中の大会 //
 
   const home_todays_schedule_container = document.getElementById('htsc');
   const home_todays_schedule_item = document.getElementById('sc_sample');
@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', function() {
     home_todays_schedule_container.innerHTML = svalue;
   });
 
-  // カウントダウン
+  // カウントダウン //
 
   this.setInterval(() => {
     var cvalue = `<h3>カウントダウン</h3>`;
@@ -76,10 +76,9 @@ window.addEventListener('DOMContentLoaded', function() {
     home_countdown_container.innerHTML = cvalue;
   }, 1000);
 
-  // 申込受付中の大会
+  // 申込受付中の大会 //
 
   var adata = [
-    ['ba','5月8日<br>23:59','JBB','第11回脳科学オリンピック日本大会'],
     ['ph','5月30日<br>13:00','JPhO','物理チャレンジ2024'],
     ['ch','6月8日<br>23:59','JChO','化学グランプリ2024']
   ];
@@ -93,7 +92,7 @@ window.addEventListener('DOMContentLoaded', function() {
   home_application_container.innerHTML = avalue;
 
 
-  // 最新情報
+  // 最新情報 //
 
   const home_info_container = document.getElementById('htic');
   var ivalue = '<h3><a href="info.html">新着情報</a></h3>';
