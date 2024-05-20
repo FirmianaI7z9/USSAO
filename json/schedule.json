@@ -653,7 +653,7 @@
       ],
       "type": "c",
       "text": "第1回国際人工知能オリンピック 代表選抜面接",
-      "tdis": true
+      "tdis": false
     },
     {
       "start_time": 1714921200000,
@@ -686,6 +686,28 @@
       ],
       "type": "c",
       "text": "2024JMO夏季セミナー",
+      "tdis": false
+    },
+    {
+      "start_time": 1714402800000,
+      "finish_time": 1714402800000,
+      "subject": "ma",
+      "contest": [
+        "PILAME"
+      ],
+      "type": "a",
+      "text": "PILAME杯2024 参加申し込み開始",
+      "tdis": false
+    },
+    {
+      "start_time": 1718549940000,
+      "finish_time": 1718549940000,
+      "subject": "ma",
+      "contest": [
+        "PILAME"
+      ],
+      "type": "a",
+      "text": "PILAME杯2024 参加申し込み〆切",
       "tdis": true
     }
   ]
