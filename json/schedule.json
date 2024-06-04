@@ -709,6 +709,61 @@
       "type": "a",
       "text": "PILAME杯2024 参加申し込み〆切",
       "tdis": true
+    },
+    {
+      "start_time": 1725116400000,
+      "finish_time": 1725116400000,
+      "subject": "ea",
+      "contest": [
+        "JESO"
+      ],
+      "type": "a",
+      "text": "第17回日本地学オリンピック 参加申し込み開始",
+      "tdis": false
+    },
+    {
+      "start_time": 1731596400000,
+      "finish_time": 1731596400000,
+      "subject": "ea",
+      "contest": [
+        "JESO"
+      ],
+      "type": "a",
+      "text": "第17回日本地学オリンピック 参加申し込み〆切",
+      "tdis": false
+    },
+    {
+      "start_time": 1734247800000,
+      "finish_time": 1734251400000,
+      "subject": "ea",
+      "contest": [
+        "JESO"
+      ],
+      "type": "c",
+      "text": "第17回日本地学オリンピック 一次予選",
+      "tdis": true
+    },
+    {
+      "start_time": 1737867600000,
+      "finish_time": 1737873000000,
+      "subject": "ea",
+      "contest": [
+        "JESO"
+      ],
+      "type": "c",
+      "text": "第17回日本地学オリンピック 二次予選",
+      "tdis": true
+    },
+    {
+      "start_time": 1741446000000,
+      "finish_time": 1741618800000,
+      "subject": "ea",
+      "contest": [
+        "JESO"
+      ],
+      "type": "c",
+      "text": "第17回日本地学オリンピック 本選",
+      "tdis": false
     }
   ]
 }
