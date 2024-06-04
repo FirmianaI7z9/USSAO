@@ -79,7 +79,6 @@ window.addEventListener('DOMContentLoaded', function() {
   // 申込受付中の大会 //
 
   var adata = [
-    ['ph','5月30日<br>13:00','JPhO','物理チャレンジ2024'],
     ['ch','6月8日<br>23:59','JChO','化学グランプリ2024']
   ];
 
@@ -90,7 +89,6 @@ window.addEventListener('DOMContentLoaded', function() {
     avalue += `<div class="si ${item[0]}"><p class="sd">${item[1]}</p><p class="st"><span class="sl">${item[2]}</span><br><span class="nr" style="width:${Math.ceil(Math.max(100, 100 * w / dw)) + 5}%;transform:scalex(${Math.floor(Math.min(100, 100 * dw / w)) * 0.01});">${item[3]}</span></p></div>`;
   });
   home_application_container.innerHTML = avalue;
-
 
   // 最新情報 //
 
