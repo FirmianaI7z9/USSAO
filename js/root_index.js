@@ -79,7 +79,6 @@ window.addEventListener('DOMContentLoaded', function() {
   // 申込受付中の大会 //
 
   var adata = [
-    ['ch','6月8日<br>23:59','JChO','化学グランプリ2024']
   ];
 
   adata.forEach((item) => {
